@@ -1,0 +1,8 @@
+Title: Audio:  Driver
+Version: A14-00        WP0000003744
+OEM Name: 
+OEM Version: 6.10.0.6265
+Computers: Latitude: XT2, E6400, E5510, E5410
+OS: Windows 7 32-bit - Home Basic, Windows 7 64-bit - Home Basic, Windows 7 64-bit - Home Premium, Windows 7 32-bit - Professional, Windows 7 64-bit - Professional, Windows 7 32-bit - Ultimate, Windows 7 32-bit - Starter, Windows 7 64-bit - Ultimate, Windows Vista 32-bit - Business, Windows Vista 32-bit - Ultimate, Windows Vista 64-bit - Business, Windows Vista 64-bit - Ultimate
+Languages: Br Portuguese,Chinese Simplified,Chinese Traditional,English,French,German,Japanese,Korean,Spanish
+Created: 4/5/2012

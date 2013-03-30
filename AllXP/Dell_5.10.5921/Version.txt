@@ -1,0 +1,8 @@
+Title      : Audio:SIGMATEL STAC 92XX C-Major HD Audio Driver
+Version    : A12
+OEM Name   : SIGMATEL
+OEM Ver    : 5.10.0.5921
+Computers  : Latitude - XT
+Oses       : Windows 2000 Professional, Windows XP Home Edition, Windows XP Media Center Edition, Windows XP ProfessionalWindows XP x64 Professional Client
+Languages  : Brazilian Portuguese, Chinese-S, Chinese-T, English, French, German, Japanese, Korean, Spanish
+Created    : Wed Mar 18 08:46:16 CDT 2009

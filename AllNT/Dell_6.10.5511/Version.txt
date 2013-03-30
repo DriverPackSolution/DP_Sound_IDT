@@ -1,0 +1,8 @@
+Title: Audio: SIGMATEL STAC 92XX C-Major HD Audio Driver
+Version    : A04
+OEM name   : SIGMATEL
+OEM Version: 6.10.0.5511
+Computers  : Dimension: 9100, C521, DM061, DXC061, DXP061, E521; OptiPlex: 740; Precision: 390, 490, 690; XPS: 420, XPS710
+OSes       : Windows Vista 32-bit Business,Windows Vista 32-bit Home Basic,Windows Vista 32-bit Home Premium,Windows Vista 32-bit Ultimate,Windows Vista 64-bit Business,Windows Vista 64-bit Home Basic,Windows Vista 64-bit Home Premium,Windows Vista 64-bit Ultimate
+Languages  : Brazilian Portuguese, Chinese-S, Chinese-T, English, French, German, Japanese, Korean, Spanish
+Created    : Tuesday, November 06, 2007

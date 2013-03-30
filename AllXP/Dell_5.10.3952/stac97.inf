@@ -1,0 +1,515 @@
+; Copyright (c) 1999-2004 SigmaTel Inc.
+
+[Version]
+Signature="$CHICAGO$"
+Class=MEDIA
+ClassGUID={4d36e96c-e325-11ce-bfc1-08002be10318}
+provider=%SGTML%
+DriverVer=11/15/2004, 5.10.0.3952
+CatalogFile=stac97.cat
+
+[SourceDisksNames]
+222="AC97 WDM SigmaTel Driver Disk",,,
+
+[SourceDisksFiles]
+stac97.sys=222
+stac97.cpl=222
+
+[Manufacturer]
+%SgtmlMfg%=SigmaTel
+
+[SigmaTel]
+%ST.DDsc%=_011D1028,PCI\VEN_8086&DEV_24C5&subsys_011D1028
+%ST.DDsc%=_011D1028,PCI\VEN_8086&DEV_24C5&subsys_011E1028
+%ST.DDsc%=_011D1028,PCI\VEN_8086&DEV_24C5&subsys_01391028
+%ST.DDsc%=_011D1028,PCI\VEN_8086&DEV_24C5&subsys_013E1028
+%ST.DDsc%=_011D1028,PCI\VEN_8086&DEV_24C5&subsys_013F1028
+%ST.DDsc%=_011D1028,PCI\VEN_8086&DEV_24C5&subsys_014E1028
+%ST.DDsc%=_011D1028,PCI\VEN_8086&DEV_24C5&subsys_014F1028
+%ST.DDsc%=_011D1028,PCI\VEN_8086&DEV_24C5&subsys_01501028
+%ST.DDsc%=_011D1028,PCI\VEN_8086&DEV_24C5&subsys_01521028
+%ST.DDsc%=_011D1028,PCI\VEN_8086&DEV_24C5&subsys_01531028
+%ST.DDsc%=_011D1028,PCI\VEN_8086&DEV_24C5&subsys_01621028
+%ST.DDsc%=_011D1028,PCI\VEN_8086&DEV_24C5&subsys_01631028
+%ST.DDsc%=_011D1028,PCI\VEN_8086&DEV_24C5&subsys_01641028
+%ST.DDsc%=_011D1028,PCI\VEN_8086&DEV_24C5&subsys_016A1028
+%ST.DDsc%=_011D1028,PCI\VEN_8086&DEV_24C5&subsys_016B1028
+%ST.DDsc%=_011D1028,PCI\VEN_8086&DEV_24C5&subsys_01711028
+%ST.DDsc%=_011D1028,PCI\VEN_8086&DEV_24C5&subsys_018D1028
+%ST.DDsc%=_011D1028,PCI\VEN_8086&DEV_24C5&subsys_01911028
+%ST.DDsc%=_011D1028,PCI\VEN_8086&DEV_24C5&subsys_01BE1028
+
+%ST.DDsc%=_01491028,PCI\VEN_8086&DEV_24C5&subsys_01491028
+%ST.DDsc%=_01491028,PCI\VEN_8086&DEV_24C5&subsys_015F1028
+%ST.DDsc%=_01491028,PCI\VEN_8086&DEV_24C5&subsys_017F1028
+%ST.DDsc%=_01491028,PCI\VEN_8086&DEV_24C5&subsys_018E1028
+%ST.DDsc%=_01491028,PCI\VEN_8086&DEV_24C5&subsys_01961028
+
+%ST.DDsc%=_01591028,PCI\VEN_8086&DEV_24D5&subsys_01591028
+%ST.DDsc%=_01591028,PCI\VEN_8086&DEV_24D5&subsys_015A1028
+%ST.DDsc%=_01591028,PCI\VEN_8086&DEV_24D5&subsys_017C1028
+
+[DestinationDirs]
+ST.CopyList=10,system32\drivers
+ST.CopyList1=11
+
+;****
+[_011D1028]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=ST.CopyList,ST.CopyList1
+AddReg=ST.AddReg,STN.AddReg,_MC.AddReg,_011D1028.AddReg
+DelReg=ST.DelReg
+DriverVer=11/15/2004, 5.10.0.3952
+
+[_011D1028.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=ST.CopyList,ST.CopyList1
+AddReg=ST.AddReg,STN.AddReg,_MC.AddReg,_011D1028.AddReg
+DelReg=ST.DelReg
+DriverVer=11/15/2004, 5.10.0.3952
+
+[_011D1028.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,ST.I.Wv
+AddInterface=%KSC_R%,%KSN_W%,ST.I.Wv
+AddInterface=%KSC_C%,%KSN_W%,ST.I.Wv
+AddInterface=%KSC_A%,%KSN_T%,ST.I.Topo
+
+[_011D1028.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,ST.I.Wv
+AddInterface=%KSC_R%,%KSN_W%,ST.I.Wv
+AddInterface=%KSC_C%,%KSN_W%,ST.I.Wv
+AddInterface=%KSC_A%,%KSN_T%,ST.I.Topo
+
+[_011D1028.Services]
+AddService = STAC97,0x00000002,_SrvInst
+
+[_011D1028.nt.Services]
+AddService = STAC97,0x00000002,_SrvInst
+
+[_011D1028.AddReg]
+HKR,%CK%,DisablePCBeep,1,1
+HKR,%CK%,DisablePhone,1,1
+HKR,%CK%,DisableLineIn,1,1
+HKR,%CK%,DisableCDIn,1,1
+HKR,%CK%,DisableVideo,1,1
+HKR,%CK%,DisableAux,1,1
+HKR,%CK%,Disable3DControl,1,1
+HKR,%CK%,DisableMonoVirtual,1,1
+HKR,%CK%,DisableHeadphone,1,1
+HKR,%CK%,DisableLnlvl,1,1
+HKR,%CK%,DisableMonoOut,1,1
+HKR,%CK%,DisablePeakmeters,1,1
+HKR,%CK%,DisableMICSelect,1,1
+HKR,%CK%,EnableMuteReg02InMasterAdvanced,1,1
+HKR,%CK%,MuteReg02InMasterAdvancedDefault,1,0
+HKR,%CK%,PCBeepMute,1,1
+HKR,%CK%,PhoneMute,1,1
+HKR,%CK%,LineInMute,1,1
+HKR,%CK%,CDMute,1,1
+HKR,%CK%,CDVolume,1,00,00,eb,ff ;0x1616
+HKR,%CK%,MasterVolume,1,00,80,ef,ff ;0x0b0b
+HKR,%CK%,VideoMute,1,1
+HKR,%CK%,AuxMute,1,1
+HKR,%CK%,SurroundMute,1,1
+HKR,%CK%,CenterMute,1,1
+HKR,%CK%,LFEMute,1,1
+HKR,%CK%,3DDepthEnable,1,1
+HKR,%CK%,HeadphoneMute,1,1
+HKR,%CK%,TrueLevelMute,1,1
+HKR,%CK%,WaveInMux,1,00,00,00,00
+HKR,%CK%,GPIOControl,1,1
+HKR,%CK%,EmulateAllMasters,1,1
+HKR,%CK%,DisableMicFromPlayback,1,1
+HKR,%CK%,MasterControlsAux,1,1
+HKR,%CK%,MasterControlsMono,1,0
+HKR,%CK%,MICAtRecMuxVolume,1,00,30,10,00
+HKR,%CK%,GPIOActions,1,00,00,00,00,00,01,02,01
+HKR,%CK%,EnableNonPCMOnWin2K,1,1
+HKR,%CK%,PCMVolumeFixedLevel,1,06,06
+HKR,%CK%,CPL_SaveExtraPower,1,0
+HKR,%CK%,CPL_UserControlsOnlyOnOff,1,1
+HKR,%CK%,CPL_SecondsAfter,0x00010001,15
+HKR,%CK%,GPIOSPDIFControl,1,1
+HKR,%CK%,EnableExtAmpControl,1,0
+HKR,%CK%,CPL_MaySwitchExtAmpPowerState,1,0
+HKR,%CK%,MuteInactiveDAC,1,0
+HKR,%CK%,CPL_SpdifTransmitterEnabledByUser,1,1
+
+;****
+[_01491028]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=ST.CopyList,ST.CopyList1
+AddReg=ST.AddReg,STN.AddReg,_MC.AddReg,_011D1028.AddReg,_01491028.AddReg
+DelReg=ST.DelReg
+DriverVer=11/15/2004, 5.10.0.3952
+
+[_01491028.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=ST.CopyList,ST.CopyList1
+AddReg=ST.AddReg,STN.AddReg,_MC.AddReg,_011D1028.AddReg,_01491028.AddReg
+DelReg=ST.DelReg
+DriverVer=11/15/2004, 5.10.0.3952
+
+[_01491028.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,ST.I.Wv
+AddInterface=%KSC_R%,%KSN_W%,ST.I.Wv
+AddInterface=%KSC_C%,%KSN_W%,ST.I.Wv
+AddInterface=%KSC_A%,%KSN_T%,ST.I.Topo
+
+[_01491028.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,ST.I.Wv
+AddInterface=%KSC_R%,%KSN_W%,ST.I.Wv
+AddInterface=%KSC_C%,%KSN_W%,ST.I.Wv
+AddInterface=%KSC_A%,%KSN_T%,ST.I.Topo
+
+[_01491028.Services]
+AddService = STAC97,0x00000002,_SrvInst
+
+[_01491028.nt.Services]
+AddService = STAC97,0x00000002,_SrvInst
+
+[_01491028.AddReg]
+HKR,%CK%,MICBoost,1,1
+HKR,%CK%,SPDIFOutputDisable,1,1
+HKR,%CK%,DisableSPDIFControl,1,1
+
+;****
+[_01591028]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=ST.CopyList,ST.CopyList1
+AddReg=ST.AddReg,STN.AddReg,_MC.AddReg,_01591028.AddReg
+DelReg=ST.DelReg
+DriverVer=11/15/2004, 5.10.0.3952
+
+[_01591028.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=ST.CopyList,ST.CopyList1
+AddReg=ST.AddReg,STN.AddReg,_MC.AddReg,_01591028.AddReg
+DelReg=ST.DelReg
+DriverVer=11/15/2004, 5.10.0.3952
+
+[_01591028.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,ST.I.Wv
+AddInterface=%KSC_R%,%KSN_W%,ST.I.Wv
+AddInterface=%KSC_C%,%KSN_W%,ST.I.Wv
+AddInterface=%KSC_A%,%KSN_T%,ST.I.Topo
+
+[_01591028.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,ST.I.Wv
+AddInterface=%KSC_R%,%KSN_W%,ST.I.Wv
+AddInterface=%KSC_C%,%KSN_W%,ST.I.Wv
+AddInterface=%KSC_A%,%KSN_T%,ST.I.Topo
+
+[_01591028.Services]
+AddService = STAC97,0x00000002,_SrvInst
+
+[_01591028.nt.Services]
+AddService = STAC97,0x00000002,_SrvInst
+
+[_01591028.AddReg]
+HKR,%CK%,DisablePCBeep,1,1
+HKR,%CK%,DisablePhone,1,1
+HKR,%CK%,DisableLineIn,1,1
+HKR,%CK%,DisableCDIn,1,1
+HKR,%CK%,DisableVideo,1,1
+HKR,%CK%,DisableAux,1,1
+HKR,%CK%,Disable3DControl,1,1
+HKR,%CK%,DisableMonoVirtual,1,1
+HKR,%CK%,DisableHeadphone,1,1
+HKR,%CK%,DisableLnlvl,1,1
+HKR,%CK%,DisableMonoOut,1,1
+HKR,%CK%,DisablePeakmeters,1,1
+HKR,%CK%,DisableMICSelect,1,1
+HKR,%CK%,EnableMuteReg02InMasterAdvanced,1,1
+HKR,%CK%,MuteReg02InMasterAdvancedDefault,1,0
+HKR,%CK%,PCBeepMute,1,1
+HKR,%CK%,PhoneMute,1,1
+HKR,%CK%,LineInMute,1,1
+HKR,%CK%,CDMute,1,1
+HKR,%CK%,CDVolume,1,00,00,eb,ff ;0x1616
+HKR,%CK%,MasterVolume,1,00,80,ef,ff ;0x0b0b
+HKR,%CK%,MonoMixerAtMonoOutVolume,1,00,00,00,00
+HKR,%CK%,SubwooferAtMonoVolume,1,00,00,00,00
+HKR,%CK%,VideoMute,1,1
+HKR,%CK%,AuxMute,1,1
+HKR,%CK%,SurroundMute,1,1
+HKR,%CK%,CenterMute,1,1
+HKR,%CK%,LFEMute,1,1
+HKR,%CK%,3DDepthEnable,1,1
+HKR,%CK%,HeadphoneMute,1,1
+HKR,%CK%,TrueLevelMute,1,1
+HKR,%CK%,WaveInMux,1,00,00,00,00
+HKR,%CK%,EmulateAllMasters,1,1
+HKR,%CK%,DisableMicFromPlayback,1,1
+HKR,%CK%,MasterControlsAux,1,1
+HKR,%CK%,MasterControlsMono,1,0
+HKR,%CK%,MICAtRecMuxVolume,1,00,30,10,00
+HKR,%CK%,EnableNonPCMOnWin2K,1,1
+HKR,%CK%,MasterVolumeFixedLevel,1,02,02
+HKR,%CK%,AuxVolumeFixedLevel,1,01,01
+HKR,%CK%,PCMVolumeFixedLevel,1,08,08
+HKR,%CK%,CPL_SaveExtraPower,1,0
+HKR,%CK%,CPL_UserControlsOnlyOnOff,1,1
+HKR,%CK%,CPL_SecondsAfter,0x00010001,15
+HKR,%CK%,EnableExtAmpControl,1,0
+HKR,%CK%,CPL_MaySwitchExtAmpPowerState,1,0
+HKR,%CK%,MuteInactiveDAC,1,0
+HKR,%CK%,EnableSubwooferAtMono,1,1
+HKR,%CK%,CPL_SpdifTransmitterEnabledByUser,1,1
+HKR,%CK%,GPIOControl,1,1
+HKR,%CK%,GPIOSPDIFControl,1,1
+HKR,%CK%,GPIOActions,1,00,00,00,00,00,01,02,01
+
+;**** Common
+[ST.CopyList]
+stac97.sys
+
+[ST.CopyList1]
+stac97.cpl
+
+[ST.I.Wv]
+AddReg=ST.I.Wv.AddReg
+
+[ST.I.Wv.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%ST.Wave.szPname%
+
+[ST.I.Topo]
+AddReg=ST.I.Topo.AddReg
+
+[ST.I.Topo.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%ST.Topology.szPname%
+
+[ST.DelReg]
+HKCU,%SndVolSigKey%
+HKU,%SndVolSigKey%
+HKR,%CK%
+
+[ST.AddReg]
+HKR,,AssociatedFilters,,"wdmaud,swmidi,redbook"
+HKR,,Driver,,stac97.sys
+HKR,,NTMPDriver,,"stac97.sys,sbemul.sys"
+
+HKR,Drivers,SubClasses,,"wave,midi,mixer"
+HKR,Drivers\wave\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\midi\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\mixer\wdmaud.drv,Driver,,wdmaud.drv
+
+HKR,Drivers\wave\wdmaud.drv,Description,,%ST.DeviceDesc%
+HKR,Drivers\midi\wdmaud.drv,Description,,%WDM_MIDI%
+HKR,Drivers\mixer\wdmaud.drv,Description,,%ST.DeviceDesc%
+
+HKCU,Software\Microsoft\Multimedia\Audio,DefaultFormat,,"Default Quality"
+HKCU,Software\Microsoft\Multimedia\Audio\WaveFormats,"Default Quality",1, 01,00,01,00,22,56,00,00,44,AC,00,00,02,00,10,00
+
+[_SrvInst]
+DisplayName   = %ST.SvcDesc%
+ServiceType   = 1
+StartType     = 3
+ErrorControl  = 1
+ServiceBinary = %10%\system32\drivers\stac97.sys
+
+[STN.AddReg]
+;; Nodes
+HKLM,%MdCtg%\%STGD.PhoneVolume%,Name,,%STNd.PhoneVolume%
+HKLM,%MdCtg%\%STGD.PhoneVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.PhoneMute%,Name,,%STNd.PhoneMute%
+HKLM,%MdCtg%\%STGD.PhoneMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.LineInMute%,Name,,%STNd.LineInMute%
+HKLM,%MdCtg%\%STGD.LineInMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.MainMix%,Name,,%STNd.MainMix%
+HKLM,%MdCtg%\%STGD.MainMix%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.3DBypass%,Name,,%STNd.3DBypass%
+HKLM,%MdCtg%\%STGD.3DBypass%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.3DEnable%,Name,,%STNd.3DEnable%
+HKLM,%MdCtg%\%STGD.3DEnable%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.BeepMix%,Name,,%STNd.BeepMix%
+HKLM,%MdCtg%\%STGD.BeepMix%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.HPVolume%,Name,,%STNd.HPVolume%
+HKLM,%MdCtg%\%STGD.HPVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.HPMute%,Name,,%STNd.HPMute%
+HKLM,%MdCtg%\%STGD.HPMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.LnlvlVolume%,Name,,%STNd.LnlvlVolume%
+HKLM,%MdCtg%\%STGD.LnlvlVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.LnlvlMute%,Name,,%STNd.LnlvlMute%
+HKLM,%MdCtg%\%STGD.LnlvlMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.MonoOutSelect%,Name,,%STNd.MonoOutSelect%
+HKLM,%MdCtg%\%STGD.MonoOutSelect%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.WaveInSelect%,Name,,%STNd.WaveInSelect%
+HKLM,%MdCtg%\%STGD.WaveInSelect%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.MasterInVolume%,Name,,%STNd.MasterInVolume%
+HKLM,%MdCtg%\%STGD.MasterInVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.MasterInMute%,Name,,%STNd.MasterInMute%
+HKLM,%MdCtg%\%STGD.MasterInMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.MicInVolume%,Name,,%STNd.MicInVolume%
+HKLM,%MdCtg%\%STGD.MicInVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.MicInMute%,Name,,%STNd.MicInMute%
+HKLM,%MdCtg%\%STGD.MicInMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.SurroundVolume%,Name,,%STNd.SurroundVolume%
+HKLM,%MdCtg%\%STGD.SurroundVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.SurroundMute%,Name,,%STNd.SurroundMute%
+HKLM,%MdCtg%\%STGD.SurroundMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.CenterVolume%,Name,,%STNd.CenterVolume%
+HKLM,%MdCtg%\%STGD.CenterVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.CenterMute%,Name,,%STNd.CenterMute%
+HKLM,%MdCtg%\%STGD.CenterMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.LFEVolume%,Name,,%STNd.LFEVolume%
+HKLM,%MdCtg%\%STGD.LFEVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.LFEMute%,Name,,%STNd.LFEMute%
+HKLM,%MdCtg%\%STGD.LFEMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.DigitalEnable%,Name,,%STNd.DigitalEnable%
+HKLM,%MdCtg%\%STGD.MultiChannelEnable%,Name,,%STNd.MultiChannelEnable%
+HKLM,%MdCtg%\%STGD.GPIOControl%,Name,,%STNd.GPIOControl%
+HKLM,%MdCtg%\%STGD.HPOutPin%,Name,,%STAC97Pin.HPOutPin%
+HKLM,%MdCtg%\%STGD.HPOutPin%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.LnlvlOutPin%,Name,,%STAC97Pin.LnlvlOutPin%
+HKLM,%MdCtg%\%STGD.LnlvlOutPin%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.Mic2Pin%,Name,,%STAC97Pin.Mic2Pin%
+HKLM,%MdCtg%\%STGD.Mic2Pin%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.LineIn2Pin%,Name,,%STAC97Pin.LineIn2Pin%
+HKLM,%MdCtg%\%STGD.LineIn2Pin%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.MonoMuteInMasterAdvanced%,Name,,%STNd.MonoMuteInMasterAdvanced%
+HKLM,%MdCtg%\%STGD_ALTNAME.PcSpeaker%,Name,,%STAC97Pin.PcSpeaker%
+HKLM,%MdCtg%\%STGD_ALTNAME.PcSpeaker%,Display,1,00,00,00,00
+
+HKLM,%MdCtg%\%STGD.SubWooferVolume%,Name,,%STNd.SubWooferVolume%
+HKLM,%MdCtg%\%STGD.SubWooferVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.SubWooferMute%,Name,,%STNd.SubWooferMute%
+HKLM,%MdCtg%\%STGD.SubWooferMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.AltVolume%,Name,,%STNd.AltVolume%
+HKLM,%MdCtg%\%STGD.AltVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.AltVolumeMute%,Name,,%STNd.AltVolumeMute%
+HKLM,%MdCtg%\%STGD.AltVolumeMute%,Display,1,00,00,00,00
+
+HKLM,%MdCtg%\%STGD.SubWooferPin%,Name,,%STPin.SubWooferPin%
+HKLM,%MdCtg%\%STGD.SubWooferPin%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.AltVolumePin%,Name,,%STPin.AltVolumePin%
+HKLM,%MdCtg%\%STGD.AltVolumePin%,Display,1,00,00,00,00
+
+[_MC.AddReg]
+HKR,%CK%,DisableHeadphone,1,1
+HKR,%CK%,DisableLnlvl,1,1
+HKR,%CK%,DisableWaveIn2,1,1
+HKR,%CK%,DisableSubwooferAtMono,1,1
+HKR,%CK%,MasterMute,1,0
+HKR,%CK%,EnableExtAmpControl,1,1
+HKR,%CK%,ExtAmpPowerDownTimeInMCS,0x00010001,5000
+HKR,%CK%,ExtAmpPowerUpTimeInMCS,0x00010001,5000
+HKR,%CK%,CodecPowerUpDelayInMCS,0x00010001,1000
+
+[Strings]
+SGTML="SigmaTel"
+SgtmlMfg="SigmaTel"
+
+ST.DeviceDesc="Audio controller - SigmaTel CODEC"
+ST.DDsc="SigmaTel C-Major Audio"
+
+ST.Wave.szPname="SigmaTel Audio"
+ST.Topology.szPname="SigmaTel"
+
+SndVolSigKey="Software\Microsoft\Windows\CurrentVersion\Applets\Volume Control\SigmaTel Audio"
+
+MdCtg="SYSTEM\CurrentControlSet\Control\MediaCategories"
+
+WDM_MIDI="WDM-based devices"
+
+CK="Settings"
+
+Proxy.CLSID="{17CCA71B-ECD7-11D0-B908-00A0C9223196}"
+KSC_A="{6994AD04-93EF-11D0-A3CC-00A0C9223196}"
+KSC_R="{65E8773E-8F56-11D0-A3B9-00A0C9223196}"
+KSC_C="{65E8773D-8F56-11D0-A3B9-00A0C9223196}"
+KSN_W="Wave"
+KSN_T="Topology"
+
+ST.SvcDesc = "Audio Driver (WDM) - SigmaTel CODEC"
+
+STGD.PhoneVolume="{981DFEA0-27DB-11d3-99FC-00500483AC28}"
+STGD.PhoneMute="{981DFEA1-27DB-11d3-99FC-00500483AC28}"
+STGD.LineInMute="{981DFEA2-27DB-11d3-99FC-00500483AC28}"
+STGD.MainMix="{981DFEA3-27DB-11d3-99FC-00500483AC28}"
+STGD.3DBypass="{981DFEA4-27DB-11d3-99FC-00500483AC28}"
+STGD.3DEnable="{981DFEA5-27DB-11d3-99FC-00500483AC28}"
+STGD.BeepMix="{981DFEA6-27DB-11d3-99FC-00500483AC28}"
+STGD.HPVolume="{981DFEA7-27DB-11d3-99FC-00500483AC28}"
+STGD.HPMute ="{981DFEA8-27DB-11d3-99FC-00500483AC28}"
+STGD.LnlvlVolume="{301892ac-2f58-41c7-88b4-4c1d72501c83}"
+STGD.LnlvlMute="{c5cb62ac-f62f-4569-b66b-6a1d3afe3388}"
+STGD.MonoOutSelect="{981DFEA9-27DB-11d3-99FC-00500483AC28}"
+STGD.WaveInSelect="{981DFEAA-27DB-11d3-99FC-00500483AC28}"
+STGD.WaveIn2Select="{A514AD4E-CFB5-4ecc-9691-36494FBE0481}"
+STGD.MasterInVolume="{981DFEAB-27DB-11d3-99FC-00500483AC28}"
+STGD.MasterInMute="{981DFEAC-27DB-11d3-99FC-00500483AC28}"
+STGD.MicInVolume="{981DFEAD-27DB-11d3-99FC-00500483AC28}"
+STGD.MicInMute="{981DFEAE-27DB-11d3-99FC-00500483AC28}"
+STGD.SurroundVolume="{81FBB14B-1BEE-4bf5-92EE-FFC4F75F326D}"
+STGD.SurroundMute="{22654FBC-AC8F-4224-B19F-D858D2E10BDD}"
+STGD.CenterVolume="{2D97372F-9CF6-4fd6-9E56-C68BACDF360D}"
+STGD.CenterMute="{BEEF51ED-1041-43f8-9B96-5863D0A9342D}"
+STGD.LFEVolume="{B60C4274-3BFD-430b-8364-D947E7D304B1}"
+STGD.LFEMute="{4A4D9210-C780-4768-BFD2-525FDBF4FCB4}"
+STGD.DigitalEnable="{56D8C1D0-58FB-4927-9CD2-8E3BD3E5A922}"
+STGD.MultiChannelEnable="{A9D8349B-45CC-4A0B-97A2-D6AC7738F27D}"
+STGD.GPIOControl="{88E542C4-1540-4a40-95D1-8CCC9A4B6245}"
+STGD.HPOutPin="{981DFEB1-27DB-11d3-99FC-00500483AC28}"
+STGD.LnlvlOutPin="{5A9EBEC6-FCA2-4fcd-AB11-04D6C3C6266A}"
+STGD.Mic2Volume ="{D68EA4BA-4E5B-45c4-9E80-AE7A959B969D}"
+STGD.LineIn2Volume="{DD5102D5-9931-484c-8B47-FB9B75FE63A2}"
+STGD.Mic2Pin="{A72A6A9C-896A-45ce-AD88-6BB096B11B36}"
+STGD.LineIn2Pin="{CC57D9E2-9750-4b74-B509-41B9B30DC0B5}"
+STGD.MonoMuteInMasterAdvanced="{A601A3BC-066E-4800-8922-6772422C0F18}"
+STGD_ALTNAME.PcSpeaker="{88C02F6A-D1E7-4fe3-A506-9E0AE51D7820}"
+
+STGD.SubWooferPin="{F4725482-E495-4c27-8023-CB4A758D57F6}"
+STGD.SubWooferVolume ="{749D2E66-2B15-4071-BC44-DCE209F86444}"
+STGD.SubWooferMute   ="{C327B6A9-A0D2-4497-B2F9-C1BDAD124391}"
+STGD.AltVolumePin="{B731B744-3769-4777-9B41-BC372A6C99DD}"
+STGD.AltVolume ="{9376f597-8a71-417e-bf6e-88b35b914bca}"
+STGD.AltVolumeMute   ="{352f0d4c-ff33-4717-ad08-9c52dffcfa0c}"
+
+STNd.PhoneVolume="Phone Volume"
+STNd.PhoneMute="Phone Mute"
+STNd.LineInMute="LineIn Mute"
+STNd.MainMix="Main Mix"
+STNd.3DBypass="3D Bypass"
+STNd.3DEnable="3D Enable"
+STNd.BeepMix="Beep Mix"
+STNd.HPVolume="Headphone Volume"
+STNd.HPMute="Headphone Mute"
+STNd.LnlvlVolume="Line Level Volume"
+STNd.LnlvlMute="Line Level Mute"
+STNd.MonoOutSelect="Mono Out Select"
+STNd.WaveInSelect="WaveIn Select"
+STNd.WaveIn2Select="Alt WaveIn Select"
+STNd.MasterInVolume="WaveIn Volume"
+STNd.MasterInMute="WaveIn Mute"
+STNd.MicInVolume="Mic In Volume"
+STNd.MicInMute="Mic In Mute"
+STNd.SurroundVolume="Surround Volume"
+STNd.SurroundMute="Surround Mute"
+STNd.CenterVolume="Center Volume"
+STNd.CenterMute="Center Mute"
+STNd.LFEVolume="LFE Volume"
+STNd.LFEMute="LFE Mute"
+STNd.DigitalEnable="Enable SPDIF"
+STNd.MultiChannelEnable="Enable Multi-Channel"
+STNd.GPIOControl="Enable SPDIF"
+STNd.Mic2Volume="Mic2 Volume"
+STNd.LineIn2Volume="LineIn2 Volume"
+STAC97Pin.HPOutPin="Headphone"
+STAC97Pin.LnlvlOutPin="Line Out"
+STAC97Pin.Mic2Pin="Alt MIC"
+STAC97Pin.LineIn2Pin="Alt LineIn"
+STNd.MonoMuteInMasterAdvanced="Mute Internal Speaker"
+STAC97Pin.PcSpeaker="PC BEEP"
+
+STNd.SubWooferVolume ="Subwoofer Volume"
+STNd.SubWooferMute   ="Subwoofer Mute"
+STNd.AltVolume ="Alt Volume"
+STNd.AltVolumeMute   ="Alt Mute"
+STPin.SubWooferPin="Subwoofer Volume"
+STPin.AltVolumePin="Alt Volume"

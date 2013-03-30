@@ -1,0 +1,8 @@
+Title: Audio: IDT 92HDxxx HD Audio Codec,IDT 92HDxxx HD-Audio Codec Driver
+Version: A05
+OEM Name: 
+OEM Version: 1.0.6428.0
+Computers: Latitude: 6430U
+OS: Windows 7 32-bit - Professional, Windows 7 64-bit - Embedded POS Ready, Windows XP - Home Edition, Windows 7 32-bit - Home Premium, Windows 8 64-bit - Pro, Windows 7 64-bit - Home Premium, Windows 7 64-bit - Home Basic, Windows 8 64-bit - H, Windows 7 64-bit - Ultimate, Windows 7 32-bit - Embedded POS Ready, Windows XP x64 - Professional Client, Windows 7 64-bit - Professional, Windows 8 32-bit - H, Windows 8 32-bit - Pro, Windows XP - Professional, Windows 8 64-bit - EM, Windows 7 32-bit - Home Basic, Windows 8 32-bit - EM, Windows 7 32-bit - Starter, Windows 7 32-bit - Ultimate
+Languages: Japanese,Chinese Simplified,Spanish,Korean,French,Chinese Traditional,German,English,Br Portuguese
+Created: 12/20/2012

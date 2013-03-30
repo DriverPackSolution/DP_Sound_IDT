@@ -1,0 +1,123 @@
+=================================================================================
+2009-11-03 RELEASE: v037_AW_6241V7_CP582_TPE_WHQL
+=================================================================================
+
+Driver
+------
+6.10.0.6241
+
+Configuration
+-------------
+ - None
+
+Applications
+------------
+ - Update SRS EQ 
+ 
+ Installer
+---------
+ - WHQL certified for IDT CODEC
+
+=================================================================================
+2009-7-3 RELEASE: v026_AW_M09C_6217V7_RC6.9_TPE_WHQL
+=================================================================================
+
+Driver
+------
+6.10.0.6217
+
+Configuration
+-------------
+ - None
+
+Applications
+------------
+ - None
+
+ Installer
+---------
+ - WHQL certified for IDT CODEC
+
+=================================================================================
+2009-7-3 RELEASE: v023a_AW_M09C_6217V7_RC6.8_TPE
+=================================================================================
+
+Driver
+------
+6.10.0.6217
+
+Configuration
+-------------
+ - None
+
+Applications
+------------
+ - DF319526 5.1 Channel center & sub woofer some times will no sound 
+ 
+ Installer
+---------
+ - None  
+
+=================================================================================
+2009-7-3 RELEASE: v023_AW_M09C_6217V7_RC6.5_AUS_WHQL
+=================================================================================
+
+Driver
+------
+6.10.0.6217
+
+Configuration
+-------------
+ - None
+
+Applications
+------------
+ - None 
+ 
+ Installer
+---------
+ - WHQL certified for IDT CODEC 
+
+=================================================================================
+2009-6-15 RELEASE: v019_AW_M09C_6209V_RC5.5_TPE
+=================================================================================
+Driver
+------
+6.10.0.6162
+
+Configuration
+-------------
+ - None
+
+Applications
+------------
+ - DF302475 (Win7) The def. setting in Sound Playback device changed after install audio drv.
+ - DF304212 (Win7) Quality of sound recording via "Rec-Playback" is bad.
+ - DF304238 (Win7) Def.setting in Sound Recording is changed after install new audio driver.
+ - DF304214 (Win7) Sound output can't be changed to 5.1ch Audio output in IDT Audio Control
+ 
+Installer
+---------
+ - None
+
+
+====================================================================================
+2009-5-13 RELEASE: v016_AW_M09C_6162.11XPV_RC4_AUS-change gain
+====================================================================================
+
+Driver
+------
+6.10.0.6162
+
+Configuration
+-------------
+ - None
+
+Applications
+------------
+ - None 
+ 
+Installer
+---------
+ - Change the power gain of speaker.
+

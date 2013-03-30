@@ -1,0 +1,8 @@
+Title: Audio: IDT 92HD94 Driver
+Version: A00-00        WP0000006626
+OEM Name: 
+OEM Version: 6.10.0.6393
+Computers: Inspiron: 5423
+OS: Windows 7 64-bit - Home Premium, Windows 7 64-bit - Home Basic, Windows 7 64-bit - Ultimate, Windows 7 64-bit - Professional
+Languages: Hebrew,Bulgarian,Estonian,Chinese Simplified,Latvian,Bahasa Indonesian,Danish,Ukrainian,French,Finnish,Hungarian,Maltese,Korean,Russian,Lithuanian,Czech,Khmer,Swiss German,Italian,Chinese Traditional,Serbian Latin,Pan-Euro,Japanese,Spanish,Slovenian,Portuguese (Portugal),Swedish,Basque,Norwegian,English,Dutch,Br Portuguese,Turkish,Arabic,Slovakian,Greek,Iberian Portuguese,Croatian,Polish,Thai,Chinese Hong Kong,Romanian,German
+Created: 6/4/2012

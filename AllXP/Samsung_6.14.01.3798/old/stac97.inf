@@ -1,0 +1,1006 @@
+; Copyright (c) 1999-2001 SigmaTel Inc.
+
+[Version]
+Signature="$CHICAGO$"
+Class=MEDIA
+ClassGUID={4d36e96c-e325-11ce-bfc1-08002be10318}
+provider=%SGTML%
+DriverVer=04/18/2003, 6.14.01.3798
+CatalogFile=stac97.cat
+
+[SourceDisksNames]
+222="AC97 WDM SigmaTel Driver Disk",,,
+
+[SourceDisksFiles]
+stac97.sys=222
+
+[Manufacturer]
+%SgtmlMfg%=SigmaTel
+
+[SigmaTel]
+;SigmaTel Default Settings
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&SUBSYS_03028086
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&SUBSYS_03038086
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&SUBSYS_03048086
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&SUBSYS_03058086
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&SUBSYS_10051734
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&SUBSYS_A0011458
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&SUBSYS_001B1025
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&SUBSYS_24C51054
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&SUBSYS_01FDA0A0
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&SUBSYS_01FFA0A0
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&SUBSYS_0229A0A0
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_200C1631
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_0512147b
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_0513147b
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_0514147b
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_0515147b
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_90311509
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_FF001179
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_00191025
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_001214C0
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_001814C0
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_0402107B
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_200C1631
+
+
+%STAC97.DeviceDescSis961%=STAC97, PCI\VEN_1039&DEV_7012&subsys_20071631
+%STAC97.DeviceDescSis961%=STAC97, PCI\VEN_1039&DEV_7012&subsys_11C910CF
+
+;Customer Specific Settings
+%STAC97.DeviceDescIntel%=STAC97_7401147b, PCI\VEN_8086&DEV_24c5&subsys_0511147b
+%STAC97.DeviceDescIntel%=STAC97_7401147b, PCI\VEN_8086&DEV_24c5&subsys_05110147
+%STAC97.DeviceDescIntel%=STAC97_011D1028, PCI\VEN_8086&DEV_24C5&subsys_011D1028
+%STAC97.DeviceDescIntel%=STAC97_011D1028, PCI\VEN_8086&DEV_24C5&subsys_011E1028
+%STAC97.DeviceDescIntel%=STAC97_011D1028, PCI\VEN_8086&DEV_24C5&subsys_013E1028
+%STAC97.DeviceDescIntel%=STAC97_011D1028, PCI\VEN_8086&DEV_24C5&subsys_013F1028
+%STAC97.DeviceDescIntel%=STAC97_011D1028, PCI\VEN_8086&DEV_24C5&subsys_01391028
+%STAC97.DeviceDescIntel%=STAC97_31A0109F, PCI\VEN_8086&DEV_24c5&subsys_31A0109F
+%STAC97.DeviceDescIntel%=STAC97_3186109F, PCI\VEN_8086&DEV_24c5&subsys_3186109F
+%STAC97.DeviceDescIntel%=STAC97_216014A4, PCI\VEN_8086&DEV_24c5&subsys_216014A4
+%STAC97.DeviceDescSis961%=STAC97_70121054, PCI\VEN_1039&DEV_7012&subsys_70121054
+%STAC97.DeviceDescSis961%=STAC97_001814C0, PCI\VEN_1039&DEV_7012&subsys_001814C0
+%STAC97.DeviceDescSis961%=STAC97_001814C0, PCI\VEN_1039&DEV_7012&subsys_001514C0
+
+;SigmaTel ID's
+;ICH4
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_76008384 ;9700
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_76088384 ;9708
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_76098384 ;9721
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_76448384 ;9744
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_76568384 ;9756
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_76508384 ;9750
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_76528384 ;9752
+%STAC97.DeviceDescIntel%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_76668384 ;9766
+
+;SiS961
+%STAC97.DeviceDescSis961%=STAC97, PCI\VEN_1039&DEV_7012&subsys_76008384 ;9700
+%STAC97.DeviceDescSis961%=STAC97, PCI\VEN_1039&DEV_7012&subsys_76088384 ;9708
+%STAC97.DeviceDescSis961%=STAC97, PCI\VEN_1039&DEV_7012&subsys_76098384 ;9721
+%STAC97.DeviceDescSis961%=STAC97, PCI\VEN_1039&DEV_7012&subsys_76448384 ;9744
+%STAC97.DeviceDescSis961%=STAC97, PCI\VEN_1039&DEV_7012&subsys_76568384 ;9756
+%STAC97.DeviceDescSis961%=STAC97, PCI\VEN_1039&DEV_7012&subsys_76508384 ;9750
+%STAC97.DeviceDescSis961%=STAC97, PCI\VEN_1039&DEV_7012&subsys_76528384 ;9752
+%STAC97.DeviceDescSis961%=STAC97, PCI\VEN_1039&DEV_7012&subsys_76668384 ;9766
+%STAC97.DeviceDescSis961%=STAC97, PCI\VEN_1039&DEV_7012&subsys_200B1631 ;9756
+%STAC97.DeviceDescSis961%=STAC97, PCI\VEN_1039&DEV_7012&subsys_20071631 ;9756
+%STAC97.DeviceDescSis961%=STAC97, PCI\VEN_1039&DEV_7012&subsys_10041631 ;9756
+
+
+[DestinationDirs]
+STAC97.CopyList=10,system32\drivers
+
+;*********************** SigmaTel Specific Settings ******************************
+;Affects only Generic Drivers
+;
+[STAC97]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_MD.AddReg
+DelReg=STAC97.DelReg
+DriverVer=04/18/2003, 6.14.01.3798
+
+[STAC97.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_MD.AddReg
+DelReg=STAC97.DelReg
+DriverVer=04/18/2003, 6.14.01.3798
+
+[STAC97.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Topology%,STAC97.Interface.Topology
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_UART%,STAC97.Interface.UART
+
+[STAC97.nt.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Topology%,STAC97.Interface.Topology
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_UART%,STAC97.Interface.UART
+
+[STAC97.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_MD.AddReg]
+;This section is for resolving conflicts with registry settings
+
+;*********************** END SigmaTel Specific Settings ************************
+
+;***********************Vendor 7401147b Specific Settings***********************
+;Affects only Vendor 7401147b
+;
+[STAC97_7401147b]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_7401147b.AddReg
+DelReg=STAC97.DelReg
+DriverVer=04/18/2003, 6.14.01.3798
+
+[STAC97_7401147b.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_7401147b.AddReg
+DelReg=STAC97.DelReg
+DriverVer=04/18/2003, 6.14.01.3798
+
+[STAC97_7401147b.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Topology%,STAC97.Interface.Topology
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_UART%,STAC97.Interface.UART
+
+[STAC97_7401147b.nt.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Topology%,STAC97.Interface.Topology
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_UART%,STAC97.Interface.UART
+
+[STAC97_7401147b.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_7401147b.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_7401147b.AddReg]
+HKR,%MixerDefaultsSubKeyName%,MICSelect,                         1, 1 ;select Mic2
+
+;*********************** END Vendor 7401147b Specific Settings******************
+
+;***********************Vendor 70121054 Specific Settings***********************
+;Affects only Vendor 70121054
+;
+[STAC97_70121054]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_70121054.AddReg
+DelReg=STAC97.DelReg
+DriverVer=04/18/2003, 6.14.01.3798
+
+[STAC97_70121054.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_70121054.AddReg
+DelReg=STAC97.DelReg
+DriverVer=04/18/2003, 6.14.01.3798
+
+[STAC97_70121054.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Topology%,STAC97.Interface.Topology
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_UART%,STAC97.Interface.UART
+
+[STAC97_70121054.nt.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Topology%,STAC97.Interface.Topology
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_UART%,STAC97.Interface.UART
+
+[STAC97_70121054.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_70121054.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_70121054.AddReg]
+HKR,%ConfigurationsSubKeyName%,DCRecordBias,                   1, 7F, 00, 00, 00
+
+;*********************** END Vendor 70121054 Specific Settings******************
+
+
+;***********************Vendor 011D1028 Specific Settings***********************
+;Affects only Vendor 011D1028
+;
+[STAC97_011D1028]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_011D1028.AddReg
+DelReg=STAC97.DelReg
+DriverVer=04/18/2003, 6.14.01.3798
+
+[STAC97_011D1028.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_011D1028.AddReg
+DelReg=STAC97.DelReg
+DriverVer=04/18/2003, 6.14.01.3798
+
+[STAC97_011D1028.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Topology%,STAC97.Interface.Topology
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_UART%,STAC97.Interface.UART
+
+[STAC97_011D1028.nt.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Topology%,STAC97.Interface.Topology
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_UART%,STAC97.Interface.UART
+
+[STAC97_011D1028.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_011D1028.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_011D1028.AddReg]
+;Pin disables
+HKR,%MixerDefaultsSubKeyName%,DisablePCBeep,                       1, 1
+HKR,%MixerDefaultsSubKeyName%,DisablePhone,                        1, 0
+HKR,%MixerDefaultsSubKeyName%,DisableLineIn,                       1, 1
+HKR,%MixerDefaultsSubKeyName%,DisableCDIn,                         1, 1
+HKR,%MixerDefaultsSubKeyName%,DisableVideo,                        1, 1
+HKR,%MixerDefaultsSubKeyName%,DisableAux,                          1, 1
+HKR,%MixerDefaultsSubKeyName%,Disable3DControl,                    1, 1
+HKR,%MixerDefaultsSubKeyName%,DisableMonoVirtual,                  1, 1
+HKR,%MixerDefaultsSubKeyName%,DisableHeadphone,                    1, 1
+HKR,%MixerDefaultsSubKeyName%,DisableLnlvl,                        1, 1
+HKR,%MixerDefaultsSubKeyName%,DisableMonoOut,                      1, 1
+HKR,%MixerDefaultsSubKeyName%,DisablePeakmeters,                   1, 1
+
+;Default startup value
+HKR,%MixerDefaultsSubKeyName%,PCBeepMute,                          1, 1                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,PhoneVolume,                       1, 00, 00, 00, 00       ; (ffdd8000-c0000),   (5 bit control).
+HKR,%MixerDefaultsSubKeyName%,PhoneMute,                           1, 0                    ; 0, unmuted, 1 muted
+HKR,%MixerDefaultsSubKeyName%,LineInMute,                          1, 1                    ; 0, unmuted, 1 muted
+HKR,%MixerDefaultsSubKeyName%,CDMute,                              1, 1                    ; 0, unmuted, 1 muted
+HKR,%MixerDefaultsSubKeyName%,VideoMute,                           1, 1                    ; 0, unmuted, 1 muted
+HKR,%MixerDefaultsSubKeyName%,AuxMute,                             1, 1                    ; 0, unmuted, 1 muted
+HKR,%MixerDefaultsSubKeyName%,SurroundMute,                        1, 1                    ; 0, unmuted, 1 muted
+HKR,%MixerDefaultsSubKeyName%,CenterMute,                          1, 1                    ; 0, unmuted, 1 muted
+HKR,%MixerDefaultsSubKeyName%,LFEMute,                             1, 1                    ; 0, unmuted, 1 mute
+HKR,%MixerDefaultsSubKeyName%,3DDepthEnable,                       1, 1                    ; (inverted to match "Mute", 0 enabled, 1 disabled)
+; HKR,%MixerDefaultsSubKeyName%,MasterVolume,                      1, 00, c0, e8, ff       ; (ffd18000-0), (5 bit controls).
+HKR,%MixerDefaultsSubKeyName%,HeadphoneMute,                       1, 1                    ; 0, unmuted, 1 muted
+HKR,%MixerDefaultsSubKeyName%,TrueLevelMute,                       1, 1                    ; 0, unmuted, 1 muted
+HKR,%MixerDefaultsSubKeyName%,WaveInMux,                           1, 00, 00, 00, 00       ; WaveInMux selection values: (0: MIC), (1: CD), (2: Video), (3: Aux), (4: LineIn), (5: StereoMix), (6: MonoMix), (7: Phone).
+HKR,%MixerDefaultsSubKeyName%,GPIOControl,                         1, 1
+HKR,%ConfigurationsSubKeyName%,EmulateAllMasters,                  1, 1
+HKR,%ConfigurationsSubKeyName%,DisableMicFromPlayback,             1, 1
+HKR,%ConfigurationsSubKeyName%,MasterControlsAux,                  1, 1
+HKR,%ConfigurationsSubKeyName%,MasterControlsMono,                 1, 0
+; HKR,%MixerDefaultsSubKeyName%,MICAtRecMuxVolume,                 1, 00, 40, b0, 00       ; (0-168000), 50%: b4000            (4 bit controls).
+;       The default poll time for GPIO changes is 50 milliseconds.
+; HKR,%ConfigurationsSubKeyName%,GPIOPollTimeMilliSeconds,         1, 32, 00
+;       ORs SPDIF control with "DRM Digital Disable State" GPO.
+HKR,%ConfigurationsSubKeyName%,GPIOSPDIFControl,                   1, 1
+;
+; (CID 0, GPIO0, Disable EQ (0), Assert 0)
+; (CID 0, GPIO1, DRM Digital Disable (2), Assert 1)
+;
+HKR,%ConfigurationsSubKeyName%,GPIOActions,                        1, 00, 00, 00, 00, 00, 01, 02, 01
+HKR,%ConfigurationsSubKeyName%,EnableVrefPowerDown,                1, 1
+HKR,%ConfigurationsSubKeyName%,VrefPowerDownTimeInMS,              0x00010001, 6000 ;6 seconds
+HKR,%ConfigurationsSubKeyName%,CodecPowerDownMask,				   1, 00, 07		; To 1 at power down (PR2+PR1+PR0)
+HKR,%ConfigurationsSubKeyName%,EnableNonPCMOnWin2K,                1, 1
+
+;hawdmmc stuff that needs to be added to the driver
+;**********
+;**********
+;HKR,Settings,DisableMic2,                    1,          1                ;Disables the Mic2 Pin
+;HKR,Settings,DisableMicFromPlayback,         1,          1                ;Disables the mic control slider from the playback panel
+;HKR,Settings,GPIO_83847650_0,                1,          0,0,0,0
+;HKR,Settings,GPIO_4352594D_0,                1,          0,0,0,0
+;HKR,Settings,MasterVolume,                   1,          4,  4             ;Master Volume Initial Value
+;HKR,Settings,RecordGain,                     1,          8,  8             ;Record Initial Volume
+;HKR,Settings,PhoneVolume,                    1,         10, 00             ;Phone Volume Initial Value
+
+;*********************** END Vendor 011D1028 Specific Settings******************
+
+;***********************Vendor 31A0109F Specific Settings***********************
+;Affects only Vendor 31A0109F
+;
+[STAC97_31A0109F]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_31A0109F.AddReg
+DelReg=STAC97.DelReg
+DriverVer=04/18/2003, 6.14.01.3798
+
+[STAC97_31A0109F.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_31A0109F.AddReg
+DelReg=STAC97.DelReg
+DriverVer=04/18/2003, 6.14.01.3798
+
+[STAC97_31A0109F.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Topology%,STAC97.Interface.Topology
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_UART%,STAC97.Interface.UART
+
+[STAC97_31A0109F.nt.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Topology%,STAC97.Interface.Topology
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_UART%,STAC97.Interface.UART
+
+[STAC97_31A0109F.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_31A0109F.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_31A0109F.AddReg]
+HKR,%ConfigurationsSubKeyName%,MasterControlsAux,                  1, 1
+HKR,%MixerDefaultsSubKeyName%,WaveInMux,                           1, 00, 00, 00, 00       ; WaveInMux selection values: (0: MIC), (1: CD), (2: Video), (3: Aux), (4: LineIn), (5: StereoMix), (6: MonoMix), (7: Phone).
+HKR,%ConfigurationsSubKeyName%,DCRecordBias,                       1, 7F, 00, 00, 00
+HKR,%ConfigurationsSubKeyName%,D0DelayMilliSeconds,                1, A0, 0F, 00, 00	   ; Delay 4 seconds on transition to D0.
+;*********************** END Vendor 31A0109F Specific Settings******************
+
+;***********************Vendor 3186109F Specific Settings***********************
+;Affects only Vendor 3186109F
+;
+[STAC97_3186109F]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_3186109F.AddReg
+DelReg=STAC97.DelReg
+DriverVer=04/18/2003, 6.14.01.3798
+
+[STAC97_3186109F.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_3186109F.AddReg
+DelReg=STAC97.DelReg
+DriverVer=04/18/2003, 6.14.01.3798
+
+[STAC97_3186109F.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Topology%,STAC97.Interface.Topology
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_UART%,STAC97.Interface.UART
+
+[STAC97_3186109F.nt.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Topology%,STAC97.Interface.Topology
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_UART%,STAC97.Interface.UART
+
+[STAC97_3186109F.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_3186109F.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_3186109F.AddReg]
+HKR,%ConfigurationsSubKeyName%,MasterControlsAux,                  1, 1
+HKR,%MixerDefaultsSubKeyName%,WaveInMux,                           1, 00, 00, 00, 00       ; WaveInMux selection values: (0: MIC), (1: CD), (2: Video), (3: Aux), (4: LineIn), (5: StereoMix), (6: MonoMix), (7: Phone).
+;       The default poll time for GPIO changes is 50 milliseconds.
+; HKR,%ConfigurationsSubKeyName%,GPIOPollTimeMilliSeconds,         1, 32, 00
+;
+; (CID 0, GPIO0, Mute Master (1), Assert 1)
+;
+HKR,%ConfigurationsSubKeyName%,GPIOActions,                        1, 00, 00, 01, 01
+HKR,%ConfigurationsSubKeyName%,DCRecordBias,                       1, 7F, 00, 00, 00
+;*********************** END Vendor 3186109F Specific Settings******************
+
+;***********************Vendor 216014A4 Specific Settings***********************
+;Affects only Vendor 216014A4
+;
+[STAC97_216014A4]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_216014A4.AddReg
+DriverVer=04/18/2003, 6.14.01.3798
+
+[STAC97_216014A4.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_216014A4.AddReg
+DriverVer=04/18/2003, 6.14.01.3798
+
+[STAC97_216014A4.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Topology%,STAC97.Interface.Topology
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_UART%,STAC97.Interface.UART
+
+[STAC97_216014A4.nt.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Topology%,STAC97.Interface.Topology
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_UART%,STAC97.Interface.UART
+
+[STAC97_216014A4.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_216014A4.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_216014A4.AddReg]
+HKR,%MixerDefaultsSubKeyName%,3DDepthEnable,                     1, 1                    ; (inverted to match "Mute", 0 enabled, 1 disabled)
+HKR,%MixerDefaultsSubKeyName%,Disable3DControl,                  1, 1
+;*********************** END Vendor 216014A4 Specific Settings******************
+
+;***********************Vendor 001814C0 Specific Settings***********************
+;Affects only Vendor 001814C0
+;
+[STAC97_001814C0]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_001814C0.AddReg
+DriverVer=04/18/2003, 6.14.01.3798
+
+[STAC97_001814C0.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_001814C0.AddReg
+DriverVer=04/18/2003, 6.14.01.3798
+
+[STAC97_001814C0.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Topology%,STAC97.Interface.Topology
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_UART%,STAC97.Interface.UART
+
+[STAC97_001814C0.nt.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_Wave%,STAC97.Interface.Wave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_AlternateWave%,STAC97.Interface.AlternateWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Topology%,STAC97.Interface.Topology
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_UART%,STAC97.Interface.UART
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_UART%,STAC97.Interface.UART
+
+[STAC97_001814C0.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_001814C0.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_001814C0.AddReg]
+HKR,%MixerDefaultsSubKeyName%,WaveInMux,                         1, 00, 00, 00, 00       ; WaveInMux selection values: (0: MIC), (1: CD), (2: Video), (3: Aux), (4: LineIn), (5: StereoMix), (6: MonoMix), (7: Phone).
+;*********************** END Vendor 001814C0 Specific Settings******************
+
+
+;******************************** Common *****************************************
+;Affects all drivers
+
+[STAC97.CopyList]
+STAC97.sys
+
+[STAC97.Interface.Wave]
+AddReg=STAC97.I.Wave.AddReg
+
+[STAC97.I.Wave.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%STAC97.Wave.szPname%
+
+[STAC97.Interface.AlternateWave]
+AddReg=STAC97.I.AlternateWave.AddReg
+
+[STAC97.I.AlternateWave.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%STAC97.AlternateWave.szPname%
+
+[STAC97.Interface.Topology]
+AddReg=STAC97.I.Topo.AddReg
+
+[STAC97.I.Topo.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%STAC97.Topology.szPname%
+
+[STAC97.Interface.UART]
+AddReg=STAC97.Interface.UART.AddReg
+[STAC97.Interface.UART.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%STAC97.UART.szPname%
+
+[STAC97.DelReg]
+HKCU,%SndVolSigKey%
+HKU,%SndVolSigKey%
+
+[STAC97.AddReg]
+HKR,,AssociatedFilters,,"wdmaud,swmidi,redbook"
+HKR,,Driver,,STAC97.sys
+HKR,,NTMPDriver,,"STAC97.sys,sbemul.sys"
+
+HKR,Drivers,SubClasses,,"wave,midi,mixer"
+
+HKR,Drivers\wave\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\midi\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\mixer\wdmaud.drv,Driver,,wdmaud.drv
+
+HKR,Drivers\wave\wdmaud.drv,Description,,%STAC97.DeviceDesc%
+HKR,Drivers\midi\wdmaud.drv, Description,,%WDM_MIDI%
+HKR,Drivers\mixer\wdmaud.drv,Description,,%STAC97.DeviceDesc%
+
+[STAC97_Service_Inst]
+DisplayName   = %STAC97.SvcDesc%
+ServiceType   = 1                  ; SERVICE_KERNEL_DRIVER
+StartType     = 3                  ; SERVICE_DEMAND_START
+ErrorControl  = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary = %10%\system32\drivers\STAC97.sys
+
+[STAC97Names.AddReg]
+;; Nodes
+HKLM,%MediaCategories%\%STAC97GUID.PhoneVolume%,Name,,%STAC97Node.PhoneVolume%
+HKLM,%MediaCategories%\%STAC97GUID.PhoneVolume%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.PhoneMute%,Name,,%STAC97Node.PhoneMute%
+HKLM,%MediaCategories%\%STAC97GUID.PhoneMute%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.LineInMute%,Name,,%STAC97Node.LineInMute%
+HKLM,%MediaCategories%\%STAC97GUID.LineInMute%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.MainMix%,Name,,%STAC97Node.MainMix%
+HKLM,%MediaCategories%\%STAC97GUID.MainMix%,Display,1,00,00,00,00
+;HKLM,%MediaCategories%\%STAC97GUID.Virt3DCenter%,Name,,%STAC97Node.Virt3DCenter%
+;HKLM,%MediaCategories%\%STAC97GUID.Virt3DCenter%,Display,1,00,00,00,00
+;HKLM,%MediaCategories%\%STAC97GUID.Virt3DDepth%,Name,,%STAC97Node.Virt3DDepth%
+;HKLM,%MediaCategories%\%STAC97GUID.Virt3DDepth%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.3DBypass%,Name,,%STAC97Node.3DBypass%
+HKLM,%MediaCategories%\%STAC97GUID.3DBypass%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.3DEnable%,Name,,%STAC97Node.3DEnable%
+HKLM,%MediaCategories%\%STAC97GUID.3DEnable%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.BeepMix%,Name,,%STAC97Node.BeepMix%
+HKLM,%MediaCategories%\%STAC97GUID.BeepMix%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.HPVolume%,Name,,%STAC97Node.HPVolume%
+HKLM,%MediaCategories%\%STAC97GUID.HPVolume%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.HPMute%,Name,,%STAC97Node.HPMute%
+HKLM,%MediaCategories%\%STAC97GUID.HPMute%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.LnlvlVolume%,Name,,%STAC97Node.LnlvlVolume%
+HKLM,%MediaCategories%\%STAC97GUID.LnlvlVolume%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.LnlvlMute%,Name,,%STAC97Node.LnlvlMute%
+HKLM,%MediaCategories%\%STAC97GUID.LnlvlMute%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.MonoOutSelect%,Name,,%STAC97Node.MonoOutSelect%
+HKLM,%MediaCategories%\%STAC97GUID.MonoOutSelect%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.WaveInSelect%,Name,,%STAC97Node.WaveInSelect%
+HKLM,%MediaCategories%\%STAC97GUID.WaveInSelect%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.MasterInVolume%,Name,,%STAC97Node.MasterInVolume%
+HKLM,%MediaCategories%\%STAC97GUID.MasterInVolume%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.MasterInMute%,Name,,%STAC97Node.MasterInMute%
+HKLM,%MediaCategories%\%STAC97GUID.MasterInMute%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.MicInVolume%,Name,,%STAC97Node.MicInVolume%
+HKLM,%MediaCategories%\%STAC97GUID.MicInVolume%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.MicInMute%,Name,,%STAC97Node.MicInMute%
+HKLM,%MediaCategories%\%STAC97GUID.MicInMute%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.SurroundVolume%,Name,,%STAC97Node.SurroundVolume%
+HKLM,%MediaCategories%\%STAC97GUID.SurroundVolume%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.SurroundMute%,Name,,%STAC97Node.SurroundMute%
+HKLM,%MediaCategories%\%STAC97GUID.SurroundMute%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.CenterVolume%,Name,,%STAC97Node.CenterVolume%
+HKLM,%MediaCategories%\%STAC97GUID.CenterVolume%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.CenterMute%,Name,,%STAC97Node.CenterMute%
+HKLM,%MediaCategories%\%STAC97GUID.CenterMute%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.LFEVolume%,Name,,%STAC97Node.LFEVolume%
+HKLM,%MediaCategories%\%STAC97GUID.LFEVolume%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.LFEMute%,Name,,%STAC97Node.LFEMute%
+HKLM,%MediaCategories%\%STAC97GUID.LFEMute%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.DigitalEnable%,Name,,%STAC97Node.DigitalEnable%
+HKLM,%MediaCategories%\%STAC97GUID.MultiChannelEnable%,Name,,%STAC97Node.MultiChannelEnable%
+HKLM,%MediaCategories%\%STAC97GUID.GPIOControl%,Name,,%STAC97Node.GPIOControl%
+HKLM,%MediaCategories%\%STAC97GUID.HPOutPin%,Name,,%STAC97Pin.HPOutPin%
+HKLM,%MediaCategories%\%STAC97GUID.HPOutPin%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.LnlvlOutPin%,Name,,%STAC97Pin.LnlvlOutPin%
+HKLM,%MediaCategories%\%STAC97GUID.LnlvlOutPin%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.Mic2Pin%,Name,,%STAC97Pin.Mic2Pin%
+HKLM,%MediaCategories%\%STAC97GUID.Mic2Pin%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.LineIn2Pin%,Name,,%STAC97Pin.LineIn2Pin%
+HKLM,%MediaCategories%\%STAC97GUID.LineIn2Pin%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%STAC97GUID.MonoMuteInMasterAdvanced%,Name,,%STAC97Node.MonoMuteInMasterAdvanced%
+
+[STAC97_MC.AddReg]
+;
+;   Model common data.
+;
+;   Default register value at driver startup
+;   Uncomment some one of the lines if you want to overwrite the default setting
+;   The value in these outcommented lines is the driver default. You can change
+;   the register values (and uncomment the line) to overwrite the driver default.
+;   low byte comes first, values are hexadecimal.
+;
+; Pin disabling:
+;   1 to disable (0 is enabled, the default).
+;
+; HKR,%MixerDefaultsSubKeyName%,DisableWaveOut,                    1, 1
+; HKR,%MixerDefaultsSubKeyName%,DisablePCBeep,                     1, 1
+; HKR,%MixerDefaultsSubKeyName%,DisablePhone,                      1, 1
+; HKR,%MixerDefaultsSubKeyName%,DisableMIC,                        1, 1
+; HKR,%MixerDefaultsSubKeyName%,DisableLineIn,                     1, 1
+; HKR,%MixerDefaultsSubKeyName%,DisableCDIn,                       1, 1
+; HKR,%MixerDefaultsSubKeyName%,DisableVideo,                      1, 1
+; HKR,%MixerDefaultsSubKeyName%,DisableAux,                        1, 1
+; HKR,%MixerDefaultsSubKeyName%,DisableSurround,                   1, 1
+; HKR,%MixerDefaultsSubKeyName%,DisableCenter,                     1, 1
+; HKR,%MixerDefaultsSubKeyName%,DisableLFE,                        1, 1
+; HKR,%MixerDefaultsSubKeyName%,Disable3DControl,                  1, 1
+; HKR,%MixerDefaultsSubKeyName%,DisableStereoVirtual,              1, 1
+; HKR,%MixerDefaultsSubKeyName%,DisableMonoVirtual,                1, 1
+; HKR,%MixerDefaultsSubKeyName%,DisableStereo2Virtual,             1, 1
+; HKR,%MixerDefaultsSubKeyName%,DisableMono2Virtual,                1, 1
+HKR,%MixerDefaultsSubKeyName%,DisableHeadphone,                    1, 1
+HKR,%MixerDefaultsSubKeyName%,DisableLnlvl,                        1, 1
+HKR,%MixerDefaultsSubKeyName%,DisableWaveIn2,                      1, 1
+; HKR,%MixerDefaultsSubKeyName%,DisableMonoOut,                    1, 1
+; HKR,%MixerDefaultsSubKeyName%,DisablePeakmeters,                 1, 1
+;
+; Mixer control initial values:
+;
+; HKR,%MixerDefaultsSubKeyName%,WaveOutVolume,                     1, 00 ,80, 01, 00       ; (ffdd8000-c0000), (5 bit controls).
+; HKR,%MixerDefaultsSubKeyName%,WaveOutMute,                       1, 0                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,PCBeepVolume,                      1, 00, 00, 00, 00       ; (ffd30000-0), (4 bit control).
+; HKR,%MixerDefaultsSubKeyName%,PCBeepVolumeInc,                   1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,PCBeepMute,                        1, 0                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,PCBeepMuteInc,                     1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,PhoneVolume,                       1, 00, 00, 00, 00       ; (ffdd8000-c0000),   (5 bit control).
+; HKR,%MixerDefaultsSubKeyName%,PhoneVolumeInc,                    1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,PhoneMute,                         1, 1                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,PhoneMuteInc,                      1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,MICSelect,                         1, 0
+; HKR,%MixerDefaultsSubKeyName%,MICBoost,                          1, 0
+; HKR,%MixerDefaultsSubKeyName%,MICVolume,                         1, 00, 00, 00, 00       ; (ffdd8000-c0000),   (5 bit control).
+; HKR,%MixerDefaultsSubKeyName%,MICVolumeInc,                      1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,MICMute,                           1, 1                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,MICMuteInc,                        1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,LineInVolume,                      1, 00, 00, 00, 00       ; (ffdd8000-c0000),   (5 bit controls).
+; HKR,%MixerDefaultsSubKeyName%,LineInVolumeInc,                   1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,LineInMute,                        1, 1                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,LineInMuteInc,                     1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,CDVolume,                          1, 00, 00, 00, 00       ; (ffdd8000-c0000),   (5 bit controls).
+; HKR,%MixerDefaultsSubKeyName%,CDVolumeInc,                       1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,CDMute,                            1, 0                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,CDMuteInc,                         1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,VideoVolume,                       1, 00, 00, 00, 00       ; (ffdd8000-c0000),   (5 bit controls).
+; HKR,%MixerDefaultsSubKeyName%,VideoVolumeInc,                    1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,VideoMute,                         1, 1                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,VideoMuteInc,                      1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,AuxVolume,                         1, 00, 00, 00, 00       ; (ffdd8000-c0000),   (5 bit controls).
+; HKR,%MixerDefaultsSubKeyName%,AuxVolumeInc,                      1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,AuxMute,                           1, 1                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,AuxMuteInc,                        1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,SurroundVolume,                    1, 00, c0, e8, ff       ; (ffd18000-0), (5 bit controls).
+; HKR,%MixerDefaultsSubKeyName%,SurroundVolumeInc,                 1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,SurroundMute,                      1, 0                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,SurroundMuteInc,                   1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,CenterVolume,                      1, 00, c0, e8, ff       ; (ffd18000-0), (5 bit controls).
+; HKR,%MixerDefaultsSubKeyName%,CenterVolumeInc,                   1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,CenterMute,                        1, 0                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,CenterMuteInc,                     1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,LFEVolume,                         1, 00, c0, e8, ff       ; (ffd18000-0), (5 bit controls).
+; HKR,%MixerDefaultsSubKeyName%,LFEVolumeInc,                      1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,LFEMute,                           1, 0                    ; 0, unmuted, 1 mute
+; HKR,%MixerDefaultsSubKeyName%,LFEMuteInc,                        1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,3DDepthControl,                    1, 00, 80, 04, 00       ; (0-90000), 50%: 48000             (2 bit control).
+; HKR,%MixerDefaultsSubKeyName%,3DDepthEnable,                     1, 1                    ; (inverted to match "Mute", 0 enabled, 1 disabled)
+; HKR,%MixerDefaultsSubKeyName%,MasterVolume,                      1, 00, c0, e8, ff       ; (ffd18000-0), (5 bit controls).
+; HKR,%MixerDefaultsSubKeyName%,MasterVolumeInc,                   1, 0                    ; 0, instantaneous, 1 incremental
+HKR,%MixerDefaultsSubKeyName%,MasterMute,                          1, 0                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,MasterMuteInc,                     1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,HeadphoneVolume,                   1, 00, c0, e8, ff       ; (ffd18000-0), 50%: ffe8c000       (5 bit controls).
+; HKR,%MixerDefaultsSubKeyName%,HeadphoneVolumeInc,                1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,HeadphoneMute,                     1, 0                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,HeadphoneMuteInc,                  1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,TrueLevelVolume,                   1, 00, c0, e8, ff       ; (ffd18000-0), 50%: ffe8c000       (5 bit controls).
+; HKR,%MixerDefaultsSubKeyName%,TrueLevelVolumeInc,                1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,TrueLevelMute,                     1, 0                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,TrueLevelMuteInc,                  1, 0                    ; 0, instantaneous, 1 incremental
+; HKR,%MixerDefaultsSubKeyName%,MonoOutMux,                        1, 00, 00, 00, 00                    ; MonoOutMux selection values: (0: MIC), (1: MonoMix).
+; HKR,%MixerDefaultsSubKeyName%,MICAtMonoOutVolume,                1, 00, c0, e8, ff       ; (ffd18000-0), 50%: ffe8c000       (5 bit controls).
+; HKR,%MixerDefaultsSubKeyName%,MonoMixerAtMonoOutVolume,          1, 00, c0, e8, ff       ; (ffd18000-0), 50%: ffe8c000       (5 bit controls).
+; HKR,%MixerDefaultsSubKeyName%,MICAtMonoOutMute,                  1, 0                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,MonoMixerAtMonoOutMute,            1, 0                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,WaveInMux,                         1, 00, 00, 00, 00       ; WaveInMux selection values: (0: MIC), (1: CD), (2: Video), (3: Aux), (4: LineIn), (5: StereoMix), (6: MonoMix), (7: Phone).
+; HKR,%MixerDefaultsSubKeyName%,PhoneAtRecMuxVolume,               1, 00, 40, b0, 00       ; (0-168000), 50%: b4000            (4 bit controls).
+; HKR,%MixerDefaultsSubKeyName%,MICAtRecMuxVolume,                 1, 00, 40, b0, 00       ; (0-168000), 50%: b4000            (4 bit controls).
+; HKR,%MixerDefaultsSubKeyName%,CDAtRecMuxVolume,                  1, 00, 40, b0, 00       ; (0-168000), 50%: b4000            (4 bit controls).
+; HKR,%MixerDefaultsSubKeyName%,VideoAtRecMuxVolume,               1, 00, 40, b0, 00       ; (0-168000), 50%: b4000            (4 bit controls).
+; HKR,%MixerDefaultsSubKeyName%,AuxAtRecMuxVolume,                 1, 00, 40, b0, 00       ; (0-168000), 50%: b4000            (4 bit controls).
+; HKR,%MixerDefaultsSubKeyName%,LineInAtRecMuxVolume,              1, 00, 40, b0, 00       ; (0-168000), 50%: b4000            (4 bit controls).
+; HKR,%MixerDefaultsSubKeyName%,StereoMixAtRecMuxVolume,           1, 00, 40, b0, 00       ; (0-168000), 50%: b4000            (4 bit controls).
+; HKR,%MixerDefaultsSubKeyName%,MonoMixAtRecMuxVolume,             1, 00, 40, b0, 00       ; (0-168000), 50%: b4000            (4 bit controls).
+; HKR,%MixerDefaultsSubKeyName%,PhoneAtRecMuxMute,                 1, 0                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,MICAtRecMuxMute,                   1, 0                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,CDAtRecMuxMute,                    1, 0                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,PhoneAtRecMuxMute,                 1, 0                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,VideoAtRecMuxMute,                 1, 0                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,LineInAtRecMuxMute,                1, 0                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,StereoMixAtRecMuxMute,             1, 0                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,MonoMixAtRecMuxMute,               1, 0                    ; 0, unmuted, 1 muted
+; HKR,%MixerDefaultsSubKeyName%,MultiChannelEnable,                1, 0                    ; not enabled
+; HKR,%MixerDefaultsSubKeyName%,CPL_SpdifTransmitterEnabledByUser,                       1, 0                    ; not enabled
+; HKR,%MixerDefaultsSubKeyName%,GPIOControl,                       1, 0                    ; not enabled
+;
+; Other driver configuration entries.
+; HKR,%ConfigurationsSubKeyName%,PCMVolumeFixedLevel,              1, 08, 08
+; HKR,%ConfigurationsSubKeyName%,EmulateAllMasters,                1, 0
+; HKR,%ConfigurationsSubKeyName%,DisableMicFromPlayback,           1, 0
+; HKR,%ConfigurationsSubKeyName%,MasterControlsAux,                1, 1
+; HKR,%ConfigurationsSubKeyName%,MasterControlsMono,               1, 1
+; HKR,%ConfigurationsSubKeyName%,MICBoost30dB,                     1, 0     ; prefer 30dB to 20dB Boost on MIC if available.
+; HKR,%ConfigurationsSubKeyName%,MasterVolumeSwapHp,               1, 0     ; Swap master and headphone controls at register level (MasterControlsAux must be false to be effective).
+; HKR,%ConfigurationsSubKeyName%,UseSpeakerTypeForPcBeep,          1, 1     ; Uses speaker topology type (instead of analog control) to affect display by sndvol.
+; HKR,%ConfigurationsSubKeyName%,DCRecordBias,                     1, 10, 00, 00, 00
+; HKR,%ConfigurationsSubKeyName%,FadeAudio,                        1, 1
+; HKR,%ConfigurationsSubKeyName%,ActiveMuteDelayEnabled,           1, 1     ; If FadeAudio, zipper noise mute of PCM is deferred until signal fade has completed.
+; HKR,%ConfigurationsSubKeyName%,MixerIncrementMicroSeconds,       1, d0, 07, 00, 00    ; 2000 uS delay on incremental mixer control updates (500 uS minimum enforced).
+; HKR,%ConfigurationsSubKeyName%,SPDIFOutputDisable,               1, 0
+; HKR,%ConfigurationsSubKeyName%,DisableNonPCM,                    1, 0
+; HKR,%ConfigurationsSubKeyName%,EnableNonPCMOnWin2K,              1, 0
+; HKR,%ConfigurationsSubKeyName%,NonPCMLimitedByLinkRate    	   1, 0		; If true, and the user has limited the link to a non-48KHz rate, AC3 will not override the rate and the stream open will fail.
+; HKR,%ConfigurationsSubKeyName%,LinkRateChangeLimitedByStreams    1, 0		; If true, a change to a "fixed" link rate will fail if it conflicts with the data rate of an active stream.
+; HKR,%ConfigurationsSubKeyName%,SPDIFMutesMaster,           	   1, 0
+; HKR,%ConfigurationsSubKeyName%,SPDIFMutesInactiveMaster,         1, 0
+; HKR,%ConfigurationsSubKeyName%,SPDIFAssertsPR6,           	   1, 0
+; HKR,%ConfigurationsSubKeyName%,MasterControlsSPDIFPCM,           1, 0
+; HKR,%ConfigurationsSubKeyName%,DisableSPDIFControl,              1, 0
+; HKR,%ConfigurationsSubKeyName%,EnableVRA,                        1, 0
+;       VRA Disable bit positions:  D6: 8KHz, D5: 11.025KHz, D4: 16KHz, D3: 22.050KHz, D2: 32KHz, D1: 44.1KHz, D0: 48KHz
+;       (D0 will be ignored).
+; HKR,%ConfigurationsSubKeyName%,ADCVRADisables,                   1, 00, 00, 00, 00
+; HKR,%ConfigurationsSubKeyName%,DACVRADisables,                   1, 00, 00, 00, 00
+; HKR,%ConfigurationsSubKeyName%,MultiChannelDisable,              1, 0
+; HKR,%ConfigurationsSubKeyName%,DisableMultiChannelControl,       1, 0
+; HKR,%ConfigurationsSubKeyName%,SpeakerAutoDetection,             1, 0
+; HKR,%ConfigurationsSubKeyName%,SpeakerDetectionInput,            1, 0		; Record mux selection values: (0: MIC), (1: CD), (2: Video), (3: Aux), (4: LineIn), (5: StereoMix), (6: MonoMix), (7: Phone).
+; HKR,%ConfigurationsSubKeyName%,SpeakerDetectionAltMIC,           1, 0		; Use Alternate MIC if MIC selected as speaker detection input.
+; HKR,%ConfigurationsSubKeyName%,SpeakerDetectionOutputAux,        1, 0		; Use Aux Out, else Line Out.
+;       Speaker Auto detection threshold expressed as signed, 16 bit signal value (should be positive), 0 - 32767.
+; HKR,%ConfigurationsSubKeyName%,SpeakerDetectionThreshold,        1, 0a, 00
+; HKR,%ConfigurationsSubKeyName%,SpeakerDetectionRecordOnsetMilliSeconds,	1, 02
+; HKR,%ConfigurationsSubKeyName%,SpeakerDetectionSamplingDelayMilliSeconds,	1, 04
+; 		Enables jack sensing.
+; HKR,%ConfigurationsSubKeyName%,GPIOJackSenseEnable,         	   1, 0
+;       The default poll time for GPIO changes is 50 milliseconds.
+; HKR,%ConfigurationsSubKeyName%,GPIOPollTimeMilliSeconds,         1, 32, 00
+;       ORs SPDIF control with "DRM Digital Disable State" GPO.
+; HKR,%ConfigurationsSubKeyName%,GPIOSPDIFControl,                 1, 0
+;
+;       GPIO actions are expressed as a binary string, a sequence of one or more 4-BYTE tuplets (beyond
+;       the initial "1" type value required for registry entry). The 4 fields (each a BYTE in length) in each tuplet are:
+;       { (Codec CID), (GPIO pin number), (GPIO action code), (Pin assertion sense) }
+;
+;       The "Codec CID" must match a recognized CODEC (by CID) on the AC97 link, and the "GPIO pin number"
+;       must be a valid GPIO pin index for that CODEC.  If GPIO is enabled, there must be at least one
+;       well-formed specification.
+;
+;       The valid values for "GPIO action code" (and implicit directions, GPI or GPO) are:
+;
+;           0       Disable software equalization (GPIDisableSoftwareEQ)        (GPI)
+;           1       Mute master volume            (GPIMuteMasterVolume)         (GPI)
+;           2       DRM Digital Disable State     (GPODRMDigitalDisable)        (GPO)
+;
+;       The "Pin assertion sense" maps the CODEC pin state to the logical assertion state of the action;
+;       0 means the action is asserted on a sensed (or driven for GPO) CODEC pin value 0, non-zero means
+;       asserted on sensed (driven) CODEC pin value 1.
+;
+; HKR,%ConfigurationsSubKeyName%,GPIOActions,                      1, 00, 00, 00, 00
+;
+; 		Delay (in uS) after RESET# deassertion before continued processing.
+; HKR,%ConfigurationsSubKeyName%,CodecColdResetWaitMicroSeconds,   1, dc, 05, 00, 00
+;
+; HKR,%ConfigurationsSubKeyName%,DisableEQ,                        1, 0
+;
+; HKR,%ConfigurationsSubKeyName%,render_taps,                      1, 0b, 00, 00, 00
+; HKR,%ConfigurationsSubKeyName%,render_roll_off,                  1, b6, 03, 00, 00
+; HKR,%ConfigurationsSubKeyName%,render_beta,                      1, 28, 23, 00, 00
+; HKR,%ConfigurationsSubKeyName%,capture_taps,                     1, 0b, 00, 00, 00
+; HKR,%ConfigurationsSubKeyName%,capture_roll_off,                 1, b6, 03, 00, 00
+; HKR,%ConfigurationsSubKeyName%,capture_beta,                     1, 28, 23, 00, 00
+
+HKR,%ConfigurationsSubKeyName%,EnableExtAmpControl,                  1, 1
+HKR,%ConfigurationsSubKeyName%,ExtAmpPowerDownTimeInMCS,             0x00010001, 5000
+HKR,%ConfigurationsSubKeyName%,ExtAmpPowerUpTimeInMCS,               0x00010001, 5000
+HKR,%ConfigurationsSubKeyName%,CodecPowerUpDelayInMCS,             0x00010001, 1000
+;HKR,%ConfigurationsSubKeyName%,EnableVrefPowerDown,               1, 1
+;HKR,%ConfigurationsSubKeyName%,VrefPowerDownTimeInMS,             0x00010001, 6000 ;6 seconds
+;HKR,%ConfigurationsSubKeyName%,CodecPowerUpMask,				   1, 00, 6f		; To 0 at power up (PR6+PR5+PR3+PR2+PR1+PR0)
+;HKR,%ConfigurationsSubKeyName%,CodecPowerDownMask,				   1, 00, 47		; To 1 at power down (PR6+PR2+PR1+PR0)
+;HKR,%ConfigurationsSubKeyName%,D0DelayMilliSeconds,	    	   1, 00, 00, 00, 00	; Milliseconds to delay on (D2,D3)->D0 transitions.
+;HKR,%ConfigurationsSubKeyName%,ModemInhibitsD3RST,                1, 1
+
+
+[Strings]
+SGTML="SigmaTel"
+SgtmlMfg="SigmaTel"
+
+STAC97.DeviceDesc="Audio controller - SigmaTel CODEC"
+STAC97.DeviceDescVia="SigmaTel C-Major Audio"
+STAC97.DeviceDescIntel="SigmaTel C-Major Audio"
+;STAC97.DeviceDescNVidia="SigmaTel C-Major Audio"
+;STAC97.DeviceDescAMD="SigmaTel C-Major Audio"
+STAC97.DeviceDescSis961="SigmaTel C-Major Audio"
+
+STAC97.Wave.szPname="SigmaTel Audio"
+STAC97.AlternateWave.szPname="SigmaTel Alternate"
+STAC97.Topology.szPname="SigmaTel"
+
+SndVolSigKey="Software\Microsoft\Windows\CurrentVersion\Applets\Volume Control\SigmaTel Audio"
+
+MediaCategories="SYSTEM\CurrentControlSet\Control\MediaCategories"
+
+WDM_MIDI="WDM-based devices"
+
+MixerDefaultsSubKeyName="Settings"
+ConfigurationsSubKeyName="Settings"
+
+Proxy.CLSID="{17CCA71B-ECD7-11D0-B908-00A0C9223196}"
+KSCATEGORY_AUDIO="{6994AD04-93EF-11D0-A3CC-00A0C9223196}"
+KSCATEGORY_RENDER="{65E8773E-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_CAPTURE="{65E8773D-8F56-11D0-A3B9-00A0C9223196}"
+KSNAME_Wave="Wave"
+KSNAME_AlternateWave="AlternateWave"
+KSNAME_Topology="Topology"
+KSNAME_UART="UART"
+STAC97.UART.szPname="MIDI External Port"
+
+STAC97.SvcDesc = "Audio Driver (WDM) - SigmaTel CODEC"
+
+;; Nodes (non-localizeable)
+STAC97GUID.PhoneVolume          ="{981DFEA0-27DB-11d3-99FC-00500483AC28}"
+STAC97GUID.PhoneMute            ="{981DFEA1-27DB-11d3-99FC-00500483AC28}"
+STAC97GUID.LineInMute           ="{981DFEA2-27DB-11d3-99FC-00500483AC28}"
+STAC97GUID.MainMix              ="{981DFEA3-27DB-11d3-99FC-00500483AC28}"
+STAC97GUID.3DBypass             ="{981DFEA4-27DB-11d3-99FC-00500483AC28}"
+STAC97GUID.3DEnable             ="{981DFEA5-27DB-11d3-99FC-00500483AC28}"
+STAC97GUID.BeepMix              ="{981DFEA6-27DB-11d3-99FC-00500483AC28}"
+STAC97GUID.HPVolume             ="{981DFEA7-27DB-11d3-99FC-00500483AC28}"
+STAC97GUID.HPMute               ="{981DFEA8-27DB-11d3-99FC-00500483AC28}"
+STAC97GUID.LnlvlVolume          ="{301892ac-2f58-41c7-88b4-4c1d72501c83}"
+STAC97GUID.LnlvlMute            ="{c5cb62ac-f62f-4569-b66b-6a1d3afe3388}"
+STAC97GUID.MonoOutSelect        ="{981DFEA9-27DB-11d3-99FC-00500483AC28}"
+STAC97GUID.WaveInSelect         ="{981DFEAA-27DB-11d3-99FC-00500483AC28}"
+STAC97GUID.WaveIn2Select        ="{A514AD4E-CFB5-4ecc-9691-36494FBE0481}"
+STAC97GUID.MasterInVolume       ="{981DFEAB-27DB-11d3-99FC-00500483AC28}"
+STAC97GUID.MasterInMute         ="{981DFEAC-27DB-11d3-99FC-00500483AC28}"
+STAC97GUID.MicInVolume          ="{981DFEAD-27DB-11d3-99FC-00500483AC28}"
+STAC97GUID.MicInMute            ="{981DFEAE-27DB-11d3-99FC-00500483AC28}"
+STAC97GUID.SurroundVolume       ="{81FBB14B-1BEE-4bf5-92EE-FFC4F75F326D}"
+STAC97GUID.SurroundMute         ="{22654FBC-AC8F-4224-B19F-D858D2E10BDD}"
+STAC97GUID.CenterVolume         ="{2D97372F-9CF6-4fd6-9E56-C68BACDF360D}"
+STAC97GUID.CenterMute           ="{BEEF51ED-1041-43f8-9B96-5863D0A9342D}"
+STAC97GUID.LFEVolume            ="{B60C4274-3BFD-430b-8364-D947E7D304B1}"
+STAC97GUID.LFEMute              ="{4A4D9210-C780-4768-BFD2-525FDBF4FCB4}"
+STAC97GUID.DigitalEnable        ="{56D8C1D0-58FB-4927-9CD2-8E3BD3E5A922}"
+STAC97GUID.MultiChannelEnable   ="{A9D8349B-45CC-4A0B-97A2-D6AC7738F27D}"
+STAC97GUID.GPIOControl          ="{88E542C4-1540-4a40-95D1-8CCC9A4B6245}"
+STAC97GUID.HPOutPin             ="{981DFEB1-27DB-11d3-99FC-00500483AC28}"
+STAC97GUID.LnlvlOutPin          ="{5A9EBEC6-FCA2-4fcd-AB11-04D6C3C6266A}"
+STAC97GUID.Mic2Volume           ="{D68EA4BA-4E5B-45c4-9E80-AE7A959B969D}"
+STAC97GUID.LineIn2Volume        ="{DD5102D5-9931-484c-8B47-FB9B75FE63A2}"
+STAC97GUID.Mic2Pin              ="{A72A6A9C-896A-45ce-AD88-6BB096B11B36}"
+STAC97GUID.LineIn2Pin           ="{CC57D9E2-9750-4b74-B509-41B9B30DC0B5}"
+STAC97GUID.MonoMuteInMasterAdvanced="{A601A3BC-066E-4800-8922-6772422C0F18}"
+
+;; Nodes (localizeable)
+STAC97Node.PhoneVolume          ="Phone Volume"
+STAC97Node.PhoneMute            ="Phone Mute"
+STAC97Node.LineInMute           ="LineIn Mute"
+STAC97Node.MainMix              ="Main Mix"
+STAC97Node.3DBypass             ="3D Bypass"
+STAC97Node.3DEnable             ="3D Enable"
+STAC97Node.BeepMix              ="Beep Mix"
+STAC97Node.HPVolume             ="Headphone Volume"
+STAC97Node.HPMute               ="Headphone Mute"
+STAC97Node.LnlvlVolume          ="Line Level Volume"
+STAC97Node.LnlvlMute            ="Line Level Mute"
+STAC97Node.MonoOutSelect        ="Mono Out Select"
+STAC97Node.WaveInSelect         ="WaveIn Select"
+STAC97Node.WaveIn2Select        ="Alt WaveIn Select"
+STAC97Node.MasterInVolume       ="WaveIn Volume"
+STAC97Node.MasterInMute         ="WaveIn Mute"
+STAC97Node.MicInVolume          ="Mic In Volume"
+STAC97Node.MicInMute            ="Mic In Mute"
+STAC97Node.SurroundVolume       ="Surround Volume"
+STAC97Node.SurroundMute         ="Surround Mute"
+STAC97Node.CenterVolume         ="Center Volume"
+STAC97Node.CenterMute           ="Center Mute"
+STAC97Node.LFEVolume            ="LFE Volume"
+STAC97Node.LFEMute              ="LFE Mute"
+STAC97Node.DigitalEnable        ="Enable SPDIF"
+STAC97Node.MultiChannelEnable   ="Enable Multi-Channel"
+STAC97Node.GPIOControl          ="Enable SPDIF"
+STAC97Node.Mic2Volume           ="Mic2 Volume"
+STAC97Node.LineIn2Volume        ="LineIn2 Volume"
+STAC97Pin.HPOutPin              ="Headphone"
+STAC97Pin.LnlvlOutPin           ="Line Out"
+STAC97Pin.Mic2Pin               ="Alt MIC"
+STAC97Pin.LineIn2Pin            ="Alt LineIn"
+STAC97Node.MonoMuteInMasterAdvanced="Mute Internal Speaker"

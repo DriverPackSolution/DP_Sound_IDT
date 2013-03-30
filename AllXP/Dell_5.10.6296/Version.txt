@@ -1,0 +1,8 @@
+Title      : Audio:IDT 92HD79 Driver
+Version    : A00
+OEM Name   : IDT
+OEM Ver    : 5.10.0.6296
+Computers  : Vostro Notebook - V130
+Oses       : Windows XP Home Edition, Windows XP Professional
+Languages  : Arabic, Brazilian Portuguese, Chinese Hong Kong, Chinese-S, Chinese-T, Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hebrew, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Russian, Slovakian, Slovenian, Spanish, Swedish, Thai, Turkish
+Created    : Wed Dec 1 05:12:56 CST 2010

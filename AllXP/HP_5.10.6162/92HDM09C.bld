@@ -1,0 +1,204 @@
+[Models]
+HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_10280254=92HDM6-1.INI  
+HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_10280255=92HDM6-1.INI  
+HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_1028025E=92HDM6-1.INI  
+HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_1028025F=92HDM6-1.INI  
+HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_1028029F=92HDM6-1.INI  
+HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_102802C2=92HDM6-1.INI  
+HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_102802BE=92HDM6-1.INI  
+HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_10280256=92HDM6-2.INI  
+HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_10280257=92HDM6-2.INI  
+HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_10280260=92HDM6-2.INI  
+HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_10280261=92HDM6-2.INI  
+HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_102802A0=92HDM6-2.INI  
+HDAUDIO\FUNC_01&VEN_111D&DEV_76B2&SUBSYS_102802AA=92HDM4-6.INI  
+HDAUDIO\FUNC_01&VEN_111D&DEV_7604&SUBSYS_102802BA=92HDM8-1.ini  
+[Build]
+Version=12  # Last updated Wednesday, March 11, 2009 11:39:19 AM
+Package=zip
+RootDir=Disk1
+InfVersionFormat=%x.%y.0.%v
+Password=
+DoNotNameAllExecutableFilesInInf=1
+DoNotNameAllIniFilesInInf=1
+IDT_installer=6162.0
+ReplaceSetupIniLine=HDAUDIO,InstallQfe,1
+ReplaceSetupIniLine=HDAUDIO,Verify,1
+ReplaceSetupIniLine=HDAUDIO,ForceReboot,0
+ReplaceSetupIniLine=IDT,AddRemoveEntry,0
+ReplaceSetupIniLine=IDT,AddRemoveSilent,0
+ReplaceSetupIniLine=IDT,ForceRebootAfter,0
+ReplaceSetupIniLine=IDT,Win2kForceRebootAfter,0
+ReplaceSetupIniLine=IDT,UninstallStac97,0
+ReplaceSetupIniLine=IDT,CopyFileDirs,wdm
+ReplaceSetupIniLine=IDT,DisableSetupCopyOEMInf,1
+ReplaceSetupIniLine=IDT,InstallSignature,Creative
+ReplaceSetupIniLine=IDT,RemoveLocalizeDll,1
+ReplaceSetupIniLine=IDT,PackageVersion,"XPM09_6162v012"
+setuphlp=6162.0\release
+coinstaller=6162.0\release
+hdaqfe=DellQFE
+hda=6162.0\release
+hda64=6162.0\release
+inf=inf_rebrand2\sthda.inf
+inf=inf_rebrand2\sthda64.inf
+sttray=6162.0\release
+sttray64=6162.0\release
+idtsg=6162.0\release
+idtsg64=6162.0\release
+stacapi=6162.0\release
+stapi64x=6162.0\release
+stacsv=6162.0\release
+stacsv64=6162.0\release
+stlang=6162.0\release
+stlang64=6162.0\release
+aestaud=090306\release
+creative_upperfilter=090303\release
+AddInf32Line=ST.AddReg,HKLM,Software\Microsoft\Windows\CurrentVersion\Run,SysTrayApp,0x00020000,"%ProgramFiles%\IDT\WDM\sttray.exe"
+AddInf64Line=ST.AddReg,HKLM,Software\Microsoft\Windows\CurrentVersion\Run,SysTrayApp,0x00020000,"%ProgramFiles%\IDT\WDM\sttray64.exe"
+AddInf32Line=ST.AddReg,HKLM,Software\Microsoft\Windows\CurrentVersion\Run,AESTFltr,0x00020000,"%systemroot%\system32\AESTFltr.exe /NoDlg"
+AddInf64Line=ST.AddReg,HKLM,Software\Microsoft\Windows\CurrentVersion\Run,AESTFltr,0x00020000,"%systemroot%\system32\AESTFl64.exe /NoDlg"
+AddInfLine=ST.AddReg,HKLM,Software\Microsoft\Windows\CurrentVersion\RunOnce,Creative,0x00020000,"%systemroot%\system32\CtAudPth.exe"
+AddInfLine=ST.DelReg,HKLM,Software\Microsoft\Windows\CurrentVersion\Run,SysTrayApp    
+DeleteInf32Line=STHDA,AddReg=ST.AddReg,ST.Nodes.AddReg,ST.Config.AddReg
+AddInf32Line=STHDA,AddReg=ST.AddReg,ST.Nodes.AddReg,ST.Config.AddReg,Filter.AddReg
+DeleteInf64Line=STHDA,AddReg=ST.AddReg,ST.Nodes.AddReg,ST.Config.AddReg
+AddInf64Line=STHDA.NTamd64,AddReg=ST.AddReg,ST.Nodes.AddReg,ST.Config.AddReg,Filter.AddReg
+AddInfLine=Filter.AddReg,HKR,Sensaura\Configuration,RenderFactory000,0,RearWave
+AddInfLine=Filter.AddReg,HKR,Sensaura\Configuration,TopologyFactory000,0,RearTopology
+AddInfLine=Filter.AddReg,HKR,Sensaura\Configuration,IgnoreDSSpeakerConfiguration, 1, 00, 00, 00, 00
+AddInfLine=Filter.AddReg,HKR,Sensaura\Configuration,ForwardSpeakerConfiguration, 1, 01, 00, 00, 00
+AddInfLine=Filter.AddReg,HKR,Sensaura\Configuration,StereoExpansionEnable, 1, 00, 00, 00, 00
+AddInfLine=Filter.AddReg,HKR,Sensaura\Configuration,LFEGenerationEnable, 1, 00, 00, 00, 00
+AddInfLine=Filter.AddReg,HKR,Sensaura\Configuration,DynamicDevice, 1, 00, 00, 00, 00
+AddInfLine=Filter.AddReg,HKR,Sensaura\Configuration,BufferCount, 0x00010001, 12
+AddInf32Line=SignedFiles,suhlp.exe
+AddInf64Line=SignedFiles,suhlp64.exe
+AddInf32Line=SignedFiles,sttray.exe
+AddInf64Line=SignedFiles,sttray64.exe
+AddInf32Line=SignedFiles,stlang.dll
+AddInf64Line=SignedFiles,stlang64.dll
+AddInf32Line=SignedFiles,sthda.ini
+AddInf64Line=SignedFiles,sthda64.ini
+AddInf32Line=SignedFiles,stacsv.exe
+AddInf64Line=SignedFiles,stacsv64.exe
+AddInf32Line=SignedFiles,idtsg.cpl
+AddInf64Line=SignedFiles,idtsg64.cpl
+AddInfLine=SignedFiles,92HDM6-1.ini
+AddInfLine=SignedFiles,92HDM6-2.ini
+AddInfLine=SignedFiles,92HDM4-6.ini
+AddInfLine=SignedFiles,92HDM8-1.ini
+AddInf32Line=SignedFiles,AESTAud.sys
+AddInf64Line=SignedFiles,AESTAu64.sys
+AddInf32Line=SignedFiles,AESTCtrl.cpl
+AddInf64Line=SignedFiles,AESTCt64.cpl
+AddInf32Line=SignedFiles,AESTFltr.exe
+AddInf64Line=SignedFiles,AESTFl64.exe
+AddInf32Line=SignedFiles,Monfilt.sys
+AddInf64Line=SignedFiles,Monft64.sys
+AddInf32Line=SignedFiles,Ambfilt.sys
+AddInf64Line=SignedFiles,Ambft64.sys
+AddInfLine=SignedFiles,CtAudPth.exe
+AddInf32Line=SourceDisksFiles,suhlp.exe=1
+AddInf64Line=SourceDisksFiles,suhlp64.exe=1
+AddInf32Line=SourceDisksFiles,sttray.exe=1
+AddInf64Line=SourceDisksFiles,sttray64.exe=1
+AddInf32Line=SourceDisksFiles,stlang.dll=1
+AddInf64Line=SourceDisksFiles,stlang64.dll=1
+AddInf32Line=SourceDisksFiles,sthda.ini=1
+AddInf64Line=SourceDisksFiles,sthda64.ini=1
+AddInf32Line=SourceDisksFiles,stacsv.exe=1
+AddInf64Line=SourceDisksFiles,stacsv64.exe=1
+AddInf32Line=SourceDisksFiles,idtsg.cpl=1
+AddInf64Line=SourceDisksFiles,idtsg64.cpl=1
+AddInfLine=SourceDisksFiles,92HDM6-1.ini=1
+AddInfLine=SourceDisksFiles,92HDM6-2.ini=1
+AddInfLine=SourceDisksFiles,92HDM4-6.ini=1
+AddInfLine=SourceDisksFiles,92HDM8-1.ini=1
+AddInf32Line=SourceDisksFiles,AESTAud.sys=1
+AddInf64Line=SourceDisksFiles,AESTAu64.sys=1
+AddInf64Line=SourceDisksFiles,AESTCt64.cpl=1
+AddInf64Line=SourceDisksFiles,AESTFl64.exe=1
+AddInf64Line=SourceDisksFiles,Ambft64.sys=1
+AddInf64Line=SourceDisksFiles,Monft64.sys=1
+AddInf32Line=SourceDisksFiles,Ambfilt.sys=1
+AddInf32Line=SourceDisksFiles,Monfilt.sys=1
+AddInfLine=SourceDisksFiles,CtAudPth.exe=1
+AddInf32Line=ST.SYS.CopyList,AESTAud.sys
+AddInf32Line=STHDA.Services,AddService=AESTAud,0x00000000,AESTAud_Service_Inst
+AddInf32Line=AESTAud.AddReg,HKR,,"UpperFilters",0x00010000,"AESTAud"
+AddInf32Line=AESTAud_Service_Inst,DisplayName="AE Audio Service"
+AddInf32Line=AESTAud_Service_Inst,ServiceType=1
+AddInf32Line=AESTAud_Service_Inst,StartType=3
+AddInf32Line=AESTAud_Service_Inst,ErrorControl=1
+AddInf32Line=AESTAud_Service_Inst,ServiceBinary=%10%\system32\drivers\AESTAud.sys
+AddInf32Line=ST.SYS.CopyList,MonFilt.sys
+AddInf32Line=ST.SYS.CopyList,AMBFilt.sys
+AddInf32Line=STHDA.Services,AddService=MonFilt,0x00000000,MonFilt_Service_Inst
+AddInf32Line=STHDA.Services,AddService=AMBFilt,0x00000000,AMBFilt_Service_Inst
+ReplaceInf32Line=STHDA.HW,AddReg,ST.Security.AddReg,AESTAud.AddReg,MonFilter.AddReg,AMBFilter.AddReg
+AddInf32Line=MonFilter.AddReg,HKR,,"Creative Mon Filters",0x00010000,"MonFilt"
+AddInf32Line=MonFilt_Service_Inst,DisplayName="Creative Mon Service"
+AddInf32Line=MonFilt_Service_Inst,ServiceType=1
+AddInf32Line=MonFilt_Service_Inst,StartType=3
+AddInf32Line=MonFilt_Service_Inst,ErrorControl=1
+AddInf32Line=MonFilt_Service_Inst,ServiceBinary=%10%\system32\drivers\MonFilt.sys
+AddInf32Line=AMBFilter.AddReg,HKR,,"Creative Mon Filters",0x00010000,"AMBFilt"
+AddInf32Line=AMBFilt_Service_Inst,DisplayName="Creative AMB Service"
+AddInf32Line=AMBFilt_Service_Inst,ServiceType=1
+AddInf32Line=AMBFilt_Service_Inst,StartType=3
+AddInf32Line=AMBFilt_Service_Inst,ErrorControl=1
+AddInf32Line=AMBFilt_Service_Inst,ServiceBinary=%10%\system32\drivers\AMBFilt.sys
+AddInf32Line=IDT,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_10280254
+AddInf32Line=IDT,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_10280255
+AddInf32Line=IDT,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_1028025E
+AddInf32Line=IDT,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_1028025F
+AddInf32Line=IDT,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_1028029F
+AddInf32Line=IDT,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_10280256
+AddInf32Line=IDT,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_10280257
+AddInf32Line=IDT,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_10280260
+AddInf32Line=IDT,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_10280261
+AddInf32Line=IDT,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_102802A0
+AddInf32Line=IDT,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_102802C2
+AddInf32Line=IDT,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_102802BE
+AddInf32Line=IDT,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7604&SUBSYS_102802BA
+AddInf32Line=IDT,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_76B2&SUBSYS_102802AA
+AddInf64Line=ST.SYS.CopyList,AESTAu64.sys
+AddInf64Line=STHDA.NTamd64.Services,AddService=AESTAud,0x00000000,AESTAud_Service_Inst
+AddInf64Line=AESTAud.AddReg,HKR,,"UpperFilters",0x00010000,"AESTAud"
+AddInf64Line=AESTAud_Service_Inst,DisplayName="AE Audio Service"
+AddInf64Line=AESTAud_Service_Inst,ServiceType=1
+AddInf64Line=AESTAud_Service_Inst,StartType=3
+AddInf64Line=AESTAud_Service_Inst,ErrorControl=1
+AddInf64Line=AESTAud_Service_Inst,ServiceBinary=%10%\system32\drivers\AESTAu64.sys
+AddInf64Line=ST.SYS.CopyList,Monft64.sys
+AddInf64Line=ST.SYS.CopyList,Ambft64.sys
+AddInf64Line=STHDA.NTamd64.Services,AddService=MonFilt64,0x00000000,MonFilt_Service_Inst
+AddInf64Line=STHDA.NTamd64.Services,AddService=AMBFilt64,0x00000000,AMBFilt_Service_Inst
+ReplaceInf64Line=STHDA.NTamd64.HW,AddReg,ST.Security.AddReg,AESTAud.AddReg,MonFilter.AddReg, AMBFilter.AddReg
+AddInf64Line=MonFilter.AddReg,HKR,,"Creative Mon Filters",0x00010000,"MonFilt"
+AddInf64Line=MonFilt_Service_Inst,DisplayName="Creative Mon Service"
+AddInf64Line=MonFilt_Service_Inst,ServiceType=1
+AddInf64Line=MonFilt_Service_Inst,StartType=3
+AddInf64Line=MonFilt_Service_Inst,ErrorControl=1
+AddInf64Line=MonFilt_Service_Inst,ServiceBinary=%10%\system32\drivers\Monft64.sys
+AddInf64Line=AMBFilter.AddReg,HKR,,"Creative Mon Filters",0x00010000,"AMBFilt"
+AddInf64Line=AMBFilt_Service_Inst,DisplayName="Creative AMB Service"
+AddInf64Line=AMBFilt_Service_Inst,ServiceType=1
+AddInf64Line=AMBFilt_Service_Inst,StartType=3
+AddInf64Line=AMBFilt_Service_Inst,ErrorControl=1
+AddInf64Line=AMBFilt_Service_Inst,ServiceBinary=%10%\system32\drivers\Ambft64.sys
+AddInf64Line=IDT.NTamd64,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_10280254
+AddInf64Line=IDT.NTamd64,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_10280255
+AddInf64Line=IDT.NTamd64,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_1028025E
+AddInf64Line=IDT.NTamd64,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_1028025F
+AddInf64Line=IDT.NTamd64,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_1028029F
+AddInf64Line=IDT.NTamd64,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_10280256
+AddInf64Line=IDT.NTamd64,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_10280257
+AddInf64Line=IDT.NTamd64,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_10280260
+AddInf64Line=IDT.NTamd64,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_10280261
+AddInf64Line=IDT.NTamd64,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_102802A0
+AddInf64Line=IDT.NTamd64,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_102802C2
+AddInf64Line=IDT.NTamd64,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675&SUBSYS_102802BE
+AddInf64Line=IDT.NTamd64,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7604&SUBSYS_102802BA
+AddInf64Line=IDT.NTamd64,%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_76B2&SUBSYS_102802AA

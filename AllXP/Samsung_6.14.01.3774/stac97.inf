@@ -1,0 +1,1785 @@
+; Copyright (c) 1999-2001 SigmaTel Inc.
+
+[Version]
+Signature="$CHICAGO$"
+Class=MEDIA
+ClassGUID={4d36e96c-e325-11ce-bfc1-08002be10318}
+provider=%SGTML%
+DriverVer=03/13/2003, 6.14.01.3774
+CatalogFile=stac97.cat
+
+[SourceDisksNames]
+222="AC97 WDM SigmaTel Driver Disk",,,
+
+[SourceDisksFiles]
+stac97.sys=222
+stac97.cpl=222
+
+[Manufacturer]
+%SgtmlMfg%=SigmaTel
+
+[SigmaTel]
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&SUBSYS_A0011458
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&SUBSYS_001B1025
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&SUBSYS_24C51054
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&SUBSYS_01FDA0A0
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&SUBSYS_01FFA0A0
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&SUBSYS_0229A0A0
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_0512147b
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_0513147b
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_0514147b
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_0515147b
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_90311509
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_FF001179
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_00191025
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_001214C0
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_001814C0
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_834610F7
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_02671014
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_31A2109F
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_C00A144D
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_C007144D
+
+
+%STAC97.DvDscInt%=STAC97_200C1631, PCI\VEN_8086&DEV_24C5&SUBSYS_200C1631
+%STAC97.DvDscInt%=STAC97_10051734, PCI\VEN_8086&DEV_24c5&subsys_10051734
+%STAC97.DvDscInt%=STAC97_7401147b, PCI\VEN_8086&DEV_24c5&subsys_0511147b
+%STAC97.DvDscInt%=STAC97_7401147b, PCI\VEN_8086&DEV_24c5&subsys_05110147
+%STAC97.DvDscInt%=STAC97_011D1028, PCI\VEN_8086&DEV_24C5&subsys_011D1028
+%STAC97.DvDscInt%=STAC97_011D1028, PCI\VEN_8086&DEV_24C5&subsys_011E1028
+%STAC97.DvDscInt%=STAC97_011D1028, PCI\VEN_8086&DEV_24C5&subsys_013E1028
+%STAC97.DvDscInt%=STAC97_011D1028, PCI\VEN_8086&DEV_24C5&subsys_013F1028
+%STAC97.DvDscInt%=STAC97_011D1028, PCI\VEN_8086&DEV_24C5&subsys_01391028
+%STAC97.DvDscInt%=STAC97_011D1028, PCI\VEN_8086&DEV_24C5&subsys_014E1028
+%STAC97.DvDscInt%=STAC97_011D1028, PCI\VEN_8086&DEV_24C5&subsys_01521028
+%STAC97.DvDscInt%=STAC97_011D1028, PCI\VEN_8086&DEV_24C5&subsys_01531028
+%STAC97.DvDscInt%=STAC97_011D1028, PCI\VEN_8086&DEV_24C5&subsys_01591028
+%STAC97.DvDscInt%=STAC97_011D1028, PCI\VEN_8086&DEV_24C5&subsys_015A1028
+%STAC97.DvDscInt%=STAC97_011D1028, PCI\VEN_8086&DEV_24C5&subsys_014f1028
+%STAC97.DvDscInt%=STAC97_011D1028, PCI\VEN_8086&DEV_24C5&subsys_01501028
+%STAC97.DvDscInt%=STAC97_011D1028, PCI\VEN_8086&DEV_24C5&subsys_01621028
+%STAC97.DvDscInt%=STAC97_011D1028, PCI\VEN_8086&DEV_24C5&subsys_01631028
+%STAC97.DvDscInt%=STAC97_01491028, PCI\VEN_8086&DEV_24C5&subsys_01491028
+%STAC97.DvDscInt%=STAC97_01491028, PCI\VEN_8086&DEV_24C5&subsys_015f1028
+%STAC97.DvDscInt%=STAC97_31A0109F, PCI\VEN_8086&DEV_24c5&subsys_31A0109F
+%STAC97.DvDscInt%=STAC97_3186109F, PCI\VEN_8086&DEV_24c5&subsys_3186109F
+%STAC97.DvDscInt%=STAC97_0450107B, PCI\VEN_8086&DEV_24c5&subsys_0450107B
+%STAC97.DvDscInt%=STAC97_0402107B, PCI\VEN_8086&DEV_24c5&subsys_0402107B
+%STAC97.DvDscInt%=STAC97_216014A4, PCI\VEN_8086&DEV_24c5&subsys_216014A4
+%STAC97.DvDscInt%=STAC97_03028086, PCI\VEN_8086&DEV_24c5&SUBSYS_03028086
+%STAC97.DvDscInt%=STAC97_03028086, PCI\VEN_8086&DEV_24c5&SUBSYS_03038086
+%STAC97.DvDscInt%=STAC97_03028086, PCI\VEN_8086&DEV_24c5&SUBSYS_03048086
+%STAC97.DvDscInt%=STAC97_03028086, PCI\VEN_8086&DEV_24c5&SUBSYS_03058086
+%STAC97.DvDscInt%=STAC97_03028086, PCI\VEN_8086&DEV_24c5&SUBSYS_19778086
+%STAC97.DvDscInt%=STAC97_00C50E11, PCI\VEN_8086&DEV_24c5&SUBSYS_00C50E11
+%STAC97.DvDscInt%=STAC97_11C310CF, PCI\VEN_8086&DEV_24c5&SUBSYS_11C310CF ; Ginger
+%STAC97.DvDscInt%=STAC97_117710CF, PCI\VEN_8086&DEV_24c5&SUBSYS_117710CF
+%STAC97.DvDscInt%=STAC97_17131043, PCI\VEN_8086&DEV_24c5&SUBSYS_17131043
+%STAC97.DvDscInt%=STAC97_17431043, PCI\VEN_8086&DEV_24c5&SUBSYS_17431043 ;M3N
+%STAC97.DvDscInt%=STAC97_80801071, PCI\VEN_8086&DEV_24c5&subsys_80801071
+%STAC97.DvDscInt%=STAC97_68161071, PCI\VEN_8086&DEV_24c5&subsys_68161071
+%STAC97.DvDscInt%=STAC97_C00D144D, PCI\VEN_8086&DEV_24c5&subsys_C00D144D ;Argo
+%STAC97.DvDscInt%=STAC97_C009144D, PCI\VEN_8086&DEV_24c5&subsys_C009144D ;Aquila-C 
+%STAC97.DvDscInt%=STAC97_0200107B, PCI\VEN_8086&DEV_24c5&subsys_0200107B ;Arcade
+
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_76008384 ;9700
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_2445&subsys_76088384 ;9700
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_76098384 ;9721
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_76448384 ;9744
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_76568384 ;9756
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_76508384 ;9750
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_76528384 ;9752
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_76668384 ;9766
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24c5&subsys_76588384
+
+[DestinationDirs]
+STAC97.CopyList=10,system32\drivers
+STAC97.CopyList1=11
+
+[STAC97]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_MD.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_MD.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_MD.AddReg]
+;This section is for resolving conflicts with registry settings
+
+;** OEM 200C1631 Specific Settings **
+[STAC97_200C1631]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_200C1631.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_200C1631.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_200C1631.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_200C1631.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_200C1631.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_200C1631.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_200C1631.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_200C1631.AddReg]
+HKR,%CfKyNm%,DisableVideo,                      1, 1
+HKR,%CfKyNm%,MICBoost,                          1, 1
+;** END OEM 200C1631 Specific Settings **
+
+;** OEM 10051734 Specific Settings **
+[STAC97_10051734]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_10051734.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_10051734.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_10051734.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_10051734.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_10051734.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_10051734.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_10051734.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_10051734.AddReg]
+
+HKR,%CfKyNm%,DisableWaveIn2, 1, 1
+HKR,%CfKyNm%,MasterMute, 1, 0
+HKR,%CfKyNm%,ActiveMuteDelayEnabled, 1, 0
+HKR,%CfKyNm%,EnableExtAmpControl, 1, 1
+HKR,%CfKyNm%,ExtAmpPops, 1,1
+HKR,%CfKyNm%,ExtAmpPowerUpOnSystemSuspend, 1,1
+HKR,%CfKyNm%,ExtAmpPowerDownTimeInMCS, 0x00010001, 5000 
+HKR,%CfKyNm%,ExtAmpPowerUpTimeInMCS, 0x00010001, 5000
+HKR,%CfKyNm%,CodecPowerUpDelayInMCS, 0x00010001, 1000
+HKR,%CfKyNm%,MasterVolume, 1, 00, 00, f9, ff ; 0404 r02
+HKR,%CfKyNm%,HeadphoneVolume, 1, 00, 00, f9, ff ; 0404 r04
+HKR,%CfKyNm%,LnlvlVolume, 1, 00, 00, f9, ff ; 0404 r04
+HKR,%CfKyNm%,MonoMixerAtMonoOutVolume, 1, 00, 00, f9, ff ; 0004 r06
+HKR,%CfKyNm%,PCBeepVolume, 1, 00, 00, 00, 00 ; 0000
+HKR,%CfKyNm%,PCMVolumeFixedLevel, 1, 07, 07
+HKR,%CfKyNm%,VideoVolume, 1, 00, 01, 0c, 00 ; 0000 +12dB
+HKR,%CfKyNm%,LineInMute, 1, 0
+HKR,%CfKyNm%,PhoneMute, 1, 1
+HKR,%CfKyNm%,AuxMute, 1, 1
+HKR,%CfKyNm%,VideoMute, 1, 1
+HKR,%CfKyNm%,WaveInMux, 1, 00, 00, 00, 00
+HKR,%CfKyNm%,PhoneAtRecMuxVolume, 1, 00, 81, 04, 00 ; 0303
+HKR,%CfKyNm%,MICAtRecMuxVolume, 1, 00, 81, 04, 00 ; 0303
+HKR,%CfKyNm%,CDAtRecMuxVolume, 1, 00, 81, 04, 00 ; 0303
+HKR,%CfKyNm%,VideoAtRecMuxVolume, 1, 00, 81, 04, 00 ; 0303
+HKR,%CfKyNm%,AuxAtRecMuxVolume, 1, 00, 81, 04, 00 ; 0303
+HKR,%CfKyNm%,LineInAtRecMuxVolume, 1, 00, 81, 04, 00 ; 0303
+HKR,%CfKyNm%,StereoMixAtRecMuxVolume, 1, 00, 81, 04, 00 ; 0303
+HKR,%CfKyNm%,MonoMixAtRecMuxVolume, 1, 00, 81, 04, 00 ; 0303
+HKR,%CfKyNm%,MonoOutMux, 1, 00, 00, 00, 00
+HKR,%CfKyNm%,DisableMonoOut, 1, 01
+HKR,%CfKyNm%,OverridePowerSupplyVoltageAutoDetect, 1, 1
+HKR,%CfKyNm%,PowerSupplyVoltageIs5V, 1, 1 ; 5V
+HKR,%CfKyNm%,EnableVRA, 1, 1
+HKR,%CfKyNm%,ADCVRADisables, 0x00010001, 254 ; 48
+HKR,%CfKyNm%,DACVRADisables, 0x00010001, 248 ; 48, 44.1, 32
+HKR,%CfKyNm%,CPL_SpdifTransmitterEnabledByUser, 1, 1
+HKR,%CfKyNm%,DisableSPDIFControl,1,0
+HKR,%CfKyNm%,DisablePCBeep, 1, 1
+HKR,%CfKyNm%,DisableSurround, 1, 1
+HKR,%CfKyNm%,DisableCenter, 1, 1
+HKR,%CfKyNm%,DisableLFE, 1, 1
+HKR,%CfKyNm%,DisableStereo2Virtual, 1, 1
+HKR,%CfKyNm%,DisableMono2Virtual, 1, 1
+HKR,%CfKyNm%,DisableWaveIn2, 1, 1
+HKR,%CfKyNm%,MICBoost, 1, 1
+HKR,%CfKyNm%,EnableNonPCMOnWin2K, 1, 1
+HKR,%CfKyNm%,MasterControlsAux, 1, 1
+HKR,%CfKyNm%,MasterControlsMono, 1, 1
+;** END OEM 10051734 Specific Settings **
+
+;**OEM 7401147b Specific Settings **
+[STAC97_7401147b]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_7401147b.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_7401147b.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_7401147b.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_7401147b.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_7401147b.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_7401147b.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_7401147b.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_7401147b.AddReg]
+HKR,%CfKyNm%,MICSelect, 1, 1 ;select Mic2
+HKR,%CfKyNm%,WaveInMux, 1, 00, 00, 00, 00 
+;** END OEM 7401147b Specific Settings **
+
+;** OEM 011D1028 Specific Settings **
+[STAC97_011D1028]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList,STAC97.CopyList1
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_011D1028.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_011D1028.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList,STAC97.CopyList1
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_011D1028.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_011D1028.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_011D1028.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_011D1028.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_011D1028.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_011D1028.AddReg]
+HKR,%CfKyNm%,DisablePCBeep,1, 1
+HKR,%CfKyNm%,DisablePhone,1, 1
+HKR,%CfKyNm%,DisableLineIn,1, 1
+HKR,%CfKyNm%,DisableCDIn,1, 0
+HKR,%CfKyNm%,DisableVideo,1, 1
+HKR,%CfKyNm%,DisableAux,1, 1
+HKR,%CfKyNm%,Disable3DControl,1, 1
+HKR,%CfKyNm%,DisableMonoVirtual,1, 1
+HKR,%CfKyNm%,DisableHeadphone,1, 1
+HKR,%CfKyNm%,DisableLnlvl,1, 1
+HKR,%CfKyNm%,DisableMonoOut,1, 1
+HKR,%CfKyNm%,DisablePeakmeters,1, 1
+HKR,%CfKyNm%,DisableMICSelect,1,1
+HKR,%CfKyNm%,EnableMuteReg02InMasterAdvanced,1,1
+HKR,%CfKyNm%,MuteReg02InMasterAdvancedDefault,1,0
+HKR,%CfKyNm%,PCBeepMute,1, 1
+HKR,%CfKyNm%,PhoneMute,1, 0
+HKR,%CfKyNm%,LineInMute,1, 1
+HKR,%CfKyNm%,CDMute,1, 1
+HKR,%CfKyNm%,CDVolume,1, 00, f0, e9, ff ;0x1616
+HKR,%CfKyNm%,VideoMute,1, 1
+HKR,%CfKyNm%,AuxMute,1, 1
+HKR,%CfKyNm%,SurroundMute,1, 1
+HKR,%CfKyNm%,CenterMute,1, 1
+HKR,%CfKyNm%,LFEMute,1, 1
+HKR,%CfKyNm%,3DDepthEnable,1, 1
+HKR,%CfKyNm%,HeadphoneMute,1, 1
+HKR,%CfKyNm%,TrueLevelMute,1, 1
+HKR,%CfKyNm%,WaveInMux,1, 00, 00, 00, 00
+HKR,%CfKyNm%,GPIOControl,1, 1
+HKR,%CfKyNm%,EmulateAllMasters,1, 1
+HKR,%CfKyNm%,DisableMicFromPlayback,1, 1
+HKR,%CfKyNm%,MasterControlsAux,1, 1
+HKR,%CfKyNm%,MasterControlsMono,1, 0
+HKR,%CfKyNm%,MICAtRecMuxVolume,1, 00, 30, 10, 00
+HKR,%CfKyNm%,GPIOActions,1, 00, 00, 00, 00, 00, 01, 02, 01
+HKR,%CfKyNm%,EnableVrefPowerDown,1, 1
+HKR,%CfKyNm%,VrefPowerDownTimeInMS,0x00010001, 1
+HKR,%CfKyNm%,EnableNonPCMOnWin2K,1, 1
+HKR,%CfKyNm%,PCMVolumeFixedLevel,1, 06, 06
+HKR,%CfKyNm%,CPL_SaveExtraPower,1,1
+HKR,%CfKyNm%,CPL_UserControlsOnlyOnOff,1,1
+HKR,%CfKyNm%,CPL_SecondsAfter,0x00010001,15
+HKR,%CfKyNm%,GPIOSPDIFControl,1,1
+HKR,%CfKyNm%,CodecPowerDownMask,1,00,03 ; DAC,ADC
+HKR,%CfKyNm%,EnableExtAmpControl,1,0
+HKR,%CfKyNm%,CPL_MaySwitchExtAmpPowerState,1,0
+;** END OEM 011D1028 Specific Settings **
+
+;** OEM 01491028 Specific Settings **
+[STAC97_01491028]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList,STAC97.CopyList1
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_011D1028.AddReg, STAC97_01491028.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_01491028.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList,STAC97.CopyList1
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_011D1028.AddReg, STAC97_01491028.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_01491028.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_01491028.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_01491028.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_01491028.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_01491028.AddReg]
+HKR,%CfKyNm%,MICBoost,                          1, 1
+HKR,%CfKyNm%,SPDIFOutputDisable,1, 1
+HKR,%CfKyNm%,DisableSPDIFControl,1, 1
+;** END OEM 01491028 Specific Settings **
+
+;** OEM 31A0109F Specific Settings **
+[STAC97_31A0109F]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_31A0109F.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_31A0109F.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_31A0109F.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_31A0109F.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_31A0109F.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_31A0109F.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_31A0109F.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_31A0109F.AddReg]
+HKR,%CfKyNm%,MasterControlsAux,1, 1
+HKR,%CfKyNm%,WaveInMux,1, 00, 00, 00, 00
+HKR,%CfKyNm%,DCRecordBias,1, 7F, 00, 00, 00
+HKR,%CfKyNm%,D0DelayMilliSeconds,1, A0, 0F, 00, 00; Delay 4 seconds on transition to D0.
+;** END OEM 31A0109F Specific Settings **
+
+;** OEM 3186109F Specific Settings **
+[STAC97_3186109F]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_3186109F.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_3186109F.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_3186109F.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_3186109F.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_3186109F.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_3186109F.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_3186109F.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_3186109F.AddReg]
+HKR,%CfKyNm%,MasterControlsAux,1, 1
+HKR,%CfKyNm%,WaveInMux,1, 00, 00, 00, 00
+HKR,%CfKyNm%,GPIOActions,1, 00, 00, 01, 01
+HKR,%CfKyNm%,DCRecordBias,1, 7F, 00, 00, 00
+;** END OEM 3186109F Specific Settings **
+
+;** OEM 216014A4 Specific Settings **
+[STAC97_216014A4]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_216014A4.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_216014A4.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_216014A4.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_216014A4.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_216014A4.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_216014A4.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_216014A4.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_216014A4.AddReg]
+HKR,%CfKyNm%,3DDepthEnable,1, 1
+HKR,%CfKyNm%,Disable3DControl,1, 1
+;** END OEM 216014A4 Specific Settings **
+
+;** OEM 0450107B Specific Settings **
+[STAC97_0450107B]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_0450107B.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_0450107B.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_0450107B.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_0450107B.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_0450107B.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_0450107B.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_0450107B.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_0450107B.AddReg]
+HKR,%CfKyNm%,WaveInMux, 1, 00, 00, 00, 00
+HKR,%CfKyNm%,MICBoost, 1, 1
+HKR,%CfKyNm%,MICAtRecMuxVolume, 1, 00, 30, 10, 00 ; (0-168000), 50%: 00130000
+HKR,%CfKyNm%,MICVolume, 1, 00, 00, 06, 00
+HKR,%CfKyNm%,MasterVolume, 1, 00, 00, FA, FF
+HKR,%CfKyNm%,PhoneVolume, 1, 00, 00, 06, 00
+HKR,%CfKyNm%,PhoneMute, 1, 0
+HKR,%CfKyNm%,PCBeepMute, 1, 0
+HKR,%CfKyNm%,DisableMICSelect, 1, 1
+HKR,%CfKyNm%,GPIOControl,1, 1
+HKR,%CfKyNm%,GPIOActions,1, 00, 00, 00, 01
+HKR,%CfKyNm%,PCMVolumeFixedLevel,1, 06, 06
+HKR,%CfKyNm%,DisableLineInFromPlayback,1, 1
+HKR,%CfKyNm%,EmulateAllMasters,1, 1
+HKR,%CfKyNm%,RaiseToHighLevelIrqlOnCodecAccess, 1, 1
+
+; JackSense Cal_Config
+HKR,JackSense\Codec1\HPJack,GPIOSwitch,0x00010001,1
+HKR,JackSense\Codec1\HPJack,GPIOPolarity,0x00010001,1
+HKR,JackSense\Codec1\LineInJack,JackDisabled,0x00010001,1
+HKR,JackSense\Codec1\LineOutJack,JackDisabled,0x00010001,1
+
+; OA2 EQ
+HKR,Settings\EQ,NumBands,0x00010001, 5
+HKR,Settings\EQ\Band1,Flags1,0x00010001, 0x00010101
+HKR,Settings\EQ\Band1,Freq1,0x00010001, 0x000000a2
+HKR,Settings\EQ\Band1,BWx1001,0x00010001, 0x00000064
+HKR,Settings\EQ\Band1,Gainx1001,0x00010001, 0xfffff380
+
+HKR,Settings\EQ\Band2,Flags1,0x00010001, 0x00020100
+HKR,Settings\EQ\Band2,Freq1,0x00010001, 0x00000276
+HKR,Settings\EQ\Band2,BWx1001,0x00010001, 0x00000096
+HKR,Settings\EQ\Band2,Gainx1001,0x00010001, 0xfffffef3
+
+HKR,Settings\EQ\Band3,Flags1,0x00010001, 0x00040100
+HKR,Settings\EQ\Band3,Freq1,0x00010001, 0x000003c0
+HKR,Settings\EQ\Band3,BWx1001,0x00010001, 0x00000096
+HKR,Settings\EQ\Band3,Gainx1001,0x00010001, 0xfffffb66
+
+HKR,Settings\EQ\Band4,Flags1,0x00010001, 0x00080100
+HKR,Settings\EQ\Band4,Freq1,0x00010001, 0x00000960
+HKR,Settings\EQ\Band4,BWx1001,0x00010001, 0x0000008b
+HKR,Settings\EQ\Band4,Gainx1001,0x00010001, 0xfffffec1
+
+HKR,Settings\EQ\Band5,Flags1,0x00010001, 0x00100100
+HKR,Settings\EQ\Band5,Freq1,0x00010001, 0x000020d0
+HKR,Settings\EQ\Band5,BWx1001,0x00010001, 0x000000bd
+HKR,Settings\EQ\Band5,Gainx1001,0x00010001, 0xfffffead
+
+HKR,Settings\EQ\Band1,Flags2,0x00010001, 0x00010201
+HKR,Settings\EQ\Band1,Freq2,0x00010001, 0x000000a2
+HKR,Settings\EQ\Band1,BWx1002,0x00010001, 0x00000064
+HKR,Settings\EQ\Band1,Gainx1002,0x00010001, 0xfffff380
+
+HKR,Settings\EQ\Band2,Flags2,0x00010001, 0x00020200
+HKR,Settings\EQ\Band2,Freq2,0x00010001, 0x00000276
+HKR,Settings\EQ\Band2,BWx1002,0x00010001, 0x00000096
+HKR,Settings\EQ\Band2,Gainx1002,0x00010001, 0xfffffef3
+
+HKR,Settings\EQ\Band3,Flags2,0x00010001, 0x00040200
+HKR,Settings\EQ\Band3,Freq2,0x00010001, 0x000003c0
+HKR,Settings\EQ\Band3,BWx1002,0x00010001, 0x00000096
+HKR,Settings\EQ\Band3,Gainx1002,0x00010001, 0xfffffb66
+
+HKR,Settings\EQ\Band4,Flags2,0x00010001, 0x00080200
+HKR,Settings\EQ\Band4,Freq2,0x00010001, 0x00000960
+HKR,Settings\EQ\Band4,BWx1002,0x00010001, 0x0000008b
+HKR,Settings\EQ\Band4,Gainx1002,0x00010001, 0xfffffec1
+
+HKR,Settings\EQ\Band5,Flags2,0x00010001, 0x00100200
+HKR,Settings\EQ\Band5,Freq2,0x00010001, 0x000020d0
+HKR,Settings\EQ\Band5,BWx1002,0x00010001, 0x000000bd
+HKR,Settings\EQ\Band5,Gainx1002,0x00010001, 0xfffffead 
+;** END OEM 0450107B Specific Settings **
+
+;** OEM 0402107B Specific Settings **
+[STAC97_0402107B]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_0402107B.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_0402107B.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_0402107B.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_0402107B.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_0402107B.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_0402107B.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_0402107B.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_0402107B.AddReg]
+HKR,%CfKyNm%,WaveInMux, 1, 00, 00, 00, 00
+HKR,%CfKyNm%,MICBoost, 1, 1
+HKR,%CfKyNm%,MICAtRecMuxVolume, 1, 00, 30, 10, 00	; (0-168000), 50%: 00130000
+HKR,%CfKyNm%,MICVolume, 1, 00, 00, 06, 00
+HKR,%CfKyNm%,MasterVolume, 1, 00, 00, FA, FF
+HKR,%CfKyNm%,PhoneVolume, 1, 00, 00, 06, 00
+HKR,%CfKyNm%,PhoneMute, 1, 0
+HKR,%CfKyNm%,PCBeepMute, 1, 0
+HKR,%CfKyNm%,DisableMICSelect, 1, 1
+HKR,%CfKyNm%,SPDIFOutputDisable,1, 1
+HKR,%CfKyNm%,DisableSPDIFControl,1, 1
+HKR,%CfKyNm%,DisableMICSelect,1, 1
+HKR,%CfKyNm%,GPIOControl,1, 1
+HKR,%CfKyNm%,GPIOActions,1, 00, 00, 00, 01
+HKR,%CfKyNm%,PCMVolumeFixedLevel,1, 06, 06
+HKR,%CfKyNm%,DisableLineInFromPlayback,1, 1
+HKR,%CfKyNm%,EmulateAllMasters,1, 1
+HKR,%CfKyNm%,RaiseToHighLevelIrqlOnCodecAccess, 1, 1
+
+; JackSense Cal_Config
+HKR,JackSense\Codec1\HPJack,GPIOSwitch,0x00010001,1
+HKR,JackSense\Codec1\HPJack,GPIOPolarity,0x00010001,1
+HKR,JackSense\Codec1\LineInJack,JackDisabled,0x00010001,1
+HKR,JackSense\Codec1\LineOutJack,JackDisabled,0x00010001,1
+
+; OA5 EQ
+HKR,Settings\EQ,NumBands,0x00010001, 5
+HKR,Settings\EQ\Band1,Flags1,0x00010001, 0x00010101
+HKR,Settings\EQ\Band1,Freq1,0x00010001, 0x000000a8
+HKR,Settings\EQ\Band1,BWx1001,0x00010001, 0x00000064
+HKR,Settings\EQ\Band1,Gainx1001,0x00010001, 0xfffff380
+
+HKR,Settings\EQ\Band2,Flags1,0x00010001, 0x00020100
+HKR,Settings\EQ\Band2,Freq1,0x00010001, 0x000001f4
+HKR,Settings\EQ\Band2,BWx1001,0x00010001, 0x00000045
+HKR,Settings\EQ\Band2,Gainx1001,0x00010001, 0xfffffeb7
+
+HKR,Settings\EQ\Band3,Flags1,0x00010001, 0x00040100
+HKR,Settings\EQ\Band3,Freq1,0x00010001, 0x000004b0
+HKR,Settings\EQ\Band3,BWx1001,0x00010001, 0x00000032
+HKR,Settings\EQ\Band3,Gainx1001,0x00010001, 0xfffffd29
+
+HKR,Settings\EQ\Band4,Flags1,0x00010001, 0x00080100
+HKR,Settings\EQ\Band4,Freq1,0x00010001, 0x000009c4
+HKR,Settings\EQ\Band4,BWx1001,0x00010001, 0x00000064
+HKR,Settings\EQ\Band4,Gainx1001,0x00010001, 0xfffffe9b
+
+HKR,Settings\EQ\Band5,Flags1,0x00010001, 0x00100100
+HKR,Settings\EQ\Band5,Freq1,0x00010001, 0x000021fc
+HKR,Settings\EQ\Band5,BWx1001,0x00010001, 0x000000bd
+HKR,Settings\EQ\Band5,Gainx1001,0x00010001, 0xffffff57
+
+HKR,Settings\EQ\Band1,Flags2,0x00010001, 0x00010201
+HKR,Settings\EQ\Band1,Freq2,0x00010001, 0x000000a8
+HKR,Settings\EQ\Band1,BWx1002,0x00010001, 0x00000064
+HKR,Settings\EQ\Band1,Gainx1002,0x00010001, 0xfffff380
+
+HKR,Settings\EQ\Band2,Flags2,0x00010001, 0x00020200
+HKR,Settings\EQ\Band2,Freq2,0x00010001, 0x000001f4
+HKR,Settings\EQ\Band2,BWx1002,0x00010001, 0x00000045
+HKR,Settings\EQ\Band2,Gainx1002,0x00010001, 0xfffffeb7
+
+HKR,Settings\EQ\Band3,Flags2,0x00010001, 0x00040200
+HKR,Settings\EQ\Band3,Freq2,0x00010001, 0x000004b0
+HKR,Settings\EQ\Band3,BWx1002,0x00010001, 0x00000032
+HKR,Settings\EQ\Band3,Gainx1002,0x00010001, 0xfffffd29
+
+HKR,Settings\EQ\Band4,Flags2,0x00010001, 0x00080200
+HKR,Settings\EQ\Band4,Freq2,0x00010001, 0x000009c4
+HKR,Settings\EQ\Band4,BWx1002,0x00010001, 0x00000064
+HKR,Settings\EQ\Band4,Gainx1002,0x00010001, 0xfffffe9b
+
+HKR,Settings\EQ\Band5,Flags2,0x00010001, 0x00100200
+HKR,Settings\EQ\Band5,Freq2,0x00010001, 0x000021fc
+HKR,Settings\EQ\Band5,BWx1002,0x00010001, 0x000000bd
+HKR,Settings\EQ\Band5,Gainx1002,0x00010001, 0xffffff57
+;** END OEM 0402107B Specific Settings **
+
+;** OEM 03028086 Specific Settings **
+[STAC97_03028086]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_03028086.AddReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_03028086.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_03028086.AddReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_03028086.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_03028086.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_03028086.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_03028086.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_03028086.AddReg]
+HKR,%CfKyNm%,DisableSPDIFControl,              1, 1
+HKR,%CfKyNm%,SPDIFOutputDisable,               1, 1
+;** END OEM 03028086 Specific Settings ** 
+
+;** OEM 00C50E11 Specific Settings **
+[STAC97_00C50E11]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_00C50E11.AddReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_00C50E11.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_00C50E11.AddReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_00C50E11.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_00C50E11.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_00C50E11.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_00C50E11.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_00C50E11.AddReg]
+HKR,%CfKyNm%,DisableSPDIFControl,1, 1
+HKR,%CfKyNm%,SPDIFOutputDisable,1, 1
+HKR,%CfKyNm%,DisablePCBeep,1, 1
+HKR,%CfKyNm%,DisablePhone,1, 1
+HKR,%CfKyNm%,DisableVideo,1, 1
+HKR,%CfKyNm%,DisableAux,1, 0
+;** END OEM 00C50E11 Specific Settings ** 
+
+;** OEM 11C310CF Specific Settings **
+[STAC97_11C310CF]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList,STAC97.CopyList1
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_11C310CF.AddReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_11C310CF.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList,STAC97.CopyList1
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_11C310CF.AddReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_11C310CF.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_11C310CF.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_11C310CF.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_11C310CF.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_11C310CF.AddReg]
+HKR,%CfKyNm%,CPL_Oem,1, 01, 00, 00, 00
+HKR,%CfKyNm%,OverridePowerSupplyVoltageAutoDetect, 1, 1
+HKR,%CfKyNm%,PowerSupplyVoltageIs5V, 1, 1 ; 5V
+HKR,%CfKyNm%,EnableVRA, 1, 1
+HKR,%CfKyNm%,ADCVRADisables, 0x00010001, 254 ; 48
+HKR,%CfKyNm%,DACVRADisables, 0x00010001, 248 ; 48, 44.1, 32
+HKR,%CfKyNm%,CPL_SaveExtraPower,1,0
+HKR,%CfKyNm%,CPL_SecondsAfter,0x00010001,30
+HKR,%CfKyNm%,CPL_MaySwitchExtAmpPowerState,1,0
+HKR,%CfKyNm%,CPL_UserControlsMaySwitchExtAmpPowerState,1,1
+HKR,%CfKyNm%,CPL_FixedDigitalOutRate,0x00010001,0 ; "dynamic"
+HKR,%CfKyNm%,CPL_UserControlsFixedDigitalOutRate, 1, 1
+HKR,%CfKyNm%,CPL_SpdifTransmitterEnabledByUser, 1, 1
+HKR,%CfKyNm%,DisableSPDIFControl,1,1
+HKR,%CfKyNm%,DisableAux,1, 1
+HKR,%CfKyNm%,DisableSurround,1, 1
+HKR,%CfKyNm%,DisableCenter,1, 1
+HKR,%CfKyNm%,DisableLFE,1, 1
+HKR,%CfKyNm%,DisableStereo2Virtual,1, 1
+HKR,%CfKyNm%,DisableMono2Virtual,1, 1
+HKR,%CfKyNm%,DisableWaveIn2,1, 1
+HKR,%CfKyNm%,ExposeSoftModem,1,1
+HKR,%CfKyNm%,MasterControlsAux,  1, 0
+HKR,%CfKyNm%,MasterVolumeSwapHp, 1, 1 ;Swaps the Master Volume registers and Headphone Volume registers
+HKR,%CfKyNm%,EnableFinalBeepThroughPC_BEEP, 1, 1
+HKR,Settings,DacSampSignControl,1,0
+HKR,Settings,AdcSampSignControl,1,0
+HKR,%CfKyNm%,MasterVolume,1, 00, b0, f0, ff
+HKR,%CfKyNm%,DisableLnlvl,1, 0
+HKR,%CfKyNm%,TrueLevelVolume,1, 00, 20, fa, ff
+HKR,%CfKyNm%,TrueLevelMute,1, 0
+HKR,%CfKyNm%,CDVolume,1, 00, 00, 06, 00
+HKR,%CfKyNm%,VideoVolume,1, 00, 00, 06, 00
+HKR,%CfKyNm%,PCBeepVolume,1, 00, 20, fa, ff
+HKR,%CfKyNm%,PCBeepMute,1, 0
+HKR,%CfKyNm%,PhoneVolume,1, 00, 00, 00, 00
+HKR,%CfKyNm%,PhoneMute,1, 0
+HKR,%CfKyNm%,LineInVolume,1, 00, 00, 00, 00
+HKR,%CfKyNm%,LineInMute,1, 0
+HKR,%CfKyNm%,WaveInMux,1, 00, 00, 00, 00
+HKR,%CfKyNm%,PhoneAtRecMuxVolume,1, 00, 38, 04, 00
+HKR,%CfKyNm%,MICAtRecMuxVolume,1, 00, 38, 04, 00
+HKR,%CfKyNm%,CDAtRecMuxVolume,1, 00, 38, 04, 00
+HKR,%CfKyNm%,VideoAtRecMuxVolume,1, 00, a0, 10, 00
+HKR,%CfKyNm%,AuxAtRecMuxVolume,1, 00, 38, 04, 00
+HKR,%CfKyNm%,LineInAtRecMuxVolume,1, 00, 38, 04, 00
+HKR,%CfKyNm%,StereoMixAtRecMuxVolume,1, 00, 38, 04, 00
+HKR,%CfKyNm%,MonoMixAtRecMuxVolume,1, 00, 38, 04, 00
+HKR,%CfKyNm%,MonoOutMux,1, 00, 00, 00, 00
+HKR,%CfKyNm%,MICAtMonoOutVolume,1, 00, 20, fa, ff
+HKR,%CfKyNm%,MonoMixerAtMonoOutVolume,1, 00, 20, fa, ff
+HKR,%CfKyNm%,UseAltNameForPcBeep, 1, 1
+HKR,%CfKyNm%,PCMVolumeFixedLevel,1, 07, 07
+;** END OEM 11C310CF Specific Settings ** 
+
+;** OEM 117710CF Specific Settings **
+[STAC97_117710CF]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList,STAC97.CopyList1
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_117710CF.AddReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_117710CF.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList,STAC97.CopyList1
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_117710CF.AddReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_117710CF.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_117710CF.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_117710CF.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_117710CF.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_117710CF.AddReg]
+HKR,%CfKyNm%,CPL_Oem,1, 01, 00, 00, 00
+HKR,%CfKyNm%,OverridePowerSupplyVoltageAutoDetect, 1, 1
+HKR,%CfKyNm%,PowerSupplyVoltageIs5V, 1, 1 ; 5V
+HKR,%CfKyNm%,EnableVRA, 1, 1
+HKR,%CfKyNm%,ADCVRADisables, 0x00010001, 254 ; 48
+HKR,%CfKyNm%,DACVRADisables, 0x00010001, 248 ; 48, 44.1, 32
+HKR,%CfKyNm%,CPL_SaveExtraPower,1,0
+HKR,%CfKyNm%,CPL_SecondsAfter,0x00010001,30
+HKR,%CfKyNm%,CPL_MaySwitchExtAmpPowerState,1,0
+HKR,%CfKyNm%,CPL_UserControlsMaySwitchExtAmpPowerState,1,1
+HKR,%CfKyNm%,CPL_FixedDigitalOutRate,0x00010001,0 ; "dynamic"
+HKR,%CfKyNm%,CPL_UserControlsFixedDigitalOutRate, 1, 1
+HKR,%CfKyNm%,CPL_SpdifTransmitterEnabledByUser, 1, 1
+HKR,%CfKyNm%,DisableSPDIFControl,1,1
+HKR,%CfKyNm%,DisableAux,1, 1
+HKR,%CfKyNm%,DisableSurround,1, 1
+HKR,%CfKyNm%,DisableCenter,1, 1
+HKR,%CfKyNm%,DisableLFE,1, 1
+HKR,%CfKyNm%,DisableStereo2Virtual,1, 1
+HKR,%CfKyNm%,DisableMono2Virtual,1, 1
+HKR,%CfKyNm%,DisableWaveIn2,1, 1
+HKR,%CfKyNm%,ExposeSoftModem,1,1
+HKR,Settings,DacSampSignControl,1,0
+HKR,Settings,AdcSampSignControl,1,0
+HKR,%CfKyNm%,MasterVolume,1, 00, 20, fa, ff
+HKR,%CfKyNm%,DisableLnlvl,1, 0
+HKR,%CfKyNm%,TrueLevelVolume,1, 00, 20, fa, ff
+HKR,%CfKyNm%,TrueLevelMute,1, 0
+HKR,%CfKyNm%,CDVolume,1, 00, 00, 06, 00
+HKR,%CfKyNm%,VideoVolume,1, 00, 00, 06, 00
+HKR,%CfKyNm%,PCBeepVolume,1, 00, 00, d3, ff
+HKR,%CfKyNm%,PCBeepMute,1, 1
+HKR,%CfKyNm%,PhoneVolume,1, 00, 00, 00, 00
+HKR,%CfKyNm%,PhoneMute,1, 0
+HKR,%CfKyNm%,LineInVolume,1, 00, 00, 00, 00
+HKR,%CfKyNm%,LineInMute,1, 0
+HKR,%CfKyNm%,WaveInMux,1, 00, 00, 00, 00
+HKR,%CfKyNm%,PhoneAtRecMuxVolume,1, 00, 38, 04, 00
+HKR,%CfKyNm%,MICAtRecMuxVolume,1, 00, 38, 04, 00 
+HKR,%CfKyNm%,CDAtRecMuxVolume,1, 00, 38, 04, 00
+HKR,%CfKyNm%,VideoAtRecMuxVolume,1, 00, a0, 10, 00
+HKR,%CfKyNm%,AuxAtRecMuxVolume,1, 00, 38, 04, 00
+HKR,%CfKyNm%,LineInAtRecMuxVolume,1, 00, 38, 04, 00
+HKR,%CfKyNm%,StereoMixAtRecMuxVolume,1, 00, 38, 04, 00
+HKR,%CfKyNm%,MonoMixAtRecMuxVolume,1, 00, 38, 04, 00
+HKR,%CfKyNm%,MonoOutMux,1, 00, 00, 00, 00
+HKR,%CfKyNm%,MICAtMonoOutVolume,1, 00, 20, fa, ff
+HKR,%CfKyNm%,MonoMixerAtMonoOutVolume,1, 00, 20, fa, ff
+HKR,%CfKyNm%,PCMVolumeFixedLevel,1, 07, 07
+HKR,%CfKyNm%,DisablePCBeep,1, 01
+;** END OEM 117710CF Specific Settings ** 
+
+;** OEM 17131043 Specific Settings **
+[STAC97_17131043]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_17131043.AddReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_17131043.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_17131043.AddReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_17131043.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_17131043.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_17131043.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_17131043.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_17131043.AddReg]
+HKR,%CfKyNm%,DisableLineIn,1, 1
+HKR,%CfKyNm%,WaveInMux,1, 00, 00, 00, 00
+HKR,%CfKyNm%,MasterVolume,1, 00, 60, fe, ff
+HKR,%CfKyNm%,PCBeepMute,1, 0
+HKR,%CfKyNm%,PCBeepVolume,1, 00, 20, fa, ff
+HKR,%CfKyNm%,CDVolume,1, 00, 00, 00, 00
+
+;** END OEM 17131043 Specific Settings **
+
+;** OEM 17431043 Specific Settings **
+[STAC97_17431043]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_17431043.AddReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_17431043.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_17431043.AddReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_17431043.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_17431043.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_17431043.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_17431043.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_17431043.AddReg]
+HKR,%CfKyNm%,DisableLineIn,1, 1
+HKR,%CfKyNm%,WaveInMux,1, 00, 00, 00, 00
+HKR,%CfKyNm%,MasterVolume,1, 00, 60, fe, ff
+HKR,%CfKyNm%,PCBeepMute,1, 0
+HKR,%CfKyNm%,PCBeepVolume,1, 00, 20, fa, ff
+HKR,%CfKyNm%,CDVolume,1, 00, 00, 00, 00
+HKR,%CfKyNm%,CPL_SpdifTransmitterEnabledByUser, 1, 0
+
+;** END OEM 17431043 Specific Settings **
+
+;** OEM 68161071 Specific Settings **
+[STAC97_68161071]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_68161071.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_68161071.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_68161071.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_68161071.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_68161071.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_68161071.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_68161071.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_68161071.AddReg]
+HKR,%CfKyNm%,PCBeepMute,                        1, 0                    ; 0, unmuted, 1 muted
+HKR,%CfKyNm%,CDAtRecMuxVolume,1, 00, 38, 04, 00
+HKR,%CfKyNm%,DisableMICSelect,                  1, 1                    ; Disables Alt Mic from window
+
+;** END OEM 68161071 Specific Settings **
+
+;** OEM 80801071 Specific Settings **
+[STAC97_80801071]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_80801071.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_80801071.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_80801071.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_80801071.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_80801071.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_80801071.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_80801071.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_80801071.AddReg]
+HKR,%CfKyNm%,CPL_SpdifTransmitterEnabledByUser, 1, 1
+HKR,%CfKyNm%,CPL_FixedDigitalOutRate, 1, 48000
+
+;** END OEM 80801071 Specific Settings **
+
+;** OEM C00D144D Specific Settings **
+[STAC97_C00D144D]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_C00D144D.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_C00D144D.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_C00D144D.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_C00D144D.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_C00D144D.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_C00D144D.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_C00D144D.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_C00D144D.AddReg]
+HKR,%CfKyNm%,DisableLineIn,1, 1
+HKR,%CfKyNm%,DisableAux,1, 1
+HKR,%CfKyNm%,DisableVideo,1, 1
+HKR,%CfKyNm%,Disable3DControl,1, 1
+HKR,%CfKyNm%,CPL_SpdifTransmitterEnabledByUser, 1, 1
+HKR,%CfKyNm%,PCBeepMute,1, 0
+HKR,%CfKyNm%,PhoneMute,1, 0
+
+;** END OEM C00D144D Specific Settings **
+
+;** OEM C009144D Specific Settings **
+
+[STAC97_C009144D]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_C009144D.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_C009144D.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_C009144D.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+
+[STAC97_C009144D.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_C009144D.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_C009144D.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_C009144D.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_C009144D.AddReg]
+HKR,%CfKyNm%,DisableLineIn,1, 1
+HKR,%CfKyNm%,DisableAux,1, 1
+HKR,%CfKyNm%,DisableVideo,1, 1
+HKR,%CfKyNm%,Disable3DControl,1, 1
+HKR,%CfKyNm%,CPL_SpdifTransmitterEnabledByUser, 1, 1
+HKR,%CfKyNm%,DisableMICSelect,                  1, 1                    ; Disables Alt Mic from window
+HKR,%CfKyNm%,CDVolumeMaxVol,			1,05 ;-6dB
+HKR,%CfKyNm%,PCBeepMute,1, 0
+HKR,%CfKyNm%,PhoneMute,1, 0
+
+;** END OEM C009144D Specific Settings **
+
+;** OEM 0200107B Specific Settings **
+[STAC97_0200107B]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_0200107B.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_0200107B.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MC.AddReg, STAC97_0200107B.AddReg
+DelReg=STAC97.DelReg
+DriverVer=03/13/2003, 6.14.01.3774
+
+[STAC97_0200107B.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_0200107B.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97_0200107B.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_0200107B.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+[STAC97_0200107B.AddReg]
+HKR,%CfKyNm%,DisableLineIn,1, 1
+HKR,%CfKyNm%,DisableAux,1, 1
+HKR,%CfKyNm%,DisableVideo,1, 1
+HKR,%CfKyNm%,Disable3DControl,1, 1
+HKR,%CfKyNm%,CPL_SpdifTransmitterEnabledByUser, 1, 1
+HKR,%CfKyNm%,DisableMICSelect,                  1, 1                    ; Disables Alt Mic from window
+HKR,%CfKyNm%,PCBeepMute,1, 0
+HKR,%CfKyNm%,PhoneMute,1, 0
+
+;** END OEM 0200107B Specific Settings **
+
+
+;** Common **
+;Affects all drivers
+
+[STAC97.CopyList]
+STAC97.sys
+
+[STAC97.CopyList1]
+STAC97.cpl
+
+[STAC97.ItFc.Wave]
+AddReg=STAC97.I.Wave.AddReg
+
+[STAC97.I.Wave.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%STAC97.Wave.szPname%
+
+[STAC97.ItFc.AWave]
+AddReg=STAC97.I.AWave.AddReg
+
+[STAC97.I.AWave.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%STAC97.AWave.szPname%
+
+[STAC97.ItFc.Topology]
+AddReg=STAC97.I.Topo.AddReg
+
+[STAC97.I.Topo.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%STAC97.Topology.szPname%
+
+[STAC97.ItFc.UART]
+AddReg=STAC97.ItFc.UART.AddReg
+[STAC97.ItFc.UART.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%STAC97.UART.szPname%
+
+[STAC97.DelReg]
+HKCU,%SndVolSigKey%
+HKU,%SndVolSigKey%
+HKR,%CfKyNm%
+
+[STAC97.AddReg]
+HKR,,AssociatedFilters,,"wdmaud,swmidi,redbook"
+HKR,,Driver,,STAC97.sys
+HKR,,NTMPDriver,,"STAC97.sys,sbemul.sys"
+
+HKR,Drivers,SubClasses,,"wave,midi,mixer"
+
+HKR,Drivers\wave\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\midi\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\mixer\wdmaud.drv,Driver,,wdmaud.drv
+
+HKR,Drivers\wave\wdmaud.drv,Description,,%STAC97.DeviceDesc%
+HKR,Drivers\midi\wdmaud.drv, Description,,%WDM_MIDI%
+HKR,Drivers\mixer\wdmaud.drv,Description,,%STAC97.DeviceDesc%
+
+[STAC97_Service_Inst]
+DisplayName   = %STAC97.SvcDesc%
+ServiceType   = 1                  ; SERVICE_KERNEL_DRIVER
+StartType     = 3                  ; SERVICE_DEMAND_START
+ErrorControl  = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary = %10%\system32\drivers\STAC97.sys
+
+[STAC97Names.AddReg]
+;; Nodes
+HKLM,%MdCtg%\%ST97GD.PhoneVolume%,Name,,%ST97Nd.PhoneVolume%
+HKLM,%MdCtg%\%ST97GD.PhoneVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.PhoneMute%,Name,,%ST97Nd.PhoneMute%
+HKLM,%MdCtg%\%ST97GD.PhoneMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.LineInMute%,Name,,%ST97Nd.LineInMute%
+HKLM,%MdCtg%\%ST97GD.LineInMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.MainMix%,Name,,%ST97Nd.MainMix%
+HKLM,%MdCtg%\%ST97GD.MainMix%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.3DBypass%,Name,,%ST97Nd.3DBypass%
+HKLM,%MdCtg%\%ST97GD.3DBypass%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.3DEnable%,Name,,%ST97Nd.3DEnable%
+HKLM,%MdCtg%\%ST97GD.3DEnable%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.BeepMix%,Name,,%ST97Nd.BeepMix%
+HKLM,%MdCtg%\%ST97GD.BeepMix%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.HPVolume%,Name,,%ST97Nd.HPVolume%
+HKLM,%MdCtg%\%ST97GD.HPVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.HPMute%,Name,,%ST97Nd.HPMute%
+HKLM,%MdCtg%\%ST97GD.HPMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.LnlvlVolume%,Name,,%ST97Nd.LnlvlVolume%
+HKLM,%MdCtg%\%ST97GD.LnlvlVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.LnlvlMute%,Name,,%ST97Nd.LnlvlMute%
+HKLM,%MdCtg%\%ST97GD.LnlvlMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.MonoOutSelect%,Name,,%ST97Nd.MonoOutSelect%
+HKLM,%MdCtg%\%ST97GD.MonoOutSelect%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.WaveInSelect%,Name,,%ST97Nd.WaveInSelect%
+HKLM,%MdCtg%\%ST97GD.WaveInSelect%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.MasterInVolume%,Name,,%ST97Nd.MasterInVolume%
+HKLM,%MdCtg%\%ST97GD.MasterInVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.MasterInMute%,Name,,%ST97Nd.MasterInMute%
+HKLM,%MdCtg%\%ST97GD.MasterInMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.MicInVolume%,Name,,%ST97Nd.MicInVolume%
+HKLM,%MdCtg%\%ST97GD.MicInVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.MicInMute%,Name,,%ST97Nd.MicInMute%
+HKLM,%MdCtg%\%ST97GD.MicInMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.SurroundVolume%,Name,,%ST97Nd.SurroundVolume%
+HKLM,%MdCtg%\%ST97GD.SurroundVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.SurroundMute%,Name,,%ST97Nd.SurroundMute%
+HKLM,%MdCtg%\%ST97GD.SurroundMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.CenterVolume%,Name,,%ST97Nd.CenterVolume%
+HKLM,%MdCtg%\%ST97GD.CenterVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.CenterMute%,Name,,%ST97Nd.CenterMute%
+HKLM,%MdCtg%\%ST97GD.CenterMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.LFEVolume%,Name,,%ST97Nd.LFEVolume%
+HKLM,%MdCtg%\%ST97GD.LFEVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.LFEMute%,Name,,%ST97Nd.LFEMute%
+HKLM,%MdCtg%\%ST97GD.LFEMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.DigitalEnable%,Name,,%ST97Nd.DigitalEnable%
+HKLM,%MdCtg%\%ST97GD.MultiChannelEnable%,Name,,%ST97Nd.MultiChannelEnable%
+HKLM,%MdCtg%\%ST97GD.GPIOControl%,Name,,%ST97Nd.GPIOControl%
+HKLM,%MdCtg%\%ST97GD.HPOutPin%,Name,,%STAC97Pin.HPOutPin%
+HKLM,%MdCtg%\%ST97GD.HPOutPin%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.LnlvlOutPin%,Name,,%STAC97Pin.LnlvlOutPin%
+HKLM,%MdCtg%\%ST97GD.LnlvlOutPin%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.Mic2Pin%,Name,,%STAC97Pin.Mic2Pin%
+HKLM,%MdCtg%\%ST97GD.Mic2Pin%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.LineIn2Pin%,Name,,%STAC97Pin.LineIn2Pin%
+HKLM,%MdCtg%\%ST97GD.LineIn2Pin%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%ST97GD.MonoMuteInMasterAdvanced%,Name,,%ST97Nd.MonoMuteInMasterAdvanced%
+HKLM,%MdCtg%\%ST97GD_ALTNAME.PcSpeaker%,Name,,%STAC97Pin.PcSpeaker%
+HKLM,%MdCtg%\%ST97GD_ALTNAME.PcSpeaker%,Display,1,00,00,00,00
+
+[STAC97_MC.AddReg]
+HKR,%CfKyNm%,DisableHeadphone,                    1, 1
+HKR,%CfKyNm%,DisableLnlvl,                        1, 1
+HKR,%CfKyNm%,DisableWaveIn2,                      1, 1
+HKR,%CfKyNm%,MasterMute,                          1, 0                    ; 0, unmuted, 1 muted
+HKR,%CfKyNm%,EnableExtAmpControl,                  1, 1
+HKR,%CfKyNm%,ExtAmpPowerDownTimeInMCS,             0x00010001, 5000
+HKR,%CfKyNm%,ExtAmpPowerUpTimeInMCS,               0x00010001, 5000
+HKR,%CfKyNm%,CodecPowerUpDelayInMCS,             0x00010001, 1000
+
+[Strings]
+SGTML="SigmaTel"
+SgtmlMfg="SigmaTel"
+
+STAC97.DeviceDesc="Audio controller - SigmaTel CODEC"
+STAC97.DvDscInt="SigmaTel C-Major Audio"
+
+STAC97.Wave.szPname="SigmaTel Audio"
+STAC97.AWave.szPname="SigmaTel Alternate"
+STAC97.Topology.szPname="SigmaTel"
+
+SndVolSigKey="Software\Microsoft\Windows\CurrentVersion\Applets\Volume Control\SigmaTel Audio"
+
+MdCtg="SYSTEM\CurrentControlSet\Control\MediaCategories"
+
+WDM_MIDI="WDM-based devices"
+
+CfKyNm="Settings"
+
+Proxy.CLSID="{17CCA71B-ECD7-11D0-B908-00A0C9223196}"
+KSC_A="{6994AD04-93EF-11D0-A3CC-00A0C9223196}"
+KSC_R="{65E8773E-8F56-11D0-A3B9-00A0C9223196}"
+KSC_C="{65E8773D-8F56-11D0-A3B9-00A0C9223196}"
+KSN_W="Wave"
+KSN_AW="AWave"
+KSN_T="Topology"
+KSN_U="UART"
+STAC97.UART.szPname="MIDI External Port"
+
+STAC97.SvcDesc = "Audio Driver (WDM) - SigmaTel CODEC"
+
+;; Nodes (non-localizeable)
+ST97GD.PhoneVolume          ="{981DFEA0-27DB-11d3-99FC-00500483AC28}"
+ST97GD.PhoneMute            ="{981DFEA1-27DB-11d3-99FC-00500483AC28}"
+ST97GD.LineInMute           ="{981DFEA2-27DB-11d3-99FC-00500483AC28}"
+ST97GD.MainMix              ="{981DFEA3-27DB-11d3-99FC-00500483AC28}"
+ST97GD.3DBypass             ="{981DFEA4-27DB-11d3-99FC-00500483AC28}"
+ST97GD.3DEnable             ="{981DFEA5-27DB-11d3-99FC-00500483AC28}"
+ST97GD.BeepMix              ="{981DFEA6-27DB-11d3-99FC-00500483AC28}"
+ST97GD.HPVolume             ="{981DFEA7-27DB-11d3-99FC-00500483AC28}"
+ST97GD.HPMute               ="{981DFEA8-27DB-11d3-99FC-00500483AC28}"
+ST97GD.LnlvlVolume          ="{301892ac-2f58-41c7-88b4-4c1d72501c83}"
+ST97GD.LnlvlMute            ="{c5cb62ac-f62f-4569-b66b-6a1d3afe3388}"
+ST97GD.MonoOutSelect        ="{981DFEA9-27DB-11d3-99FC-00500483AC28}"
+ST97GD.WaveInSelect         ="{981DFEAA-27DB-11d3-99FC-00500483AC28}"
+ST97GD.WaveIn2Select        ="{A514AD4E-CFB5-4ecc-9691-36494FBE0481}"
+ST97GD.MasterInVolume       ="{981DFEAB-27DB-11d3-99FC-00500483AC28}"
+ST97GD.MasterInMute         ="{981DFEAC-27DB-11d3-99FC-00500483AC28}"
+ST97GD.MicInVolume          ="{981DFEAD-27DB-11d3-99FC-00500483AC28}"
+ST97GD.MicInMute            ="{981DFEAE-27DB-11d3-99FC-00500483AC28}"
+ST97GD.SurroundVolume       ="{81FBB14B-1BEE-4bf5-92EE-FFC4F75F326D}"
+ST97GD.SurroundMute         ="{22654FBC-AC8F-4224-B19F-D858D2E10BDD}"
+ST97GD.CenterVolume         ="{2D97372F-9CF6-4fd6-9E56-C68BACDF360D}"
+ST97GD.CenterMute           ="{BEEF51ED-1041-43f8-9B96-5863D0A9342D}"
+ST97GD.LFEVolume            ="{B60C4274-3BFD-430b-8364-D947E7D304B1}"
+ST97GD.LFEMute              ="{4A4D9210-C780-4768-BFD2-525FDBF4FCB4}"
+ST97GD.DigitalEnable        ="{56D8C1D0-58FB-4927-9CD2-8E3BD3E5A922}"
+ST97GD.MultiChannelEnable   ="{A9D8349B-45CC-4A0B-97A2-D6AC7738F27D}"
+ST97GD.GPIOControl          ="{88E542C4-1540-4a40-95D1-8CCC9A4B6245}"
+ST97GD.HPOutPin             ="{981DFEB1-27DB-11d3-99FC-00500483AC28}"
+ST97GD.LnlvlOutPin          ="{5A9EBEC6-FCA2-4fcd-AB11-04D6C3C6266A}"
+ST97GD.Mic2Volume           ="{D68EA4BA-4E5B-45c4-9E80-AE7A959B969D}"
+ST97GD.LineIn2Volume        ="{DD5102D5-9931-484c-8B47-FB9B75FE63A2}"
+ST97GD.Mic2Pin              ="{A72A6A9C-896A-45ce-AD88-6BB096B11B36}"
+ST97GD.LineIn2Pin           ="{CC57D9E2-9750-4b74-B509-41B9B30DC0B5}"
+ST97GD.MonoMuteInMasterAdvanced="{A601A3BC-066E-4800-8922-6772422C0F18}"
+ST97GD_ALTNAME.PcSpeaker    ="{88C02F6A-D1E7-4fe3-A506-9E0AE51D7820}"
+
+;; Nodes (localizeable)
+ST97Nd.PhoneVolume          ="Phone Volume"
+ST97Nd.PhoneMute            ="Phone Mute"
+ST97Nd.LineInMute           ="LineIn Mute"
+ST97Nd.MainMix              ="Main Mix"
+ST97Nd.3DBypass             ="3D Bypass"
+ST97Nd.3DEnable             ="3D Enable"
+ST97Nd.BeepMix              ="Beep Mix"
+ST97Nd.HPVolume             ="Headphone Volume"
+ST97Nd.HPMute               ="Headphone Mute"
+ST97Nd.LnlvlVolume          ="Line Level Volume"
+ST97Nd.LnlvlMute            ="Line Level Mute"
+ST97Nd.MonoOutSelect        ="Mono Out Select"
+ST97Nd.WaveInSelect         ="WaveIn Select"
+ST97Nd.WaveIn2Select        ="Alt WaveIn Select"
+ST97Nd.MasterInVolume       ="WaveIn Volume"
+ST97Nd.MasterInMute         ="WaveIn Mute"
+ST97Nd.MicInVolume          ="Mic In Volume"
+ST97Nd.MicInMute            ="Mic In Mute"
+ST97Nd.SurroundVolume       ="Surround Volume"
+ST97Nd.SurroundMute         ="Surround Mute"
+ST97Nd.CenterVolume         ="Center Volume"
+ST97Nd.CenterMute           ="Center Mute"
+ST97Nd.LFEVolume            ="LFE Volume"
+ST97Nd.LFEMute              ="LFE Mute"
+ST97Nd.DigitalEnable        ="Enable SPDIF"
+ST97Nd.MultiChannelEnable   ="Enable Multi-Channel"
+ST97Nd.GPIOControl          ="Enable SPDIF"
+ST97Nd.Mic2Volume           ="Mic2 Volume"
+ST97Nd.LineIn2Volume        ="LineIn2 Volume"
+STAC97Pin.HPOutPin              ="Headphone"
+STAC97Pin.LnlvlOutPin           ="Line Out"
+STAC97Pin.Mic2Pin               ="Alt MIC"
+STAC97Pin.LineIn2Pin            ="Alt LineIn"
+ST97Nd.MonoMuteInMasterAdvanced="Mute Internal Speaker"
+STAC97Pin.PcSpeaker             ="PC BEEP"

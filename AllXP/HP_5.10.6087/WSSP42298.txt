@@ -1,0 +1,31 @@
+TITLE: IDT ID92HD71B7 Audio Driver for Windows XP
+
+VERSION: 5.10.6087.0 Rev. B
+DESCRIPTION:
+This package installs the IDT ID92HD71B7 Audio Driver for Windows XP in the supported notebook models.
+
+PURPOSE: Routine Release
+SOFTPAQ NUMBER: SP42298
+EFFECTIVE DATE: January 19, 2009
+CATEGORY: Audio
+SSM SUPPORTED: Yes
+
+
+ENHANCEMENTS: 
+N/A
+
+ 
+FIXES: 
+N/A
+ 
+PREREQUISITES: 
+N/A
+ 
+HOW TO USE: 
+1. Download the file by clicking the "Download" or "Obtain Software" button and
+saving the file to a folder on your hard drive (make a note of the folder where
+the downloaded file is saved).
+2. Double-click the downloaded the downloaded file and follow the on-screen instructions.
+ 
+ 
+Copyright © 2003 Hewlett-Packard Development Company, L.P.

@@ -1,0 +1,8 @@
+Title: Audio: 92HD87B1 Driver
+Version: A00-00        WP0000011166
+OEM Name: 
+OEM Version: 6.10.0.6421
+Computers: Inspiron: N5040, M5040, M4040
+OS: Windows 8 32-bit - ARM, Windows 8 64-bit - H, Windows 8 64-bit - Pro, Windows 8 32-bit - Pro, Windows 8 32-bit - H, Windows 8 32-bit - EM, Windows 8 64-bit - EM
+Languages: Spanish,Lithuanian,Bulgarian,Arabic,Slovakian,Greek,Iberian Portuguese,Croatian,Polish,Thai,Slovenian,Portuguese (Portugal),Basque,Norwegian,English,Dutch,Br Portuguese,Russian,Chinese Traditional,Serbian Latin,Japanese,Chinese Simplified,Latvian,Bahasa Indonesian,Danish,Ukrainian,French,Finnish,Hungarian,Maltese,Korean,Chinese Hong Kong,Romanian,German,Swedish,Hebrew,Pan-Euro,Czech,Khmer,Swiss German,Italian,Estonian,Turkish
+Created: 10/18/2012

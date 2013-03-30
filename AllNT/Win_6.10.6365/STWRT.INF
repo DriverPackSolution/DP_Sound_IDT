@@ -1,0 +1,2131 @@
+﻿; Michael's Modded IDT/Sigmatel INF v0.9
+; http://michaelmarley.com
+; http://laptopvideo2go.com
+
+[Version]
+Signature="$CHICAGO$"
+Class=MEDIA
+ClassGUID={4d36e96c-e325-11ce-bfc1-08002be10318}
+Provider=IDT
+DriverVer=09/08/2011,6.10.6365.0
+CatalogFile=stwrt.cat
+
+[Manufacturer]
+IDT=IDT,NTx86
+
+[SourceDisksNames]
+1="IDT High Definition Audio WaveRT Driver Disk",,,
+
+[SourceDisksFiles]
+stwrt.sys=1
+st326365.dll=1
+stapi.dll=1
+stacsv.exe=1
+stlang.dll=1
+stacsv.exe=1
+stcplx.dll=1
+stwrt.ini=1
+default.ini=1
+;Dell laptops
+dell_WRT_M2-1.ini=1
+dell_WRT_M2-2.ini=1
+dell_WRT_M2-3.ini=1
+dell_WRT_M2-4.ini=1
+dell_WRT_M2-5.ini=1
+dell_WRT_M2-6.ini=1
+dell_WRT_M2-7.ini=1
+dell_WRT_M2-8.ini=1
+dell_WRT_M2-9.ini=1
+dell_WRT_M4-2.ini=1
+dell_WRT_M4-3.ini=1
+dell_WRT_M4-4.ini=1
+dell_WRT_M4-7.ini=1
+dell_WRT_M4-8.ini=1
+dell_WRT_M8-1.ini=1
+dell_WRT_M8-2.ini=1
+dell_WRT_M8-3.ini=1
+dell_WRT_M8-4.ini=1
+dell_WRT_M8-5.ini=1
+dell_WRT_M8-6.ini=1
+dell_WRT_M8-7.ini=1
+dell_WRT_M8-8.ini=1
+dell_WRTNo2-8.ini=1
+dell_WRTNo4-2.ini=1
+dell_WRTNo4-3.ini=1
+dell_WRTNo4-7.ini=1
+dell_W92HDM41.INI=1
+dell_W92HDM49.INI=1
+dell_W92HDM47.INI=1
+dell_W92HDM4A.INI=1
+dell_W92HDM48.INI=1
+dell_W92HDM42.INI=1
+dell_W92HDM42.INI=1
+dell_W92HDM43.INI=1
+dell_W92HDM44.INI=1
+dell_W92HDM45.INI=1
+dell_W92HDM51.INI=1
+dell_W92HDM52.INI=1
+dell_W92HDM56.INI=1
+dell_W92HDM53.INI=1
+dell_W92HDM55.INI=1
+dell_W92HDM57.INI=1
+dell_W92HDM54.INI=1
+dell_W92HDM61.INI=1
+dell_W92HDM62.INI=1
+dell_W92HDM63.INI=1
+dell_W92HDM66.INI=1
+dell_W92HDM66.INI=1
+dell_W92HDM67.INI=1
+dell_W92HDM83.INI=1
+dell_W92HDM46.INI=1
+dell_W92HDM65.INI=1
+dell_W92HDM81.INI=1
+dell_W92HDM91.INI=1
+dell_W92HDM5A.INI=1
+dell_W92HDM13.INI=1
+dell_W92HDM58.INI=1
+dell_W92HDM59.INI=1
+dell_W92HDM68.INI=1
+dell_W92HDM80.INI=1
+dell_W92HDM82.INI=1
+dell_W92HDM84.INI=1
+dell_W92HDM64.INI=1
+dell_KML5060.INI=1
+dell_KAL80.INI=1
+;Dell desktops
+dell_WRT_D2-1.INI=1
+dell_WRT_D2-2.INI=1
+dell_WRT_D2-3.INI=1
+dell_WRT_D4-1.INI=1
+dell_WRT_D8-1.INI=1
+dell_WRT_D8-2.INI=1
+dell_WRT_D8-3.INI=1
+dell_WRT_D8-4.INI=1
+dell_WRT_D8-5.INI=1
+dell_WRT_D8-6.INI=1
+;Intel motherboards
+intel_I73E-EL1_V.INI=1
+intel_I73E-EL2_V.INI=1
+intel_I73E-EL3_V.INI=1
+intel_I92XXD6R_V.INI=1
+intel_I74D-5P_V.INI=1
+intel_I74D-EL_V.INI=1
+intel_I27-IDPC_V.INI=1
+intel_I3.INI=1
+intel_I3C.INI=1
+intel_I3MPC.INI=1
+intel_I3B.INI=1
+intel_I3BX.INI=1
+intel_I3BG.INI=1
+intel_I3BY.INI=1
+intel_I5.INI=1
+intel_I5B.INI=1
+intel_I5D.INI=1
+intel_I5D2.INI=1
+intel_I5D4.INI=1
+intel_I5D3.INI=1
+intel_I92XXD2.INI=1
+intel_I92XXD2R.INI=1
+intel_I92XXD2MPC.INI=1
+intel_I92XXD6.INI=1
+intel_I92XXD6D.INI=1
+intel_I92XXD6E.INI=1
+intel_I92XXG2.INI=1
+intel_I92XXG6.INI=1
+intel_I92XXD3.INI=1
+intel_I9274RVP.INI=1
+intel_I71-5.INI=1
+intel_I71D-5M.INI=1
+intel_I71D-5.INI=1
+intel_I27-3P.INI=1
+intel_I27-DPC.INI=1
+;HP Laptops
+hp_WRT_M6-1.INI=1
+hp_WRT_M6-0.INI=1
+hp_WRT_M6-2.INI=1
+hp_WRT_M6-4.INI=1
+hp_WRT_M6-5.INI=1
+hp_WRT_M6-D.INI=1
+hp_WRT_M6-7.INI=1
+hp_WRT_M6-6.INI=1
+hp_WRT_M6-8.INI=1
+hp_WRT_M6-8A.INI=1
+hp_WRT_M6-3.INI=1
+hp_WRT_M6-G.INI=1
+hp_WRT_M6-E.INI=1
+hp_WRT_M6-A.INI=1
+hp_WRT_M6-F.INI=1
+hp_WRT_M6-B.INI=1
+hp_WRT_M6-F1.INI=1
+hp_WRT_M6-F2.INI=1
+hp_WRT_M6-F3.INI=1
+hp_WRT_M7-4.INI=1
+hp_WRT_M7-4B.INI=1
+hp_WRT_M6-9.INI=1
+hp_WRT_M7-1.INI=1
+hp_WRT_M7-3.INI=1
+hp_WRT_M7-2.INI=1
+hp_WRT_M7-5.INI=1
+hp_WRT_M7-6.INI=1
+hp_WRT_M7-7.INI=1
+hp_WRT_M7-8A.INI=1
+hp_WRT_M7-9.INI=1
+hp_WRT_M7-9A.INI=1
+hp_WRT_M7-9B.INI=1
+hp_WRT_M7-9D.INI=1
+hp_WRT_M7-9C.INI=1
+hp_WRT_M7-A.INI=1
+hp_WRT_M7-A1.INI=1
+hp_WRT_M7-A2.INI=1
+hp_WRT_M7-A3.INI=1
+hp_WRT_M7-A4.INI=1
+hp_WRT_M7-B.INI=1
+hp_WRT_M7-C.INI=1
+hp_WRT_M7-D.INI=1
+hp_WRT_M11-0.INI=1
+hp_WRT_M11-1.INI=1
+hp_WRT_M11-1A.INI=1
+hp_WRT_M11-2.INI=1
+hp_WRT_M11-2A.INI=1
+hp_WRT_M11-3.INI=1
+hp_WRT_M11-3B.INI=1
+hp_WRT_M11-3A.INI=1
+hp_WRT_M11-4.INI=1
+hp_WRT_M11-4A.INI=1
+hp_WRT_M11-4B.INI=1
+hp_WRT_M11-4C.INI=1
+hp_WRT_M11-5.INI=1
+hp_WRT_M11-5A.INI=1
+hp_WRT_M7-E.INI=1
+hp_WRT_M6-C.INI=1
+hp_WRT_M4-1.INI=1
+hp_WRT_M4-2.INI=1
+hp_WRT_M4-3.INI=1
+hp_WRT_M4-4.INI=1
+hp_WRT_M4-5.INI=1
+hp_WRT_M4-6.INI=1
+hp_WRT_M5-1.INI=1
+hp_WRT_M5-2.INI=1
+hp_WRT_M5-3.INI=1
+hp_WRT_M5-6.INI=1
+hp_WRT_M4-6.INI=1
+hp_WRT_M4-7.INI=1
+hp_WRT_M5-7.INI=1
+hp_WRT_M4-9.INI=1
+hp_WRT_M5-9.INI=1
+hp_WRT_M4-A.INI=1
+hp_WRT_M4-B.INI=1
+hp_WRT_M4-C.INI=1
+hp_WRT_M5-D.INI=1
+hp_WRT_M4-E.INI=1
+hp_WRT_M4-F.INI=1
+hp_WRT_M8-1.INI=1
+hp_WRT_M8-2.INI=1
+hp_WRT_M8-3.INI=1
+hp_WRT_M8-4.INI=1
+;Sony laptops
+sony_M_WRT2-1.INI=1
+sony_M_WRT2-2.INI=1
+sony_M_WRT2-3.INI=1
+sony_M_WRT2-4.INI=1
+sony_M_WRT2-5.INI=1
+sony_M_WRT2-6.INI=1
+sony_M_WRT2-7.INI=1
+sony_M_WRT2-8.INI=1
+sony_M_WRT2-9.INI=1
+sony_M_WRT2-10.INI=1
+;Asus laptops
+asus_F70Q.INI=1
+asus_K72JR.INI=1
+asus_LUCID.INI=1
+asus_NCL31.INI=1
+asus_NCW30.INI=1
+asus_NCL30.INI=1
+;Gateway laptops
+gateway_92XXM1.INI=1
+gateway_92XXM2.INI=1
+gateway_92XXM2-2.INI=1
+gateway_92XXM5.INI=1
+gateway_92XXM6.INI=1
+gateway_92XXM1-2.INI=1
+gateway_92XXM6.INI=1
+gateway_92XXM1-3.INI=1
+gateway_92XXM4-4.INI=1
+gateway_92XXM4.INI=1
+gateway_92XXM4-2.INI=1
+gateway_92XXM4-3.INI=1
+gateway_M5.INI=1
+gateway_M4-8DM.INI=1
+gateway_M4-4.INI=1
+gateway_M4-8DM.INI=1
+gateway_M4-10DM.INI=1
+gateway_M4-8AM.INI=1
+gateway_M4-10AM.INI=1
+gateway_M4-11DM.INI=1
+gateway_M4-5.INI=1
+gateway_M4-1.INI=1
+;Apple desktops
+apple_BOARD1.INI
+apple_BOARD2.INI
+apple_BOARD3.INI
+apple_BOARD4.INI
+apple_BOARD5.INI
+
+[DestinationDirs]
+ST.SYS.CopyList=11,drivers
+ST.DLL.CopyList=11
+CoInstaller.CopyList=11
+
+[ST.DLL.CopyList]
+stapi32.dll,,,4
+stcplx.dll,,,4
+
+[ST.DLL.RegisterDlls]
+11,,stapi32.dll,1
+11,,stcplx.dll,1
+
+[IDT.NTx86]
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7603
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7605
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7608
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7638
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7639
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7645
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7646
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7674
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7675
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7676
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_7677
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_76B0
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_76B1
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_76B2
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_76B3
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_76B4
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_76B5
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_76B6
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_76B7
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_76B8
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_76B9
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_111D&DEV_76D5
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7610
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7611
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7612
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7613
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7614
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7615
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7616
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7617
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7618
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7619
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7620
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7621
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7622
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7623
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7624
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7625
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7626
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7627
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7628
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7629
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7630
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7631
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7632
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7633
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7634
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7635
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7636
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7637
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7638
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7639
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7645
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7646
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7660
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7661
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7662
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7663
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7664
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7665
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7680
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7681
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7682
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7683
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7690
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7691
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7698
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_7699
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_76A0
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_76A1
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_76A2
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_76A3
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_76A4
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_76A5
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_76A6
+%ST.DeviceDesc%=STHDA,HDAUDIO\FUNC_01&VEN_8384&DEV_76A7
+
+[STHDA.NTx86]
+DevName=%ST.DeviceDesc%
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=ST.Sys.CopyList
+DelReg=ST.DelReg
+RegisterDlls=ST.DLL.RegisterDlls
+AddReg=ST.AddReg,ST.Nodes.AddReg,ST.Config.AddReg
+AddReg=ST.AddReg,ST.Nodes.AddReg,ST.Config.AddReg
+CopyFiles=ST.Sys.CopyList
+AddProperty=MS.Branding.AddProperty
+
+[ST.SYS.CopyList]
+stwrt.sys,,,4
+
+[SignatureAttributes]
+stwrt.sys=SignatureAttributes.DRM
+
+[SignatureAttributes.DRM]
+DRMLevel=1200
+
+[SignatureAttributes.PETrust]
+PETrust=true
+
+[ST.AddReg]
+HKR,,AssociatedFilters,,"wdmaud,swmidi,redbook"
+HKR,,Driver,,stwrt.sys
+HKR,Drivers,SubClasses,,"wave,midi,mixer"
+HKR,Drivers\wave\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\midi\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\mixer\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\wave\wdmaud.drv,Description,,%ST.DeviceDesc%
+HKR,Drivers\midi\wdmaud.drv,Description,,"WDM-based devices"
+HKR,Drivers\mixer\wdmaud.drv,Description,,%ST.DeviceDesc%
+HKR,,SetupPreferredAudioDevices,3,01,00,00,00
+
+[STHDA.NTx86.Services]
+AddService=STHDA,0x00000002,Service_Inst
+
+[Service_Inst]
+DisplayName   = %ST.DeviceDesc%
+ServiceType   = 1                  ; SERVICE_KERNEL_DRIVER
+StartType     = 3                  ; SERVICE_DEMAND_START
+ErrorControl  = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary = %12%\stwrt.sys
+
+[STHDA.NTx86.HW]
+AddReg=ST.Security.AddReg
+
+[STHDA.NTx86.CoInstallers]
+AddReg=CoInstaller.AddReg
+CopyFiles=CoInstaller.CopyList
+
+[CoInstaller.CopyList]
+st326365.dll
+
+[CoInstaller.AddReg]
+HKR,,CoInstallers32,0x00010000,"st326365.dll,Stac97CoInstaller"
+
+[Stac97CoInfo]
+OriginalInfSourcePath=%1%
+IniFile=stwrt.ini
+BackUpPath=C:\Drivers\Audio\WDM
+
+[STHDA.NTx86.Interfaces]
+;;Render Interfaces
+AddInterface=%KSCATEGORY_AUDIO%,"LineOutWave",ST.Wave.LineOut		;Audio
+AddInterface=%KSCATEGORY_RENDER%,"LineOutWave",ST.Wave.LineOut		;Render
+AddInterface=%KSCATEGORY_REALTIME%,"LineOutWave",ST.Wave.LineOut		;Real-Time
+AddInterface=%KSCATEGORY_AUDIO%,"LineOutTopology",ST.Topo.LineOut		;Audio
+AddInterface=%KSCATEGORY_TOPOLOGY%,"LineOutTopology",ST.Topo.LineOut	;Topology
+
+AddInterface=%KSCATEGORY_AUDIO%,"LineOut1Wave",ST.Wave.LineOut1
+AddInterface=%KSCATEGORY_RENDER%,"LineOut1Wave",ST.Wave.LineOut1
+AddInterface=%KSCATEGORY_REALTIME%,"LineOut1Wave",ST.Wave.LineOut1
+AddInterface=%KSCATEGORY_AUDIO%,"LineOut1Topology",ST.Topo.LineOut1
+AddInterface=%KSCATEGORY_TOPOLOGY%,"LineOut1Topology",ST.Topo.LineOut1
+
+AddInterface=%KSCATEGORY_AUDIO%,"LineOut2Wave",ST.Wave.LineOut2
+AddInterface=%KSCATEGORY_RENDER%,"LineOut2Wave",ST.Wave.LineOut2
+AddInterface=%KSCATEGORY_REALTIME%,"LineOut2Wave",ST.Wave.LineOut2
+AddInterface=%KSCATEGORY_AUDIO%,"LineOut2Topology",ST.Topo.LineOut2
+AddInterface=%KSCATEGORY_TOPOLOGY%,"LineOut2Topology",ST.Topo.LineOut2
+
+AddInterface=%KSCATEGORY_AUDIO%,"SpeakerWave",ST.Wave.Speaker
+AddInterface=%KSCATEGORY_RENDER%,"SpeakerWave",ST.Wave.Speaker
+AddInterface=%KSCATEGORY_REALTIME%,"SpeakerWave",ST.Wave.Speaker
+AddInterface=%KSCATEGORY_AUDIO%,"SpeakerTopology",ST.Topo.Speaker
+AddInterface=%KSCATEGORY_TOPOLOGY%,"SpeakerTopology",ST.Topo.Speaker
+
+AddInterface=%KSCATEGORY_AUDIO%,"Speaker1Wave",ST.Wave.Speaker1
+AddInterface=%KSCATEGORY_RENDER%,"Speaker1Wave",ST.Wave.Speaker1
+AddInterface=%KSCATEGORY_REALTIME%,"Speaker1Wave",ST.Wave.Speaker1
+AddInterface=%KSCATEGORY_AUDIO%,"Speaker1Topology",ST.Topo.Speaker1
+AddInterface=%KSCATEGORY_TOPOLOGY%,"Speaker1Topology",ST.Topo.Speaker1
+
+AddInterface=%KSCATEGORY_AUDIO%,"Speaker2Wave",ST.Wave.Speaker2
+AddInterface=%KSCATEGORY_RENDER%,"Speaker2Wave",ST.Wave.Speaker2
+AddInterface=%KSCATEGORY_REALTIME%,"Speaker2Wave",ST.Wave.Speaker2
+AddInterface=%KSCATEGORY_AUDIO%,"Speaker2Topology",ST.Topo.Speaker2
+AddInterface=%KSCATEGORY_TOPOLOGY%,"Speaker2Topology",ST.Topo.Speaker2
+
+AddInterface=%KSCATEGORY_AUDIO%,"SpeakerHpWave",ST.Wave.SpeakerHp
+AddInterface=%KSCATEGORY_RENDER%,"SpeakerHpWave",ST.Wave.SpeakerHp
+AddInterface=%KSCATEGORY_REALTIME%,"SpeakerHpWave",ST.Wave.SpeakerHp
+AddInterface=%KSCATEGORY_AUDIO%,"SpeakerHpTopology",ST.Topo.SpeakerHp
+AddInterface=%KSCATEGORY_TOPOLOGY%,"SpeakerHpTopology",ST.Topo.SpeakerHp
+
+AddInterface=%KSCATEGORY_AUDIO%,"HpOutWave",ST.Wave.HpOut
+AddInterface=%KSCATEGORY_RENDER%,"HpOutWave",ST.Wave.HpOut
+AddInterface=%KSCATEGORY_REALTIME%,"HpOutWave",ST.Wave.HpOut
+AddInterface=%KSCATEGORY_AUDIO%,"HpOutTopology",ST.Topo.HpOut
+AddInterface=%KSCATEGORY_TOPOLOGY%,"HpOutTopology",ST.Topo.HpOut
+
+AddInterface=%KSCATEGORY_AUDIO%,"HpOut1Wave",ST.Wave.HpOut1
+AddInterface=%KSCATEGORY_RENDER%,"HpOut1Wave",ST.Wave.HpOut1
+AddInterface=%KSCATEGORY_REALTIME%,"HpOut1Wave",ST.Wave.HpOut1
+AddInterface=%KSCATEGORY_AUDIO%,"HpOut1Topology",ST.Topo.HpOut1
+AddInterface=%KSCATEGORY_TOPOLOGY%,"HpOut1Topology",ST.Topo.HpOut1
+
+AddInterface=%KSCATEGORY_AUDIO%,"HpOut2Wave",ST.Wave.HpOut2
+AddInterface=%KSCATEGORY_RENDER%,"HpOut2Wave",ST.Wave.HpOut2
+AddInterface=%KSCATEGORY_REALTIME%,"HpOut2Wave",ST.Wave.HpOut2
+AddInterface=%KSCATEGORY_AUDIO%,"HpOut2Topology",ST.Topo.HpOut2
+AddInterface=%KSCATEGORY_TOPOLOGY%,"HpOut2Topology",ST.Topo.HpOut2
+
+AddInterface=%KSCATEGORY_AUDIO%,"HpOut3Wave",ST.Wave.HpOut3
+AddInterface=%KSCATEGORY_RENDER%,"HpOut3Wave",ST.Wave.HpOut3
+AddInterface=%KSCATEGORY_REALTIME%,"HpOut3Wave",ST.Wave.HpOut3
+AddInterface=%KSCATEGORY_AUDIO%,"HpOut3Topology",ST.Topo.HpOut3
+AddInterface=%KSCATEGORY_TOPOLOGY%,"HpOut3Topology",ST.Topo.HpOut3
+
+AddInterface=%KSCATEGORY_AUDIO%,"DockHpOutWave",ST.Wave.DockHpOut
+AddInterface=%KSCATEGORY_RENDER%,"DockHpOutWave",ST.Wave.DockHpOut
+AddInterface=%KSCATEGORY_REALTIME%,"DockHpOutWave",ST.Wave.DockHpOut
+AddInterface=%KSCATEGORY_AUDIO%,"DockHpOutTopology",ST.Topo.DockHpOut
+AddInterface=%KSCATEGORY_TOPOLOGY%,"DockHpOutTopology",ST.Topo.DockHpOut
+
+AddInterface=%KSCATEGORY_AUDIO%,"SpdifOutWave",ST.Wave.SpdifOut
+AddInterface=%KSCATEGORY_RENDER%,"SpdifOutWave",ST.Wave.SpdifOut
+AddInterface=%KSCATEGORY_REALTIME%,"SpdifOutWave",ST.Wave.SpdifOut
+AddInterface=%KSCATEGORY_AUDIO%,"SpdifOutTopology",ST.Topo.SpdifOut
+AddInterface=%KSCATEGORY_TOPOLOGY%,"SpdifOutTopology",ST.Topo.SpdifOut
+
+AddInterface=%KSCATEGORY_AUDIO%,"DockSpdifOutWave",ST.Wave.DockSpdifOut
+AddInterface=%KSCATEGORY_RENDER%,"DockSpdifOutWave",ST.Wave.DockSpdifOut
+AddInterface=%KSCATEGORY_REALTIME%,"DockSpdifOutWave",ST.Wave.DockSpdifOut
+AddInterface=%KSCATEGORY_AUDIO%,"DockSpdifOutTopology",ST.Topo.DockSpdifOut
+AddInterface=%KSCATEGORY_TOPOLOGY%,"DockSpdifOutTopology",ST.Topo.DockSpdifOut
+
+AddInterface=%KSCATEGORY_AUDIO%,"DigitalOutWave",ST.Wave.DigitalOut
+AddInterface=%KSCATEGORY_RENDER%,"DigitalOutWave",ST.Wave.DigitalOut
+AddInterface=%KSCATEGORY_REALTIME%,"DigitalOutWave",ST.Wave.DigitalOut
+AddInterface=%KSCATEGORY_AUDIO%,"DigitalOutTopology",ST.Topo.DigitalOut
+AddInterface=%KSCATEGORY_TOPOLOGY%,"DigitalOutTopology",ST.Topo.DigitalOut
+
+AddInterface=%KSCATEGORY_AUDIO%,"AdatOutWave",ST.Wave.AdatOut
+AddInterface=%KSCATEGORY_RENDER%,"AdatOutWave",ST.Wave.AdatOut
+AddInterface=%KSCATEGORY_REALTIME%,"AdatOutWave",ST.Wave.AdatOut
+AddInterface=%KSCATEGORY_AUDIO%,"AdatOutTopology",ST.Topo.AdatOut
+AddInterface=%KSCATEGORY_TOPOLOGY%,"AdatOutTopology",ST.Topo.AdatOut
+
+AddInterface=%KSCATEGORY_AUDIO%,"HdmiOutWave",ST.Wave.HdmiOut
+AddInterface=%KSCATEGORY_RENDER%,"HdmiOutWave",ST.Wave.HdmiOut
+AddInterface=%KSCATEGORY_REALTIME%,"HdmiOutWave",ST.Wave.HdmiOut
+AddInterface=%KSCATEGORY_AUDIO%,"HdmiOutTopology",ST.Topo.HdmiOut
+AddInterface=%KSCATEGORY_TOPOLOGY%,"HdmiOutTopology",ST.Topo.HdmiOut
+
+AddInterface=%KSCATEGORY_AUDIO%,"SpdifHdmiOutWave",ST.Wave.SpdifHdmiOut
+AddInterface=%KSCATEGORY_RENDER%,"SpdifHdmiOutWave",ST.Wave.SpdifHdmiOut
+AddInterface=%KSCATEGORY_REALTIME%,"SpdifHdmiOutWave",ST.Wave.SpdifHdmiOut
+AddInterface=%KSCATEGORY_AUDIO%,"SpdifHdmiOutTopology",ST.Topo.SpdifHdmiOut
+AddInterface=%KSCATEGORY_TOPOLOGY%,"SpdifHdmiOutTopology",ST.Topo.SpdifHdmiOut
+
+AddInterface=%KSCATEGORY_AUDIO%,"PcBeepWave",ST.Wave.PcBeepOut
+AddInterface=%KSCATEGORY_RENDER%,"PcBeepWave",ST.Wave.PcBeepOut
+AddInterface=%KSCATEGORY_REALTIME%,"PcBeepWave",ST.Wave.PcBeepOut
+AddInterface=%KSCATEGORY_AUDIO%,"PcBeepTopology",ST.Topo.PcBeepOut
+AddInterface=%KSCATEGORY_TOPOLOGY%,"PcBeepTopology",ST.Topo.PcBeepOut
+
+;;Capture Interfaces
+AddInterface=%KSCATEGORY_AUDIO%,"MuxedInWave",ST.Wave.MuxedIn		;Audio
+AddInterface=%KSCATEGORY_CAPTURE%,"MuxedInWave",ST.Wave.MuxedIn		;Capture
+AddInterface=%KSCATEGORY_REALTIME%,"MuxedInWave",ST.Wave.MuxedIn		;Real-Time
+AddInterface=%KSCATEGORY_AUDIO%,"MuxedInTopology",ST.Topo.MuxedIn		;Audio
+AddInterface=%KSCATEGORY_TOPOLOGY%,"MuxedInTopology",ST.Topo.MuxedIn	;Topology
+
+AddInterface=%KSCATEGORY_AUDIO%,"MuxedIn1Wave",ST.Wave.MuxedIn1
+AddInterface=%KSCATEGORY_CAPTURE%,"MuxedIn1Wave",ST.Wave.MuxedIn1
+AddInterface=%KSCATEGORY_REALTIME%,"MuxedIn1Wave",ST.Wave.MuxedIn1
+AddInterface=%KSCATEGORY_AUDIO%,"MuxedIn1Topology",ST.Topo.MuxedIn1
+AddInterface=%KSCATEGORY_TOPOLOGY%,"MuxedIn1Topology",ST.Topo.MuxedIn1
+
+AddInterface=%KSCATEGORY_AUDIO%,"MuxedIn2Wave",ST.Wave.MuxedIn2
+AddInterface=%KSCATEGORY_CAPTURE%,"MuxedIn2Wave",ST.Wave.MuxedIn2
+AddInterface=%KSCATEGORY_REALTIME%,"MuxedIn2Wave",ST.Wave.MuxedIn2
+AddInterface=%KSCATEGORY_AUDIO%,"MuxedIn2Topology",ST.Topo.MuxedIn2
+AddInterface=%KSCATEGORY_TOPOLOGY%,"MuxedIn2Topology",ST.Topo.MuxedIn2
+
+AddInterface=%KSCATEGORY_AUDIO%,"LineInWave",ST.Wave.LineIn
+AddInterface=%KSCATEGORY_CAPTURE%,"LineInWave",ST.Wave.LineIn
+AddInterface=%KSCATEGORY_REALTIME%,"LineInWave",ST.Wave.LineIn
+AddInterface=%KSCATEGORY_AUDIO%,"LineInTopology",ST.Topo.LineIn
+AddInterface=%KSCATEGORY_TOPOLOGY%,"LineInTopology",ST.Topo.LineIn
+
+AddInterface=%KSCATEGORY_AUDIO%,"LineIn1Wave",ST.Wave.LineIn1
+AddInterface=%KSCATEGORY_CAPTURE%,"LineIn1Wave",ST.Wave.LineIn1
+AddInterface=%KSCATEGORY_REALTIME%,"LineIn1Wave",ST.Wave.LineIn1
+AddInterface=%KSCATEGORY_AUDIO%,"LineIn1Topology",ST.Topo.LineIn1
+AddInterface=%KSCATEGORY_TOPOLOGY%,"LineIn1Topology",ST.Topo.LineIn1
+
+AddInterface=%KSCATEGORY_AUDIO%,"LineIn2Wave",ST.Wave.LineIn2
+AddInterface=%KSCATEGORY_CAPTURE%,"LineIn2Wave",ST.Wave.LineIn2
+AddInterface=%KSCATEGORY_REALTIME%,"LineIn2Wave",ST.Wave.LineIn2
+AddInterface=%KSCATEGORY_AUDIO%,"LineIn2Topology",ST.Topo.LineIn2
+AddInterface=%KSCATEGORY_TOPOLOGY%,"LineIn2Topology",ST.Topo.LineIn2
+
+AddInterface=%KSCATEGORY_AUDIO%,"MicInWave",ST.Wave.MicIn
+AddInterface=%KSCATEGORY_CAPTURE%,"MicInWave",ST.Wave.MicIn
+AddInterface=%KSCATEGORY_REALTIME%,"MicInWave",ST.Wave.MicIn
+AddInterface=%KSCATEGORY_AUDIO%,"MicInTopology",ST.Topo.MicIn
+AddInterface=%KSCATEGORY_TOPOLOGY%,"MicInTopology",ST.Topo.MicIn
+
+AddInterface=%KSCATEGORY_AUDIO%,"MicIn1Wave",ST.Wave.MicIn1
+AddInterface=%KSCATEGORY_CAPTURE%,"MicIn1Wave",ST.Wave.MicIn1
+AddInterface=%KSCATEGORY_REALTIME%,"MicIn1Wave",ST.Wave.MicIn1
+AddInterface=%KSCATEGORY_AUDIO%,"MicIn1Topology",ST.Topo.MicIn1
+AddInterface=%KSCATEGORY_TOPOLOGY%,"MicIn1Topology",ST.Topo.MicIn1
+
+AddInterface=%KSCATEGORY_AUDIO%,"MicIn2Wave",ST.Wave.MicIn2
+AddInterface=%KSCATEGORY_CAPTURE%,"MicIn2Wave",ST.Wave.MicIn2
+AddInterface=%KSCATEGORY_REALTIME%,"MicIn2Wave",ST.Wave.MicIn2
+AddInterface=%KSCATEGORY_AUDIO%,"MicIn2Topology",ST.Topo.MicIn2
+AddInterface=%KSCATEGORY_TOPOLOGY%,"MicIn2Topology",ST.Topo.MicIn2
+
+AddInterface=%KSCATEGORY_AUDIO%,"CDInWave",ST.Wave.CDIn
+AddInterface=%KSCATEGORY_CAPTURE%,"CDInWave",ST.Wave.CDIn
+AddInterface=%KSCATEGORY_REALTIME%,"CDInWave",ST.Wave.CDIn
+AddInterface=%KSCATEGORY_AUDIO%,"CDInTopology",ST.Topo.CDIn
+AddInterface=%KSCATEGORY_TOPOLOGY%,"CDInTopology",ST.Topo.CDIn
+
+AddInterface=%KSCATEGORY_AUDIO%,"AuxInWave",ST.Wave.AuxIn
+AddInterface=%KSCATEGORY_CAPTURE%,"AuxInWave",ST.Wave.AuxIn
+AddInterface=%KSCATEGORY_REALTIME%,"AuxInWave",ST.Wave.AuxIn
+AddInterface=%KSCATEGORY_AUDIO%,"AuxInTopology",ST.Topo.AuxIn
+AddInterface=%KSCATEGORY_TOPOLOGY%,"AuxInTopology",ST.Topo.AuxIn
+
+AddInterface=%KSCATEGORY_AUDIO%,"AuxIn1Wave",ST.Wave.AuxIn1
+AddInterface=%KSCATEGORY_CAPTURE%,"AuxIn1Wave",ST.Wave.AuxIn1
+AddInterface=%KSCATEGORY_REALTIME%,"AuxIn1Wave",ST.Wave.AuxIn1
+AddInterface=%KSCATEGORY_AUDIO%,"AuxIn1Topology",ST.Topo.AuxIn1
+AddInterface=%KSCATEGORY_TOPOLOGY%,"AuxIn1Topology",ST.Topo.AuxIn1
+
+AddInterface=%KSCATEGORY_AUDIO%,"AuxIn2Wave",ST.Wave.AuxIn2
+AddInterface=%KSCATEGORY_CAPTURE%,"AuxIn2Wave",ST.Wave.AuxIn2
+AddInterface=%KSCATEGORY_REALTIME%,"AuxIn2Wave",ST.Wave.AuxIn2
+AddInterface=%KSCATEGORY_AUDIO%,"AuxIn2Topology",ST.Topo.AuxIn2
+AddInterface=%KSCATEGORY_TOPOLOGY%,"AuxIn2Topology",ST.Topo.AuxIn2
+
+AddInterface=%KSCATEGORY_AUDIO%,"SpdifInWave",ST.Wave.SpdifIn
+AddInterface=%KSCATEGORY_CAPTURE%,"SpdifInWave",ST.Wave.SpdifIn
+AddInterface=%KSCATEGORY_REALTIME%,"SpdifInWave",ST.Wave.SpdifIn
+AddInterface=%KSCATEGORY_AUDIO%,"SpdifInTopology",ST.Topo.SpdifIn
+AddInterface=%KSCATEGORY_TOPOLOGY%,"SpdifInTopology",ST.Topo.SpdifIn
+
+AddInterface=%KSCATEGORY_AUDIO%,"DigitalInWave",ST.Wave.DigitalIn
+AddInterface=%KSCATEGORY_CAPTURE%,"DigitalInWave",ST.Wave.DigitalIn
+AddInterface=%KSCATEGORY_REALTIME%,"DigitalInWave",ST.Wave.DigitalIn
+AddInterface=%KSCATEGORY_AUDIO%,"DigitalInTopology",ST.Topo.DigitalIn
+AddInterface=%KSCATEGORY_TOPOLOGY%,"DigitalInTopology",ST.Topo.DigitalIn
+
+AddInterface=%KSCATEGORY_AUDIO%,"PlaybackCaptureWave",ST.Wave.PlaybackCapture
+AddInterface=%KSCATEGORY_CAPTURE%,"PlaybackCaptureWave",ST.Wave.PlaybackCapture
+AddInterface=%KSCATEGORY_REALTIME%,"PlaybackCaptureWave",ST.Wave.PlaybackCapture
+AddInterface=%KSCATEGORY_AUDIO%,"PlaybackCaptureTopology",ST.Topo.PlaybackCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,"PlaybackCaptureTopology",ST.Topo.PlaybackCapture
+
+AddInterface=%KSCATEGORY_AUDIO%,"RTCCaptureWave",ST.Wave.RTCCapture
+AddInterface=%KSCATEGORY_CAPTURE%,"RTCCaptureWave",ST.Wave.RTCCapture
+AddInterface=%KSCATEGORY_REALTIME%,"RTCCaptureWave",ST.Wave.RTCCapture
+AddInterface=%KSCATEGORY_AUDIO%,"RTCCaptureTopology",ST.Topo.RTCCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,"RTCCaptureTopology",ST.Topo.RTCCapture
+
+AddInterface=%KSCATEGORY_AUDIO%,"HPCaptureWave",ST.Wave.HPCapture
+AddInterface=%KSCATEGORY_CAPTURE%,"HPCaptureWave",ST.Wave.HPCapture
+AddInterface=%KSCATEGORY_REALTIME%,"HPCaptureWave",ST.Wave.HPCapture
+AddInterface=%KSCATEGORY_AUDIO%,"HPCaptureTopology",ST.Topo.HPCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,"HPCaptureTopology",ST.Topo.HPCapture
+
+AddInterface=%KSCATEGORY_AUDIO%,"SpeakerCaptureWave",ST.Wave.SpeakerCapture
+AddInterface=%KSCATEGORY_CAPTURE%,"SpeakerCaptureWave",ST.Wave.SpeakerCapture
+AddInterface=%KSCATEGORY_REALTIME%,"SpeakerCaptureWave",ST.Wave.SpeakerCapture
+AddInterface=%KSCATEGORY_AUDIO%,"SpeakerCaptureTopology",ST.Topo.SpeakerCapture
+AddInterface=%KSCATEGORY_TOPOLOGY%,"SpeakerCaptureTopology",ST.Topo.SpeakerCapture
+
+;;Combined Interfaces
+
+AddInterface=%KSCATEGORY_AUDIO%,"RearWave",ST.Wave.Rear
+AddInterface=%KSCATEGORY_RENDER%,"RearWave",ST.Wave.Rear
+AddInterface=%KSCATEGORY_CAPTURE%,"RearWave",ST.Wave.Rear
+AddInterface=%KSCATEGORY_REALTIME%,"RearWave",ST.Wave.Rear
+AddInterface=%KSCATEGORY_AUDIO%,"RearTopology",ST.Topo.Rear
+AddInterface=%KSCATEGORY_TOPOLOGY%,"RearTopology",ST.Topo.Rear
+
+AddInterface=%KSCATEGORY_AUDIO%,"Rear1Wave",ST.Wave.Rear1
+AddInterface=%KSCATEGORY_RENDER%,"Rear1Wave",ST.Wave.Rear1
+AddInterface=%KSCATEGORY_CAPTURE%,"Rear1Wave",ST.Wave.Rear1
+AddInterface=%KSCATEGORY_REALTIME%,"Rear1Wave",ST.Wave.Rear1
+AddInterface=%KSCATEGORY_AUDIO%,"Rear1Topology",ST.Topo.Rear1
+AddInterface=%KSCATEGORY_TOPOLOGY%,"Rear1Topology",ST.Topo.Rear1
+
+AddInterface=%KSCATEGORY_AUDIO%,"Rear2Wave",ST.Wave.Rear2
+AddInterface=%KSCATEGORY_RENDER%,"Rear2Wave",ST.Wave.Rear2
+AddInterface=%KSCATEGORY_CAPTURE%,"Rear2Wave",ST.Wave.Rear2
+AddInterface=%KSCATEGORY_REALTIME%,"Rear2Wave",ST.Wave.Rear2
+AddInterface=%KSCATEGORY_AUDIO%,"Rear2Topology",ST.Topo.Rear2
+AddInterface=%KSCATEGORY_TOPOLOGY%,"Rear2Topology",ST.Topo.Rear2
+
+;;Render Devices
+[ST.Wave.LineOut]
+AddReg=ST.Wave.LineOut.AddReg
+
+[ST.Wave.LineOut.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"LineOut"
+
+[ST.Topo.LineOut]
+AddReg=ST.Topo.LineOut.AddReg,ST.EP.LineOut.AddReg
+
+[ST.Topo.LineOut.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"LineOut Mixer"
+
+[ST.EP.LineOut.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_Device_DeviceDesc%,,%STNd.SpAndHp%
+HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_AudioEngine_OEMFormat%,1, 41,00,8C,70,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,EE,02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[ST.Wave.LineOut1]
+AddReg=ST.Wave.LineOut1.AddReg
+
+[ST.Wave.LineOut1.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"LineOut1"
+
+[ST.Topo.LineOut1]
+AddReg=ST.Topo.LineOut1.AddReg,ST.EP.LineOut1.AddReg
+
+[ST.Topo.LineOut1.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"LineOut1 Mixer"
+
+[ST.EP.LineOut1.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+
+[ST.Wave.LineOut2]
+AddReg=ST.Wave.LineOut2.AddReg
+
+[ST.Wave.LineOut2.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"LineOut2"
+
+[ST.Topo.LineOut2]
+AddReg=ST.Topo.LineOut2.AddReg,ST.EP.LineOut2.AddReg
+
+[ST.Topo.LineOut2.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"LineOut2 Mixer"
+
+[ST.EP.LineOut2.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+
+[ST.Wave.Speaker]
+AddReg=ST.Wave.Speaker.AddReg
+
+[ST.Wave.Speaker.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"Speaker"
+
+[ST.Topo.Speaker]
+AddReg=ST.Topo.Speaker.AddReg,ST.EP.Speaker.AddReg;,ST.EQ.Presets.Speaker
+
+[ST.Topo.Speaker.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"Speaker Mixer"
+
+[ST.EP.Speaker.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_Device_DeviceDesc%,,%STNd.SpAndHp%
+HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_AudioEngine_OEMFormat%,1, 41,00,8C,70,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,EE,02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[ST.Wave.Speaker1]
+AddReg=ST.Wave.Speaker1.AddReg
+
+[ST.Wave.Speaker1.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"Speaker1"
+
+[ST.Topo.Speaker1]
+AddReg=ST.Topo.Speaker1.AddReg,ST.EP.Speaker1.AddReg
+
+[ST.Topo.Speaker1.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"Speaker1 Mixer"
+
+[ST.EP.Speaker1.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_Device_DeviceDesc%,,%STNd.SpAndDHp%
+HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_AudioEngine_OEMFormat%,1, 41,00,8C,70,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,EE,02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[ST.Wave.Speaker2]
+AddReg=ST.Wave.Speaker2.AddReg
+
+[ST.Wave.Speaker2.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"Speaker2"
+
+[ST.Topo.Speaker2]
+AddReg=ST.Topo.Speaker2.AddReg,ST.EP.Speaker2.AddReg
+
+[ST.Topo.Speaker2.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"Speaker2 Mixer"
+
+[ST.EP.Speaker2.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_Device_DeviceDesc%,,%STNd.SpAndDHp%
+HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_AudioEngine_OEMFormat%,1, 41,00,8C,70,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,EE,02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[ST.Wave.SpeakerHp]
+AddReg=ST.Wave.SpeakerHp.AddReg
+
+[ST.Wave.SpeakerHp.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"Speaker/HP"
+
+[ST.Topo.SpeakerHp]
+AddReg=ST.Topo.SpeakerHp.AddReg,ST.EP.SpeakerHp.AddReg;,ST.EQ.Presets.SpeakerHp
+
+[ST.Topo.SpeakerHp.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"Speaker/HP Mixer"
+
+[ST.EP.SpeakerHp.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_Device_DeviceDesc%,,%STNd.SpAndDHp%
+HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+
+[ST.Wave.HpOut]
+AddReg=ST.Wave.HpOut.AddReg
+
+[ST.Wave.HpOut.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"HpOut"
+
+[ST.Topo.HpOut]
+AddReg=ST.Topo.HpOut.AddReg,ST.EP.HpOut.AddReg;,ST.EQ.Presets.HpOut
+
+[ST.Topo.HpOut.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"HpOut Mixer"
+
+[ST.EP.HpOut.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_Device_DeviceDesc%,,%STNd.IndHp%
+HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_AudioEngine_OEMFormat%,1, 41,00,8C,70,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,EE,02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[ST.Wave.HpOut1]
+AddReg=ST.Wave.HpOut1.AddReg
+
+[ST.Wave.HpOut1.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"HpOut1"
+
+[ST.Topo.HpOut1]
+AddReg=ST.Topo.HpOut1.AddReg,ST.EP.HpOut1.AddReg
+
+[ST.Topo.HpOut1.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"HpOut1 Mixer"
+
+[ST.EP.HpOut1.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_Device_DeviceDesc%,,"%STNd.IndHp% 2"
+HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+
+[ST.Wave.HpOut2]
+AddReg=ST.Wave.HpOut2.AddReg
+
+[ST.Wave.HpOut2.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"HpOut2"
+
+[ST.Topo.HpOut2]
+AddReg=ST.Topo.HpOut2.AddReg,ST.EP.HpOut2.AddReg
+
+[ST.Topo.HpOut2.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"HpOut2 Mixer"
+
+[ST.EP.HpOut2.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_Device_DeviceDesc%,,"%STNd.IndHp% 1"
+HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+
+[ST.Wave.HpOut3]
+AddReg=ST.Wave.HpOut3.AddReg
+
+[ST.Wave.HpOut3.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"HpOut3"
+
+[ST.Topo.HpOut3]
+AddReg=ST.Topo.HpOut3.AddReg,ST.EP.HpOut3.AddReg
+
+[ST.Topo.HpOut3.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"HpOut3 Mixer"
+
+[ST.EP.HpOut3.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_Device_DeviceDesc%,,%STNd.IndDualHp%
+HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_AudioEngine_OEMFormat%,1, 41,00,8C,70,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,EE,02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[ST.Wave.DockHpOut]
+AddReg=ST.Wave.DockHpOut.AddReg
+
+[ST.Wave.DockHpOut.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"Dock HpOut"
+
+[ST.Topo.DockHpOut]
+AddReg=ST.Topo.DockHpOut.AddReg,ST.EP.DockHpOut.AddReg
+
+[ST.Topo.DockHpOut.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"Dock HpOut Mixer"
+
+[ST.EP.DockHpOut.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+
+[ST.Wave.SpdifOut]
+AddReg=ST.Wave.SpdifOut.AddReg
+
+[ST.Wave.SpdifOut.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"SpdifOut"
+
+[ST.Topo.SpdifOut]
+AddReg=ST.Topo.SpdifOut.AddReg,ST.EP.SpdifOut.AddReg
+
+[ST.Topo.SpdifOut.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"SpdifOut Mixer"
+
+[ST.EP.SpdifOut.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_Device_DeviceDesc%,,%STNd.SpdifDock%
+
+[ST.Wave.DockSpdifOut]
+AddReg=ST.Wave.DockSpdifOut.AddReg
+
+[ST.Wave.DockSpdifOut.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"Dock SpdifOut"
+
+[ST.Topo.DockSpdifOut]
+AddReg=ST.Topo.DockSpdifOut.AddReg,ST.EP.DockSpdifOut.AddReg
+
+[ST.Topo.DockSpdifOut.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"Dock SpdifOut Mixer"
+
+[ST.EP.DockSpdifOut.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_Device_DeviceDesc%,,%STNd.SpdifDock%
+
+[ST.Wave.DigitalOut]
+AddReg=ST.Wave.DigitalOut.AddReg
+
+[ST.Wave.DigitalOut.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"DigitalOut"
+
+[ST.Topo.DigitalOut]
+AddReg=ST.Topo.DigitalOut.AddReg,ST.EP.DigitalOut.AddReg
+
+[ST.Topo.DigitalOut.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"DigitalOut Mixer"
+
+[ST.EP.DigitalOut.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+
+[ST.Wave.AdatOut]
+AddReg=ST.Wave.AdatOut.AddReg
+
+[ST.Wave.AdatOut.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"ADAT Out"
+
+[ST.Topo.AdatOut]
+AddReg=ST.Topo.AdatOut.AddReg,ST.EP.AdatOut.AddReg
+
+[ST.Topo.AdatOut.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"ADAT Out Mixer"
+
+[ST.EP.AdatOut.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+
+[ST.Wave.HdmiOut]
+AddReg=ST.Wave.HdmiOut.AddReg
+
+[ST.Wave.HdmiOut.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"HDMI Out"
+
+[ST.Topo.HdmiOut]
+AddReg=ST.Topo.HdmiOut.AddReg,ST.EP.HdmiOut.AddReg
+
+[ST.Topo.HdmiOut.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"HDMI Out Mixer"
+
+[ST.EP.HdmiOut.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_Device_DeviceDesc%,,%STNd.SpdifHdmiOut%
+
+[ST.Wave.SpdifHdmiOut]
+AddReg=ST.Wave.SpdifHdmiOut.AddReg
+
+[ST.Wave.SpdifHdmiOut.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"Spdif/HDMI Out"
+
+[ST.Topo.SpdifHdmiOut]
+AddReg=ST.Topo.SpdifHdmiOut.AddReg,ST.EP.SpdifHdmiOut.AddReg
+
+[ST.Topo.SpdifHdmiOut.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"Spdif/HDMI Out Mixer"
+
+[ST.EP.SpdifHdmiOut.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+
+HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_Device_DeviceDesc%,,%STNd.SpdifHdmiOut%
+
+[ST.Wave.PcBeepOut]
+AddReg=ST.Wave.PcBeepOut.AddReg
+
+[ST.Wave.PcBeepOut.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"PcBeep"
+
+[ST.Topo.PcBeepOut]
+AddReg=ST.Topo.PcBeepOut.AddReg,ST.EP.PcBeep.AddReg
+
+[ST.Topo.PcBeepOut.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"PcBeep Mixer"
+
+[ST.EP.PcBeep.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+
+;;Capture Devices
+[ST.Wave.MuxedIn]
+AddReg=ST.Wave.MuxedIn.AddReg
+
+[ST.Wave.MuxedIn.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"MuxedIn"
+
+[ST.Topo.MuxedIn]
+AddReg=ST.Topo.MuxedIn.AddReg,ST.EP.MuxedIn.AddReg
+
+[ST.Topo.MuxedIn.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"MuxedIn Mixer"
+
+[ST.EP.MuxedIn.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_Device_DeviceDesc%,,%STNd.InternalMic%
+HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_AudioEngine_OEMFormat%,1, 41,00,8C,70,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,EE,02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[ST.Wave.MuxedIn1]
+AddReg=ST.Wave.MuxedIn1.AddReg
+
+[ST.Wave.MuxedIn1.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"MuxedIn1"
+
+[ST.Topo.MuxedIn1]
+AddReg=ST.Topo.MuxedIn1.AddReg,ST.EP.MuxedIn1.AddReg
+
+[ST.Topo.MuxedIn1.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"MuxedIn1 Mixer"
+
+[ST.EP.MuxedIn1.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+
+[ST.Wave.MuxedIn2]
+AddReg=ST.Wave.MuxedIn2.AddReg
+
+[ST.Wave.MuxedIn2.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"MuxedIn2"
+
+[ST.Topo.MuxedIn2]
+AddReg=ST.Topo.MuxedIn2.AddReg,ST.EP.MuxedIn2.AddReg
+
+[ST.Topo.MuxedIn2.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"MuxedIn2 Mixer"
+
+[ST.EP.MuxedIn2.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+
+[ST.Wave.LineIn]
+AddReg=ST.Wave.LineIn.AddReg
+
+[ST.Wave.LineIn.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"LineIn"
+
+[ST.Topo.LineIn]
+AddReg=ST.Topo.LineIn.AddReg,ST.EP.LineIn.AddReg
+
+[ST.Topo.LineIn.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"LineIn Mixer"
+
+[ST.EP.LineIn.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+
+[ST.Wave.LineIn1]
+AddReg=ST.Wave.LineIn1.AddReg
+
+[ST.Wave.LineIn1.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"LineIn1"
+
+[ST.Topo.LineIn1]
+AddReg=ST.Topo.LineIn1.AddReg,ST.EP.LineIn1.AddReg
+
+[ST.Topo.LineIn1.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"LineIn1 Mixer"
+
+[ST.EP.LineIn1.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+
+[ST.Wave.LineIn2]
+AddReg=ST.Wave.LineIn2.AddReg
+
+[ST.Wave.LineIn2.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"LineIn2"
+
+[ST.Topo.LineIn2]
+AddReg=ST.Topo.LineIn2.AddReg,ST.EP.LineIn2.AddReg
+
+[ST.Topo.LineIn2.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"LineIn2 Mixer"
+
+[ST.EP.LineIn2.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+
+[ST.Wave.MicIn]
+AddReg=ST.Wave.MicIn.AddReg
+
+[ST.Wave.MicIn.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"MicIn"
+
+[ST.Topo.MicIn]
+AddReg=ST.Topo.MicIn.AddReg,ST.EP.MicIn.AddReg
+
+[ST.Topo.MicIn.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"MicIn Mixer"
+
+[ST.EP.MicIn.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_Device_DeviceDesc%,,%STNd.IntMicArray%
+HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_AudioEngine_OEMFormat%,1, 41,00,8C,70,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,EE,02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[ST.Wave.MicIn1]
+AddReg=ST.Wave.MicIn1.AddReg
+
+[ST.Wave.MicIn1.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"MicIn1"
+
+[ST.Topo.MicIn1]
+AddReg=ST.Topo.MicIn1.AddReg,ST.EP.MicIn1.AddReg
+
+[ST.Topo.MicIn1.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"MicIn1 Mixer"
+
+[ST.EP.MicIn1.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_Device_DeviceDesc%,,%STNd.IntMicArray%
+
+[ST.Wave.MicIn2]
+AddReg=ST.Wave.MicIn2.AddReg
+
+[ST.Wave.MicIn2.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"MicIn2"
+
+[ST.Topo.MicIn2]
+AddReg=ST.Topo.MicIn2.AddReg,ST.EP.MicIn2.AddReg
+
+[ST.Topo.MicIn2.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"MicIn2 Mixer"
+
+[ST.EP.MicIn2.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+
+[ST.Wave.CDIn]
+AddReg=ST.Wave.CDIn.AddReg
+
+[ST.Wave.CDIn.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"CDIn"
+
+[ST.Topo.CDIn]
+AddReg=ST.Topo.CDIn.AddReg,ST.EP.CDIn.AddReg
+
+[ST.Topo.CDIn.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"CDIn Mixer"
+
+[ST.EP.CDIn.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+
+[ST.Wave.AuxIn]
+AddReg=ST.Wave.AuxIn.AddReg
+
+[ST.Wave.AuxIn.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"AuxIn"
+
+[ST.Topo.AuxIn]
+AddReg=ST.Topo.AuxIn.AddReg,ST.EP.AuxIn.AddReg
+
+[ST.Topo.AuxIn.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"AuxIn Mixer"
+
+[ST.EP.AuxIn.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+
+[ST.Wave.AuxIn1]
+AddReg=ST.Wave.AuxIn1.AddReg
+
+[ST.Wave.AuxIn1.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"AuxIn1"
+
+[ST.Topo.AuxIn1]
+AddReg=ST.Topo.AuxIn1.AddReg,ST.EP.AuxIn1.AddReg
+
+[ST.Topo.AuxIn1.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"AuxIn1 Mixer"
+
+[ST.EP.AuxIn1.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+
+[ST.Wave.AuxIn2]
+AddReg=ST.Wave.AuxIn2.AddReg
+
+[ST.Wave.AuxIn2.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"AuxIn2"
+
+[ST.Topo.AuxIn2]
+AddReg=ST.Topo.AuxIn2.AddReg,ST.EP.AuxIn2.AddReg
+
+[ST.Topo.AuxIn2.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"AuxIn2 Mixer"
+
+[ST.EP.AuxIn2.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+
+[ST.Wave.SpdifIn]
+AddReg=ST.Wave.SpdifIn.AddReg
+
+[ST.Wave.SpdifIn.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"SpdifIn"
+
+[ST.Topo.SpdifIn]
+AddReg=ST.Topo.SpdifIn.AddReg,ST.EP.SpdifIn.AddReg
+
+[ST.Topo.SpdifIn.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"SpdifIn Mixer"
+
+[ST.EP.SpdifIn.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+
+[ST.Wave.DigitalIn]
+AddReg=ST.Wave.DigitalIn.AddReg
+
+[ST.Wave.DigitalIn.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"DigitalIn"
+
+[ST.Topo.DigitalIn]
+AddReg=ST.Topo.DigitalIn.AddReg,ST.EP.DigitalIn.AddReg
+
+[ST.Topo.DigitalIn.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"DigitalIn Mixer"
+
+[ST.EP.DigitalIn.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+
+[ST.Wave.PlaybackCapture]
+AddReg=ST.Wave.PlaybackCapture.AddReg
+
+[ST.Wave.PlaybackCapture.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"PlaybackCapture"
+
+[ST.Topo.PlaybackCapture]
+AddReg=ST.Topo.PlaybackCapture.AddReg,ST.EP.PlaybackCapture.AddReg
+
+[ST.Topo.PlaybackCapture.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"PlaybackCapture Mixer"
+
+[ST.EP.PlaybackCapture.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+
+[ST.Wave.RTCCapture]
+AddReg=ST.Wave.RTCCapture.AddReg
+
+[ST.Wave.RTCCapture.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"RTCCapture"
+
+[ST.Topo.RTCCapture]
+AddReg=ST.Topo.RTCCapture.AddReg,ST.EP.RTCCapture.AddReg
+
+[ST.Topo.RTCCapture.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"RTCCapture Mixer"
+
+[ST.EP.RTCCapture.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+
+[ST.Wave.HPCapture]
+AddReg=ST.Wave.HPCapture.AddReg
+
+[ST.Wave.HPCapture.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"HPCapture"
+
+[ST.Topo.HPCapture]
+AddReg=ST.Topo.HPCapture.AddReg,ST.EP.HPCapture.AddReg
+
+[ST.Topo.HPCapture.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"HPCapture Mixer"
+
+[ST.EP.HPCapture.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+
+[ST.Wave.SpeakerCapture]
+AddReg=ST.Wave.SpeakerCapture.AddReg
+
+[ST.Wave.SpeakerCapture.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"SpeakerCapture"
+
+[ST.Topo.SpeakerCapture]
+AddReg=ST.Topo.SpeakerCapture.AddReg,ST.EP.SpeakerCapture.AddReg
+
+[ST.Topo.SpeakerCapture.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"SpeakerCapture Mixer"
+
+[ST.EP.SpeakerCapture.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+
+;;Combined XP Style Devices
+[ST.Wave.Rear]
+AddReg=ST.Wave.Rear.AddReg
+
+[ST.Wave.Rear.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"IDT Audio"
+
+[ST.Topo.Rear]
+AddReg=ST.Topo.Rear.AddReg
+
+[ST.Topo.Rear.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"IDT Audio Topology"
+
+[ST.Wave.Rear1]
+AddReg=ST.Wave.Rear1.AddReg
+
+[ST.Wave.Rear1.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"IDT Audio1"
+
+[ST.Topo.Rear1]
+AddReg=ST.Topo.Rear1.AddReg
+
+[ST.Topo.Rear1.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"IDT Audio1 Topology"
+
+[ST.Wave.Rear2]
+AddReg=ST.Wave.Rear2.AddReg
+
+[ST.Wave.Rear2.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"IDT Audio2"
+
+[ST.Topo.Rear2]
+AddReg=ST.Topo.Rear2.AddReg
+
+[ST.Topo.Rear2.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,"IDT Audio2 Topology"
+
+;;Combined
+
+[MS.Branding.AddProperty]
+DeviceBrandingIcon,,,,"%1%\HDAudio.sys,-203"
+DeviceVendorWebSite,,,,"http://www.microsoft.com"
+
+;; All EP\\0 entries in the same grouping
+[FormatOverride_Any.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_AudioEngine_OEMFormat%,1, 41,00,8C,70,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,EE,02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+;; Endpoint extension property pages
+[FormatOverride_Speaker.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_SPEAKER%
+
+;; Set default format to 48kHz, 16-bit, Stereo
+[FormatOverride_48K16S.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_AudioEngine_OEMFormat%,1, 41,00,8C,70,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,EE,02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[AdvancedTab.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_EP_Ext_UiClsid%,,%ST_AUDIOENDPOINT_EXT_UI_CLSID%
+
+[FormatOverride_Microphone.AddReg]
+HKR,"EP\\0",%PKEY_EP_Association%,,%KSNODETYPE_MICROPHONE%
+;; Set default format to 48kHz, 16-bit, Stereo
+HKR,"EP\\0",%PKEY_AudioEngine_OEMFormat%,1, 41,00,8C,70,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,EE,02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[ST.Security.AddReg]
+HKR,,DeviceType,0x10001,0x0000001D ; FILE_DEVICE_SOUND
+HKR,,Security,,"D:P(A;;GA;;;SY)(A;;GRGWGX;;;BA)(A;;GRGWGX;;;WD)(A;;GRGWGX;;;RC)"
+
+[ST.DelReg]
+
+[ST.Config.AddReg]
+HKCU,Software\Microsoft\Multimedia\Audio,DefaultFormat,,%STNd.CDQuality%
+HKCU,Software\Microsoft\Multimedia\Audio\WaveFormats,%STNd.CDQuality%,1,01,00,02,00,44,ac,00,00,10,b1,02,00,04,00,10,00
+;;new users are created same as current
+HKU,.Default\Software\Microsoft\Multimedia\Audio,DefaultFormat,,%STNd.CDQuality%
+HKU,.Default\Software\Microsoft\Multimedia\Audio\WaveFormats,%STNd.CDQuality%,1,01,00,02,00,44,ac,00,00,10,b1,02,00,04,00,10,00
+HKLM,%RegKeyAudio%,Version,,"6.10.6365.0"
+HKLM,%RegKeyAudio%,install,,"success"
+HKLM,%RegKeyAudio%,reboot,,""
+
+[ST.Nodes.AddReg]
+HKLM,%MediaCategory%\%STGD.3DBypass%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.3DBypass%,Name,,%STND.3DBypass%,,,
+HKLM,%MediaCategory%\%STGD.3DEnable%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.3DEnable%,Name,,%STND.3DEnable%,,,
+HKLM,%MediaCategory%\%STGD.AltLineIn%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.AltLineIn%,Name,,%STND.AltLineIn%,,,
+HKLM,%MediaCategory%\%STGD.AltMic%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.AltMic%,Name,,%STND.AltMic%,,,
+HKLM,%MediaCategory%\%STGD.AltMic2%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.AltMic2%,Name,,%STND.AltMic2%,,,
+HKLM,%MediaCategory%\%STGD.AltMicLineIn%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.AltMicLineIn%,Name,,%STND.AltMicLineIn%,,,
+HKLM,%MediaCategory%\%STGD.AltVolume%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.AltVolume%,Name,,%STND.AltVolume%,,,
+HKLM,%MediaCategory%\%STGD.AltVolumeMute%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.AltVolumeMute%,Name,,%STND.AltVolumeMute%,,,
+HKLM,%MediaCategory%\%STGD.AltVolumePin%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.AltVolumePin%,Name,,%STND.AltVolumePin%,,,
+HKLM,%MediaCategory%\%STGD.AnalogOut%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.AnalogOut%,Name,,%STND.AnalogOut%,,,
+HKLM,%MediaCategory%\%STGD.AuxIn%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.AuxIn%,Name,,%STND.AuxIn%,,,
+HKLM,%MediaCategory%\%STGD.AuxIn1%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.AuxIn1%,Name,,%STND.AuxIn1%,,,
+HKLM,%MediaCategory%\%STGD.AuxIn2%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.AuxIn2%,Name,,%STND.AuxIn2%,,,
+HKLM,%MediaCategory%\%STGD.BackupCdInMute%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.BackupCdInMute%,Name,,%STND.BackupCdInMute%,,,
+HKLM,%MediaCategory%\%STGD.BeepMix%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.BeepMix%,Name,,%STND.BeepMix%,,,
+HKLM,%MediaCategory%\%STGD.CDIn%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.CDIn%,Name,,%STND.CDIn%,,,
+HKLM,%MediaCategory%\%STGD.CDQuality%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.CDQuality%,Name,,%STND.CDQuality%,,,
+HKLM,%MediaCategory%\%STGD.CenterMute%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.CenterMute%,Name,,%STND.CenterMute%,,,
+HKLM,%MediaCategory%\%STGD.CenterVolume%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.CenterVolume%,Name,,%STND.CenterVolume%,,,
+HKLM,%MediaCategory%\%STGD.DigitalEnable%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.DigitalEnable%,Name,,%STND.DigitalEnable%,,,
+HKLM,%MediaCategory%\%STGD.DigitalIn%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.DigitalIn%,Name,,%STND.DigitalIn%,,,
+HKLM,%MediaCategory%\%STGD.DigitalMic%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.DigitalMic%,Name,,%STND.DigitalMic%,,,
+HKLM,%MediaCategory%\%STGD.DigitalMic2%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.DigitalMic2%,Name,,%STND.DigitalMic2%,,,
+HKLM,%MediaCategory%\%STGD.DigitalOut%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.DigitalOut%,Name,,%STND.DigitalOut%,,,
+HKLM,%MediaCategory%\%STGD.DisplayPort%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.DisplayPort%,Name,,%STND.DisplayPort%,,,
+HKLM,%MediaCategory%\%STGD.DockHP%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.DockHP%,Name,,%STND.DockHP%,,,
+HKLM,%MediaCategory%\%STGD.DockHpOut%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.DockHpOut%,Name,,%STND.DockHpOut%,,,
+HKLM,%MediaCategory%\%STGD.DockLineIn%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.DockLineIn%,Name,,%STND.DockLineIn%,,,
+HKLM,%MediaCategory%\%STGD.DockMic%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.DockMic%,Name,,%STND.DockMic%,,,
+HKLM,%MediaCategory%\%STGD.DockRTCHP%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.DockRTCHP%,Name,,%STND.DockRTCHP%,,,
+HKLM,%MediaCategory%\%STGD.DockRTCMic%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.DockRTCMic%,Name,,%STND.DockRTCMic%,,,
+HKLM,%MediaCategory%\%STGD.DockSPDIF%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.DockSPDIF%,Name,,%STND.DockSPDIF%,,,
+HKLM,%MediaCategory%\%STGD.DockSPDIFIn%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.DockSPDIFIn%,Name,,%STND.DockSPDIFIn%,,,
+HKLM,%MediaCategory%\%STGD.DockVOIPHP%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.DockVOIPHP%,Name,,%STND.DockVOIPHP%,,,
+HKLM,%MediaCategory%\%STGD.DockVOIPMic%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.DockVOIPMic%,Name,,%STND.DockVOIPMic%,,,
+HKLM,%MediaCategory%\%STGD.DUALHP%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.DUALHP%,Name,,%STND.DockVOIPMic%,,,
+HKLM,%MediaCategory%\%STGD.ExternalMic%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.ExternalMic%,Name,,%STND.ExternalMic%,,,
+HKLM,%MediaCategory%\%STGD.ExtMic%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.ExtMic%,Name,,%STND.ExtMic%,,,
+HKLM,%MediaCategory%\%STGD.FmRadio%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.FmRadio%,Name,,%STND.FmRadio%,,,
+HKLM,%MediaCategory%\%STGD.FrontHP%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.FrontHP%,Name,,%STND.FrontHP%,,,
+HKLM,%MediaCategory%\%STGD.FrontLineIn%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.FrontLineIn%,Name,,%STND.FrontLineIn%,,,
+HKLM,%MediaCategory%\%STGD.FrontMic%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.FrontMic%,Name,,%STND.FrontMic%,,,
+HKLM,%MediaCategory%\%STGD.FrontRTCHP%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.FrontRTCHP%,Name,,%STND.FrontRTCHP%,,,
+HKLM,%MediaCategory%\%STGD.FrontRTCMic%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.FrontRTCMic%,Name,,%STND.FrontRTCMic%,,,
+HKLM,%MediaCategory%\%STGD.FrontSPDIF%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.FrontSPDIF%,Name,,%STND.FrontSPDIF%,,,
+HKLM,%MediaCategory%\%STGD.FrontSPDIFIn%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.FrontSPDIFIn%,Name,,%STND.FrontSPDIFIn%,,,
+HKLM,%MediaCategory%\%STGD.FrontVOIPHP%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.FrontVOIPHP%,Name,,%STND.FrontVOIPHP%,,,
+HKLM,%MediaCategory%\%STGD.FrontVOIPMic%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.FrontVOIPMic%,Name,,%STND.FrontVOIPMic%,,,
+HKLM,%MediaCategory%\%STGD.GPIOControl%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.GPIOControl%,Name,,%STND.GPIOControl%,,,
+HKLM,%MediaCategory%\%STGD.HeadsetMic%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.HeadsetMic%,Name,,%STND.HeadsetMic%,,,
+HKLM,%MediaCategory%\%STGD.HdmiOut%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.HdmiOut%,Name,,%STND.HdmiOut%,,,
+HKLM,%MediaCategory%\%STGD.HPMute%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.HPMute%,Name,,%STND.HPMute%,,,
+HKLM,%MediaCategory%\%STGD.HPOut%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.HPOut%,Name,,%STND.HPOut%,,,
+HKLM,%MediaCategory%\%STGD.HpOut1%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.HpOut1%,Name,,%STND.HpOut1%,,,
+HKLM,%MediaCategory%\%STGD.HpOut2%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.HpOut2%,Name,,%STND.HpOut2%,,,
+HKLM,%MediaCategory%\%STGD.HPOutPin%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.HPOutPin%,Name,,%STND.HPOutPin%,,,
+HKLM,%MediaCategory%\%STGD.HPVolume%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.HPVolume%,Name,,%STND.HPVolume%,,,
+HKLM,%MediaCategory%\%STGD.InternalMic%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.InternalMic%,Name,,%STND.InternalMic%,,,
+HKLM,%MediaCategory%\%STGD.INTERNALSPKR%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.INTERNALSPKR%,Name,,%STND.INTERNALSPKR%,,,
+HKLM,%MediaCategory%\%STGD.JackMic%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.JackMic%,Name,,%STND.JackMic%,,,
+HKLM,%MediaCategory%\%STGD.LeftHP%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.LeftHP%,Name,,%STND.LeftHP%,,,
+HKLM,%MediaCategory%\%STGD.LeftLineIn%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.LeftLineIn%,Name,,%STND.LeftLineIn%,,,
+HKLM,%MediaCategory%\%STGD.LeftMic%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.LeftMic%,Name,,%STND.LeftMic%,,,
+HKLM,%MediaCategory%\%STGD.LeftRTCHP%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.LeftRTCHP%,Name,,%STND.LeftRTCHP%,,,
+HKLM,%MediaCategory%\%STGD.LeftRTCMic%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.LeftRTCMic%,Name,,%STND.LeftRTCMic%,,,
+HKLM,%MediaCategory%\%STGD.LeftSPDIF%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.LeftSPDIF%,Name,,%STND.LeftSPDIF%,,,
+HKLM,%MediaCategory%\%STGD.LeftSPDIFIn%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.LeftSPDIFIn%,Name,,%STND.LeftSPDIFIn%,,,
+HKLM,%MediaCategory%\%STGD.LeftVOIPHP%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.LeftVOIPHP%,Name,,%STND.LeftVOIPHP%,,,
+HKLM,%MediaCategory%\%STGD.LeftVOIPMic%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.LeftVOIPMic%,Name,,%STND.LeftVOIPMic%,,,
+HKLM,%MediaCategory%\%STGD.LFEMute%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.LFEMute%,Name,,%STND.LFEMute%,,,
+HKLM,%MediaCategory%\%STGD.LFEVolume%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.LFEVolume%,Name,,%STND.LFEVolume%,,,
+HKLM,%MediaCategory%\%STGD.Line%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.Line%,Name,,%STND.Line%,,,
+HKLM,%MediaCategory%\%STGD.LineIn1%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.LineIn1%,Name,,%STND.LineIn1%,,,
+HKLM,%MediaCategory%\%STGD.LineIn2%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.LineIn2%,Name,,%STND.LineIn2%,,,
+HKLM,%MediaCategory%\%STGD.LineIn2Pin%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.LineIn2Pin%,Name,,%STND.LineIn2Pin%,,,
+HKLM,%MediaCategory%\%STGD.LineIn2Volume%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.LineIn2Volume%,Name,,%STND.LineIn2Volume%,,,
+HKLM,%MediaCategory%\%STGD.LineInMute%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.LineInMute%,Name,,%STND.LineInMute%,,,
+HKLM,%MediaCategory%\%STGD.LineOut1%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.LineOut1%,Name,,%STND.LineOut1%,,,
+HKLM,%MediaCategory%\%STGD.LineOut2%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.LineOut2%,Name,,%STND.LineOut2%,,,
+HKLM,%MediaCategory%\%STGD.LnLvlMute%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.LnLvlMute%,Name,,%STND.LnLvlMute%,,,
+HKLM,%MediaCategory%\%STGD.LnLvlOutPin%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.LnLvlOutPin%,Name,,%STND.LnLvlOutPin%,,,
+HKLM,%MediaCategory%\%STGD.LnLvlVolume%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.LnLvlVolume%,Name,,%STND.LnLvlVolume%,,,
+HKLM,%MediaCategory%\%STGD.MainMix%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.MainMix%,Name,,%STND.MainMix%,,,
+HKLM,%MediaCategory%\%STGD.MasterInMute%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.MasterInMute%,Name,,%STND.MasterInMute%,,,
+HKLM,%MediaCategory%\%STGD.MasterInVolume%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.MasterInVolume%,Name,,%STND.MasterInVolume%,,,
+HKLM,%MediaCategory%\%STGD.Mic10dbBoost%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.Mic10dbBoost%,Name,,%STND.Mic10dbBoost%,,,
+HKLM,%MediaCategory%\%STGD.Mic20dbBoost%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.Mic20dbBoost%,Name,,%STND.Mic20dbBoost%,,,
+HKLM,%MediaCategory%\%STGD.Mic2Volume%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.Mic2Volume%,Name,,%STND.Mic2Volume%,,,
+HKLM,%MediaCategory%\%STGD.MicIn%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.MicIn%,Name,,%STND.MicIn%,,,
+HKLM,%MediaCategory%\%STGD.MicIn1%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.MicIn1%,Name,,%STND.MicIn1%,,,
+HKLM,%MediaCategory%\%STGD.MicIn2%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.MicIn2%,Name,,%STND.MicIn2%,,,
+HKLM,%MediaCategory%\%STGD.MicInMute%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.MicInMute%,Name,,%STND.MicInMute%,,,
+HKLM,%MediaCategory%\%STGD.MicInVolume%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.MicInVolume%,Name,,%STND.MicInVolume%,,,
+HKLM,%MediaCategory%\%STGD.MicLineIn%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.MicLineIn%,Name,,%STND.MicLineIn%,,,
+HKLM,%MediaCategory%\%STGD.MicLineSharing%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.MicLineSharing%,Name,,%STND.MicLineSharing%,,,
+HKLM,%MediaCategory%\%STGD.MonoMic%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.MonoMic%,Name,,%STND.MonoMic%,,,
+HKLM,%MediaCategory%\%STGD.MonoMuteInMasterAdvanced%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.MonoMuteInMasterAdvanced%,Name,,%STND.MonoMuteInMasterAdvanced%,,,
+HKLM,%MediaCategory%\%STGD.MonoOutSelect%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.MonoOutSelect%,Name,,%STND.MonoOutSelect%,,,
+HKLM,%MediaCategory%\%STGD.MultiChannelEnable%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.MultiChannelEnable%,Name,,%STND.MultiChannelEnable%,,,
+HKLM,%MediaCategory%\%STGD.MuxedIn%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.MuxedIn%,Name,,%STND.MuxedIn%,,,
+HKLM,%MediaCategory%\%STGD.MuxedIn1%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.MuxedIn1%,Name,,%STND.MuxedIn1%,,,
+HKLM,%MediaCategory%\%STGD.MuxedIn2%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.MuxedIn2%,Name,,%STND.MuxedIn2%,,,
+HKLM,%MediaCategory%\%STGD.PBCAP%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.PBCAP%,Name,,%STND.PBCAP%,,,
+HKLM,%MediaCategory%\%STGD.PcSpeaker%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.PcSpeaker%,Name,,%STND.PcSpeaker%,,,
+HKLM,%MediaCategory%\%STGD.PhoneMute%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.PhoneMute%,Name,,%STND.PhoneMute%,,,
+HKLM,%MediaCategory%\%STGD.PhoneVolume%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.PhoneVolume%,Name,,%STND.PhoneVolume%,,,
+HKLM,%MediaCategory%\%STGD.RearHP%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.RearHP%,Name,,%STND.RearHP%,,,
+HKLM,%MediaCategory%\%STGD.RearLineIn%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.RearLineIn%,Name,,%STND.RearLineIn%,,,
+HKLM,%MediaCategory%\%STGD.RearMic%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.RearMic%,Name,,%STND.RearMic%,,,
+HKLM,%MediaCategory%\%STGD.RearRTCHP%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.RearRTCHP%,Name,,%STND.RearRTCHP%,,,
+HKLM,%MediaCategory%\%STGD.RearRTCMic%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.RearRTCMic%,Name,,%STND.RearRTCMic%,,,
+HKLM,%MediaCategory%\%STGD.RearSPDIF%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.RearSPDIF%,Name,,%STND.RearSPDIF%,,,
+HKLM,%MediaCategory%\%STGD.RearSPDIFIn%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.RearSPDIFIn%,Name,,%STND.RearSPDIFIn%,,,
+HKLM,%MediaCategory%\%STGD.RearVOIPHP%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.RearVOIPHP%,Name,,%STND.RearVOIPHP%,,,
+HKLM,%MediaCategory%\%STGD.RearVOIPMic%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.RearVOIPMic%,Name,,%STND.RearVOIPMic%,,,
+HKLM,%MediaCategory%\%STGD.RecMonitorPin%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.RecMonitorPin%,Name,,%STND.RecMonitorPin%,,,
+HKLM,%MediaCategory%\%STGD.RightHP%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.RightHP%,Name,,%STND.RightHP%,,,
+HKLM,%MediaCategory%\%STGD.RightLineIn%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.RightLineIn%,Name,,%STND.RightLineIn%,,,
+HKLM,%MediaCategory%\%STGD.RightMic%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.RightMic%,Name,,%STND.RightMic%,,,
+HKLM,%MediaCategory%\%STGD.RightRTCHP%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.RightRTCHP%,Name,,%STND.RightRTCHP%,,,
+HKLM,%MediaCategory%\%STGD.RightRTCMic%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.RightRTCMic%,Name,,%STND.RightRTCMic%,,,
+HKLM,%MediaCategory%\%STGD.RightSPDIF%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.RightSPDIF%,Name,,%STND.RightSPDIF%,,,
+HKLM,%MediaCategory%\%STGD.RightSPDIFIn%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.RightSPDIFIn%,Name,,%STND.RightSPDIFIn%,,,
+HKLM,%MediaCategory%\%STGD.RightVOIPHP%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.RightVOIPHP%,Name,,%STND.RightVOIPHP%,,,
+HKLM,%MediaCategory%\%STGD.RightVOIPMic%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.RightVOIPMic%,Name,,%STND.RightVOIPMic%,,,
+HKLM,%MediaCategory%\%STGD.RTCHP0%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.RTCHP0%,Name,,%STND.RTCHP0%,,,
+HKLM,%MediaCategory%\%STGD.RTCHP1%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.RTCHP1%,Name,,%STND.RTCHP1%,,,
+HKLM,%MediaCategory%\%STGD.RTCHP2%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.RTCHP2%,Name,,%STND.RTCHP2%,,,
+HKLM,%MediaCategory%\%STGD.SpdifHdmiOut%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.SpdifHdmiOut%,Name,,%STND.SpdifHdmiOut%,,,
+HKLM,%MediaCategory%\%STGD.SPDIFHPDOCK%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.SPDIFHPDOCK%,Name,,%STND.SpdifHdmiOut%,,,
+HKLM,%MediaCategory%\%STGD.SPDIFIn%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.SPDIFIn%,Name,,%STND.SPDIFIn%,,,
+HKLM,%MediaCategory%\%STGD.SpdifOut%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.SpdifOut%,Name,,%STND.SpdifOut%,,,
+HKLM,%MediaCategory%\%STGD.Speaker%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.Speaker%,Name,,%STND.Speaker%,,,
+HKLM,%MediaCategory%\%STGD.Speaker1%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.Speaker1%,Name,,%STND.Speaker1%,,,
+HKLM,%MediaCategory%\%STGD.Speaker2%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.Speaker2%,Name,,%STND.Speaker2%,,,
+HKLM,%MediaCategory%\%STGD.SpeakerAndHPOut%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.SpeakerAndHPOut%,Name,,%STND.SpeakerAndHPOut%,,,
+HKLM,%MediaCategory%\%STGD.SPKANDRDHP%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.SPKANDRDHP%,Name,,%STND.SPKANDRDHP%,,,
+HKLM,%MediaCategory%\%STGD.SubWooferMute%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.SubWooferMute%,Name,,%STND.SubWooferMute%,,,
+HKLM,%MediaCategory%\%STGD.SubWooferPin%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.SubWooferPin%,Name,,%STND.SubWooferPin%,,,
+HKLM,%MediaCategory%\%STGD.SubWooferVolume%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.SubWooferVolume%,Name,,%STND.SubWooferVolume%,,,
+HKLM,%MediaCategory%\%STGD.SurroundMute%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.SurroundMute%,Name,,%STND.SurroundMute%,,,
+HKLM,%MediaCategory%\%STGD.SurroundVolume%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.SurroundVolume%,Name,,%STND.SurroundVolume%,,,
+HKLM,%MediaCategory%\%STGD.TvTuner%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.TvTuner%,Name,,%STND.TvTuner%,,,
+HKLM,%MediaCategory%\%STGD.WaveIn2Select%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.WaveIn2Select%,Name,,%STND.WaveIn2Select%,,,
+HKLM,%MediaCategory%\%STGD.WaveInSelect%,Display,1,00,00,00,00
+HKLM,%MediaCategory%\%STGD.WaveInSelect%,Name,,%STND.WaveInSelect%,,,
+
+[Strings]
+
+SystemRoot="%SystemRoot%"
+ST.DeviceDesc="IDT High Definition Audio CODEC"
+MediaCategory="SYSTEM\CurrentControlSet\Control\MediaCategories"
+RunOnce="SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"
+RegKeyAudio="Software\IDT\Audio"
+Proxy.CLSID="{17CCA71B-ECD7-11D0-B908-00A0C9223196}"
+KSCATEGORY_AUDIO="{6994AD04-93EF-11D0-A3CC-00A0C9223196}"
+KSCATEGORY_RENDER="{65E8773E-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_CAPTURE="{65E8773D-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_TOPOLOGY="{DDA54A40-1E4C-11D1-A050-405705C10000}"
+KSCATEGORY_REALTIME="{EB115FFC-10C8-4964-831D-6DCB02E6F23F}"
+
+;; Registry value types
+REG_SZ = 0x00000000
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_EXPAND_SZ = 0x00020000
+
+;; EP PropertyKey GUIDS
+PKEY_EP_FormFactor        = "{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},0"
+PKEY_EP_Ext_UiClsid       = "{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},1"
+PKEY_EP_Association       = "{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},2"
+PKEY_EP_PhysicalSpeakers  = "{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},3"
+PKEY_EP_GUID              = "{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},4"
+PKEY_EP_FullRangeSpeakers = "{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},6"
+PKEY_EP_Dolby_HP_Mode     = "{46D16A2C-5654-41c0-911E-7860D2BCE7EE},3"
+PKEY_AudioEndpoint_Supports_EventDriven_Mode ="{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},7"
+PKEY_AudioDevice_NeverSetAsDefaultEndpoint = "{F3E80BEF-1723-4FF2-BCC4-7F83DC5E46D4},3" 
+
+;; EP PropertyKey GUIDS (same as above)
+PKEY_AudioEndpoint_FormFactor        = "{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},0"
+PKEY_AudioEndpoint_Ext_UiClsid       = "{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},1"
+PKEY_AudioEndpoint_Association       = "{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},2"
+PKEY_AudioEndpoint_PhysicalSpeakers  = "{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},3"
+PKEY_AudioEndpoint_GUID              = "{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},4"
+PKEY_AudioEndpoint_FullRangeSpeakers = "{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},6"
+PKEY_AudioEndpoint_Dolby_HP_Mode     = "{46D16A2C-5654-41c0-911E-7860D2BCE7EE},3"
+
+PKEY_Device_DeviceDesc        = "{A45C254E-DF1C-4EFD-8020-67D146A850E0},2"
+PKEY_AudioEngine_DeviceFormat = "{F19F064D082C4E27BC736882A1BB8E4C,0}"
+;;Specifies the default format that is used for rendering/capturing.
+PKEY_AudioEngine_OEMFormat    = "{E4870E26-3CC5-4CD2-BA46-CA0A9A70ED04},3"
+
+PKEY_DeviceClass_Name             = "{259ABFFC-50A7-47CE-AF08-68C9A7D73366},2"
+PKEY_DeviceClass_ClassName        = "{259ABFFC-50A7-47CE-AF08-68C9A7D73366},3"
+PKEY_DeviceClass_Icon             = "{259ABFFC-50A7-47CE-AF08-68C9A7D73366},4"
+PKEY_DeviceClass_ClassInstaller   = "{259ABFFC-50A7-47CE-AF08-68C9A7D73366},5"
+PKEY_DeviceClass_PropPageProvider = "{259ABFFC-50A7-47CE-AF08-68C9A7D73366},6"
+PKEY_DeviceClass_NoInstallClass   = "{259ABFFC-50A7-47CE-AF08-68C9A7D73366},7"
+PKEY_DeviceClass_NoDisplayClass   = "{259ABFFC-50A7-47CE-AF08-68C9A7D73366},8"
+PKEY_DeviceClass_SilentInstall    = "{259ABFFC-50A7-47CE-AF08-68C9A7D73366},9"
+PKEY_DeviceClass_NoUseClass       = "{259ABFFC-50A7-47CE-AF08-68C9A7D73366},10"
+PKEY_DeviceClass_DefaultService   = "{259ABFFC-50A7-47CE-AF08-68C9A7D73366},11"
+PKEY_DeviceClass_IconPath         = "{259ABFFC-50A7-47CE-AF08-68C9A7D73366},12"
+
+PKEY_DrvPkg_Model               = "{CF73BB51-3ABF-44A2-85E0-9A3DC7A12132},2"
+PKEY_DrvPkg_VendorWebSite       = "{CF73BB51-3ABF-44A2-85E0-9A3DC7A12132},3"
+PKEY_DrvPkg_DetailedDescription = "{CF73BB51-3ABF-44A2-85E0-9A3DC7A12132},4"
+PKEY_DrvPkg_DocumentationLink   = "{CF73BB51-3ABF-44A2-85E0-9A3DC7A12132},5"
+PKEY_DrvPkg_Icon                = "{CF73BB51-3ABF-44A2-85E0-9A3DC7A12132},6"
+PKEY_DrvPkg_BrandingIcon        = "{CF73BB51-3ABF-44A2-85E0-9A3DC7A12132},7"
+
+KSNODETYPE_ANY             = "{00000000-0000-0000-0000-000000000000}"
+KSNODETYPE_SPEAKER         = "{DFF21CE1-F70F-11D0-B917-00A0C9223196}"
+KSNODETYPE_HEADPHONES      = "{DFF21CE2-F70F-11D0-B917-00A0C9223196}"
+KSNODETYPE_SPDIF_INTERFACE = "{DFF21FE5-F70F-11D0-B917-00A0C9223196}"
+KSNODETYPE_MICROPHONE      = "{DFF21BE1-F70F-11D0-B917-00A0C9223196}"
+
+;; Nodes (non-localizeable)
+STGD.3DBypass="{981DFEA4-27DB-11d3-99FC-00500483AC28}"
+STGD.3DEnable="{981DFEA5-27DB-11d3-99FC-00500483AC28}"
+STGD.AltLineIn="{378E8100-AFF5-41f3-BE31-1F3930A29DD7}"
+STGD.AltMic="{A72A6A9C-896A-45ce-AD88-6BB096B11B36}"
+STGD.AltMic2="{D811314C-4178-4f9d-AEBA-5560848ECEF6}"
+STGD.AltMicLineIn="{51F50FD9-850F-4aa5-B6B6-99F6289372B5}"
+STGD.AltVolume="{9376f597-8a71-417e-bf6e-88b35b914bca}"
+STGD.AltVolumeMute="{352f0d4c-ff33-4717-ad08-9c52dffcfa0c}"
+STGD.AltVolumePin="{B731B744-3769-4777-9B41-BC372A6C99DD}"
+STGD.AnalogOut="{B6E51176-BF98-40a7-B3C1-8F45B3F82835}"
+STGD.AuxIn="{0184ADDB-1BE2-4a4f-991D-0179DC7A8161}"
+STGD.AuxIn1="{B85D1E42-2958-4f18-8BD9-351672C7A532}"
+STGD.AuxIn2="{B666F917-8F0E-4719-987E-E22EDF25D80E}"
+STGD.BackupCdInMute="{ABBDD86D-5D32-4572-86DA-E5FBB491A252}"
+STGD.BeepMix="{981DFEA6-27DB-11d3-99FC-00500483AC28}"
+STGD.CDIn="{9472549E-5344-4b75-BF94-B1739A618CE6}"
+STGD.CDQuality="{D5561835-FF59-441c-9D2E-0E8D416CBD37}"
+STGD.CenterMute="{BEEF51ED-1041-43f8-9B96-5863D0A9342D}"
+STGD.CenterVolume="{2D97372F-9CF6-4fd6-9E56-C68BACDF360D}"
+STGD.DigitalEnable="{56D8C1D0-58FB-4927-9CD2-8E3BD3E5A922}"
+STGD.DigitalIn="{31135124-E2A2-49aa-9E17-9507729C0F88}"
+STGD.DigitalMic="{A218C4A7-BDF8-4e59-9BEE-994835B7F393}"
+STGD.DigitalMic2="{C0AF90C4-8C47-4713-BCED-D822B80F9028}"
+STGD.DigitalOut="{D066DE45-A1AF-43ae-9E1D-C04BA43AD3BB}"
+STGD.DisplayPort="{D066DE45-A1AF-43ae-9E1D-C04BA43AD3AA}"
+STGD.DockHP="{2C1A5197-148C-4db5-B336-372EF1512A21}"
+STGD.DockHpOut="{2392A277-B468-4acb-A07E-20838F39F3B3}"
+STGD.DockLineIn="{A03FC5B9-027C-4b10-858B-597DF724379A}"
+STGD.DockMic="{0AA49151-C622-4209-BC30-E81D62D23F13}"
+STGD.DockRTCHP="{93865FC9-CBBB-4430-8041-F4575B735C2B}"
+STGD.DockRTCMic="{1B781B86-4797-4645-A9C8-E8CDDAAF8C0B}"
+STGD.DockSPDIF="{67AD29EF-6C70-47a4-BE9E-CB3C069B31B8}"
+STGD.DockSPDIFIn="{BDF9D438-4220-4bf2-88B8-5F4CF1E4EDA3}"
+STGD.DockVOIPHP="{F6BCC36A-86D3-4780-9F84-38CAF31A5312}"
+STGD.DockVOIPMic="{0DD16F23-939D-4b78-8C05-8D65D56AE685}"
+STGD.DUALHP="{0DD16F23-939D-4b78-8C05-8D65D56AE684}"
+STGD.ExternalMic="{22B47F55-476C-4a44-9811-CFD743125BC2}"
+STGD.ExtMic="{63C1B2E3-B28E-4b34-960A-ED1899193FF9}"
+STGD.FmRadio="{8925E100-C3D2-4fa0-A15E-19C7DBB8CE23}"
+STGD.FrontHP="{72F4AA1D-E691-47fa-9F18-180AF9D0BDA4}"
+STGD.FrontLineIn="{3E23FB56-451A-402e-8329-F4C6D4649F28}"
+STGD.FrontMic="{EAE80DBE-CDC7-4d22-9E58-2DE19CD68407}"
+STGD.FrontRTCHP="{237631E2-E716-42c9-B968-5FE4CD5F2BB1}"
+STGD.FrontRTCMic="{E26493B1-4930-4d0e-87C4-4F27A504EF08}"
+STGD.FrontSPDIF="{BA4635A3-AEF6-4de3-BDF6-8B0EBA6B84B4}"
+STGD.FrontSPDIFIn="{D28F1172-8F60-4df8-8146-764A6C6FD1AB}"
+STGD.FrontVOIPHP="{EA542125-7E95-49fd-8BF8-A971088220AD}"
+STGD.FrontVOIPMic="{3E1AE825-5646-4c81-B306-BA56D633B6E7}"
+STGD.GPIOControl="{88E542C4-1540-4a40-95D1-8CCC9A4B6245}"
+STGD.HeadsetMic="{70497509-723F-4d77-A9D4-80AFE9F4D22D}"
+STGD.HdmiOut="{70497509-723F-4d77-A9D4-80AFE9F4D22C}"
+STGD.HPMute="{981DFEA8-27DB-11d3-99FC-00500483AC28}"
+STGD.HPOut="{C906AAB7-189E-469f-8C6A-A3D00028CF18}"
+STGD.HpOut1="{280F3540-B220-45ce-9E11-DEC2D2D738E2}"
+STGD.HpOut2="{DA18904C-09E0-4112-A867-D01A7A4DCD19}"
+STGD.HPOutPin="{981DFEB1-27DB-11d3-99FC-00500483AC28}"
+STGD.HPVolume="{981DFEA7-27DB-11d3-99FC-00500483AC28}"
+STGD.InternalMic="{9C56BB03-C758-4e8b-A23A-752D5968EA2D}"
+STGD.INTERNALSPKR="{2A331C4B-DCF9-40a9-88FD-8D0C024A82CC}"
+STGD.JackMic="{4B33E924-E22C-48b4-B028-4069442FD3BD}"
+STGD.LeftHP="{90E150A1-60EF-4a86-BA63-40EB7F30A789}"
+STGD.LeftLineIn="{2FFEB2D5-9661-464b-B26F-EE75F785B256}"
+STGD.LeftMic="{562E534B-1D98-44ae-A93D-61CDE9FA4839}"
+STGD.LeftRTCHP="{4E8A6D1A-8FB5-498c-B4F7-C761274319CA}"
+STGD.LeftRTCMic="{4EB27169-709E-43e8-B011-7EF778AA655B}"
+STGD.LeftSPDIF="{987CB8F9-E104-49f3-9881-9AD61D17595B}"
+STGD.LeftSPDIFIn="{9A60F427-4DFC-4a2d-BFAF-8E7DB9811735}"
+STGD.LeftVOIPHP="{EEFF55F1-87AB-4114-B020-D01C11D2C0BA}"
+STGD.LeftVOIPMic="{0EB5C9AB-7852-44f7-9BDF-828CB472C9D1}"
+STGD.LFEMute="{4A4D9210-C780-4768-BFD2-525FDBF4FCB4}"
+STGD.LFEVolume="{B60C4274-3BFD-430b-8364-D947E7D304B1}"
+STGD.Line="{1020C248-08D0-47eb-8242-FA5EECBFF8A9}"
+STGD.LineIn1="{0F03035C-35A1-47e7-8F94-487A64E5D0D7}"
+STGD.LineIn2="{F43A2BBC-A61A-4b54-A61B-A59C66FC1258}"
+STGD.LineIn2Pin="{CC57D9E2-9750-4b74-B509-41B9B30DC0B5}"
+STGD.LineIn2Volume="{DD5102D5-9931-484c-8B47-FB9B75FE63A2}"
+STGD.LineInMute="{981DFEA2-27DB-11d3-99FC-00500483AC28}"
+STGD.LineOut1="{81A1B3F0-372A-48a5-8D47-B566AB08225D}"
+STGD.LineOut2="{897F9ECA-4266-4fff-8190-37E8BEEE5EC9}"
+STGD.LnLvlMute="{c5cb62ac-f62f-4569-b66b-6a1d3afe3388}"
+STGD.LnLvlOutPin="{5A9EBEC6-FCA2-4fcd-AB11-04D6C3C6266A}"
+STGD.LnLvlVolume="{301892ac-2f58-41c7-88b4-4c1d72501c83}"
+STGD.MainMix="{981DFEA3-27DB-11d3-99FC-00500483AC28}"
+STGD.MasterInMute="{981DFEAC-27DB-11d3-99FC-00500483AC28}"
+STGD.MasterInVolume="{981DFEAB-27DB-11d3-99FC-00500483AC28}"
+STGD.Mic10dbBoost="{2DC47951-D9F8-43f5-B96B-BDBA48D784C0}"
+STGD.Mic20dbBoost="{0F2E90CF-39BE-4243-909C-AD4289328661}"
+STGD.Mic2Volume="{D68EA4BA-4E5B-45c4-9E80-AE7A959B969D}"
+STGD.MicIn="{958C54FB-CDBB-45d0-BC87-F519194A79D8}"
+STGD.MicIn1="{A9B638C6-5E4E-4cb6-8544-76AAF5D0EC63}"
+STGD.MicIn2="{F8507ACB-54ED-4864-BE94-33F6A4EE7E6F}"
+STGD.MicInMute="{981DFEAE-27DB-11d3-99FC-00500483AC28}"
+STGD.MicInVolume="{981DFEAD-27DB-11d3-99FC-00500483AC28}"
+STGD.MicLineIn="{CD2AF943-305E-4786-BCFA-1BE25DECACDB}"
+STGD.MicLineSharing="{93AFA92F-FB77-4258-9CE4-354D87A016EA}"
+STGD.MonoMic="{ADAEE761-990C-4db9-A31B-6B7D82B1601E}"
+STGD.MonoMuteInMasterAdvanced="{A601A3BC-066E-4800-8922-6772422C0F18}"
+STGD.MonoOutSelect="{981DFEA9-27DB-11d3-99FC-00500483AC28}"
+STGD.MultiChannelEnable="{A9D8349B-45CC-4A0B-97A2-D6AC7738F27D}"
+STGD.MuxedIn="{3C1A5590-BC2C-49bf-9E70-F3D2354355B9}"
+STGD.MuxedIn1="{6C01E1B8-2C7B-4f42-AD22-2CC59F65B3F6}"
+STGD.MuxedIn2="{F69DFC20-4B22-4ccf-9308-5B843ED4AF5B}"
+STGD.PBCAP="{88C02F6A-D1E7-4fe3-A506-9E0AE51D1234}"
+STGD.PcSpeaker="{88C02F6A-D1E7-4fe3-A506-9E0AE51D7820}"
+STGD.PhoneMute="{981DFEA1-27DB-11d3-99FC-00500483AC28}"
+STGD.PhoneVolume="{981DFEA0-27DB-11d3-99FC-00500483AC28}"
+STGD.RearHP="{7AC728F8-8276-4c92-BC7A-389C8B2B5F44}"
+STGD.RearLineIn="{49904F34-B230-483c-8291-FF65103E21FB}"
+STGD.RearMic="{1E43AC89-BD88-4b8f-8511-F596F5AF375A}"
+STGD.RearRTCHP="{1961F945-7CA5-48a4-8B7C-98D18A927EC3}"
+STGD.RearRTCMic="{19E11F9C-7688-46a0-9732-A688534336E5}"
+STGD.RearSPDIF="{9FA52E1B-5EA6-4877-B001-318142BA4EB2}"
+STGD.RearSPDIFIn="{A96318AB-98B6-4a95-8D58-5E32886CFA04}"
+STGD.RearVOIPHP="{6FB82316-3AA9-4059-89CC-45826760363E}"
+STGD.RearVOIPMic="{5FE0F5F3-4697-4a6a-8A62-CEA11B46A950}"
+STGD.RecMonitorPin="{AD16E140-C319-4381-98AB-AB72A3C26892}"
+STGD.RightHP="{B6746514-87F5-469f-B2BA-AF288C01AEB5}"
+STGD.RightLineIn="{0413248B-E454-4343-9536-9ECF7D18EB25}"
+STGD.RightMic="{1D976282-5E4B-4a7b-83D1-3BC5F651D933}"
+STGD.RightRTCHP="{2F53FCED-302D-4f49-95A5-BEA27557C5EB}"
+STGD.RightRTCMic="{8552081C-4A28-47f4-9F4F-463A1B5B5C4C}"
+STGD.RightSPDIF="{C1C71BA6-AC13-463f-B006-16C9793AC595}"
+STGD.RightSPDIFIn="{168BA668-0063-4f8e-90F7-E0C35CE67E03}"
+STGD.RightVoipHp="{0CAA1119-5E0D-4895-A12C-7738869D2A2E}"
+STGD.RightVoipMic="{A896E31A-FA72-4a2e-9232-C3B221F4BDEA}"
+STGD.RTCHP0="{F7022ED9-25CD-4496-ACF1-3D1B2446918B}"
+STGD.RTCHP1="{5759FD65-8E1D-47f8-873C-E6B395679A8D}"
+STGD.RTCHP2="{613BD365-8939-4b03-AF20-9E904611A7AB}"
+STGD.SpdifHdmiOut="{F709F0B6-6D9E-4a18-AE59-47389A3687EB}"
+STGD.SPDIFHPDOCK="{F709F0B6-6D9E-4a18-AE59-47389A3687EC}"
+STGD.SPDIFIn="{B6C66F5D-F80D-47f8-9903-210E890D91E8}"
+STGD.SpdifOut="{7DD53C9F-26E9-49a5-9A5E-3D62B2719732}"
+STGD.Speaker="{140799AD-A63B-44af-897E-F89CC4872B41}"
+STGD.Speaker1="{8D46B7CC-ED5A-43cc-A8F9-0FF3741532C9}"
+STGD.Speaker2="{C4A14F49-441D-428e-AF18-9DEB208813A5}"
+STGD.SpeakerAndHPOut="{CD2DF973-305E-4686-BDFA-1BE25EECCCDB}"
+STGD.SPKANDRDHP="{7B9FA4CE-3FE9-4f62-A9A8-D88627D5C3C1}"
+STGD.SubWooferMute="{C327B6A9-A0D2-4497-B2F9-C1BDAD124391}"
+STGD.SubWooferPin="{F4725482-E495-4c27-8023-CB4A758D57F6}"
+STGD.SubWooferVolume="{749D2E66-2B15-4071-BC44-DCE209F86444}"
+STGD.SurroundMute="{22654FBC-AC8F-4224-B19F-D858D2E10BDD}"
+STGD.SurroundVolume="{81FBB14B-1BEE-4bf5-92EE-FFC4F75F326D}"
+STGD.TvTuner="{9405C7AE-D9A6-470c-817B-697353DB3976}"
+STGD.WaveIn2Select="{A514AD4E-CFB5-4ecc-9691-36494FBE0481}"
+STGD.WaveInSelect="{981DFEAA-27DB-11d3-99FC-00500483AC28}"
+
+STNd.CDQuality="CD Quality"
+STNd.PhoneVolume="Phone Volume"
+STNd.PhoneMute="Phone Mute"
+STNd.LineInMute="LineIn Mute"
+STNd.MainMix="Main Mix"
+STNd.3DBypass="3D Bypass"
+STNd.3DEnable="3D Enable"
+STNd.BeepMix="Beep Mix"
+STNd.HPVolume="Headphone Volume"
+STNd.HPMute="Headphone Mute"
+STNd.LnLvlVolume="Line Level Volume"
+STNd.LnLvlMute="Line Level Mute"
+STNd.MonoOutSelect="Mono Out Select"
+STNd.WaveInSelect="WaveIn Select"
+STNd.WaveIn2Select="Alt WaveIn Select"
+STNd.MasterInVolume="WaveIn Volume"
+STNd.MasterInMute="WaveIn Mute"
+STNd.MicInVolume="Mic In Volume"
+STNd.MicInMute="Mic In Mute"
+STNd.SurroundVolume="Surround Volume"
+STNd.SurroundMute="Surround Mute"
+STNd.CenterVolume="Center Volume"
+STNd.CenterMute="Center Mute"
+STNd.LFEVolume="LFE Volume"
+STNd.LFEMute="LFE Mute"
+STNd.MultiChannelEnable="Enable Multi-Channel"
+STNd.GPIOControl="Enable SPDIF"
+STNd.Mic2Volume="Mic2 Volume"
+STNd.LineIn2Volume="LineIn2 Volume"
+STNd.HPOutPin="Headphone"
+STNd.LnLvlOutPin="Line Out"
+STNd.LineIn2Pin="Alt Line In"
+STNd.MonoMuteInMasterAdvanced="Mute Internal Speaker"
+STNd.PcSpeaker="PC Beep"
+STNd.SubWooferVolume="Subwoofer"
+STNd.SubWooferMute="Subwoofer Mute"
+STNd.AltVolume="Alt Volume"
+STNd.AltVolumeMute="Alt Mute"
+STNd.SubWooferPin="Subwoofer"
+STNd.AltVolumePin="Alt Volume"
+STNd.Mic10dbBoost="+10 dB"
+STNd.Mic20dbBoost="+20 dB"
+STNd.AltMic="Rear Mic"
+STNd.AltLineIn="Front Line In"
+STNd.MicLineSharing="Mic on Line In"
+STNd.TvTuner="TV Tuner"
+STNd.FmRadio="FM Radio"
+STNd.RecMonitorPin="Input Monitor"
+STNd.BackupCdInMute="Mute Analog CD Input"
+STNd.MonoMic="Mono Microphone"
+STNd.InternalMic="Mic / Line In Jack"
+STNd.INTERNALSPKR="Internal Speaker"
+STNd.JackMic="Jack Mic"
+STNd.ExternalMic="External Mic"
+STNd.SPDIFIn="SPDIF In"
+STNd.DigitalMic="Digital Mic"
+STNd.AltMic2="Alt Mic"
+STNd.DigitalMic2="Digital Mic 2"
+STNd.AnalogOut="Analog Out"
+STNd.HPOut="Headphones"
+STNd.SpeakerAndHPOut="Speakers / Headphones"
+STNd.Speaker="Speakers"
+STNd.MicLineIn="Microphone / Line In"
+STNd.AltMicLineIn="Alt Mic / Line In"
+STNd.SpdifOut="Digital Output Device (SPDIF Out)"
+STNd.FrontMic="Front Mic"
+STNd.RearMic="Rear Mic"
+STNd.LeftMic="Left Mic"
+STNd.RightMic="Right Mic"
+STNd.DockMic="Dock Mic"
+STNd.FrontLineIn="Front Line In"
+STNd.RearLineIn="Rear Line In"
+STNd.LeftLineIn="Left Line In"
+STNd.RightLineIn="Right Line In"
+STNd.DockLineIn="Dock Line In"
+STNd.FrontSPDIFIn="Front SPDIF In"
+STNd.RearSPDIFIn="Rear SPDIF In"
+STNd.LeftSPDIFIn="Left SPDIF In"
+STNd.RightSPDIFIn="Right SPDIF In"
+STNd.DockSPDIFIn="Dock SPDIF In"
+STNd.FrontHP="Front Headphones"
+STNd.RearHP="Rear Headphones"
+STNd.LeftHP="Left Headphones"
+STNd.RightHP="Right Headphones"
+STNd.DockHP="Dock Headphones"
+STNd.FrontSPDIF="Front SPDIF Out"
+STNd.RearSPDIF="Rear SPDIF Out"
+STNd.LeftSPDIF="Left SPDIF Out"
+STNd.RightSPDIF="Right SPDIF Out"
+STNd.DockSPDIF="Dock SPDIF Out"
+STNd.FrontRTCMic="Front RTC Mic"
+STNd.RearRTCMic="Rear RTC Mic"
+STNd.LeftRTCMic="Left RTC Mic"
+STNd.RightRTCMic="Right RTC Mic"
+STNd.DockRTCMic="Dock RTC Mic"
+STNd.FrontRTCHP="Front RTC Headphones"
+STNd.RearRTCHP="Rear RTC Headphones"
+STNd.LeftRTCHP="Left RTC Headphones"
+STNd.RightRTCHP="Right RTC Headphones"
+STNd.DockRTCHP="Dock RTC Headphones"
+STNd.FrontVOIPMic="Front VOIP Mic"
+STNd.RearVOIPMic="Rear VOIP Mic"
+STNd.LeftVOIPMic="Left VOIP Mic"
+STNd.RightVOIPMic="Right VOIP Mic"
+STNd.DockVOIPMic="Dock VOIP Mic"
+STNd.FrontVOIPHP="Front VOIP Headphones"
+STNd.RearVOIPHP="Rear VOIP Headphones"
+STNd.LeftVOIPHP="Left VOIP Headphones"
+STNd.RightVOIPHP="Right VOIP Headphones"
+STNd.DockVOIPHP="Dock VOIP Headphones"
+STNd.Line="Line"
+STNd.LineOut1="Line Out 1"
+STNd.LineOut2="Line Out 2"
+STNd.Speaker1="Speaker 1"
+STNd.Speaker2="Speaker 2"
+STNd.HpOut1="HP Out 1"
+STNd.HpOut2="HP Out 2"
+STNd.DockHpOut="Dock HP Out"
+STNd.HdmiOut="Digital Output Device (HDMI Out)"
+STNd.SpdifHdmiOut="Digital Output Device (S/PDIF / HDMI)"
+STNd.MuxedIn="Muxed In"
+STNd.MuxedIn1="Muxed In 1"
+STNd.MuxedIn2="Muxed In 2"
+STNd.LineIn1="Line In 1"
+STNd.LineIn2="Line In 2"
+STNd.MicIn="Microphone"
+STNd.MicIn1="Microphone 1"
+STNd.MicIn2="Microphone 2"
+STNd.CDIn="CD In"
+STNd.AuxIn="Aux In"
+STNd.AuxIn1="Aux In 1"
+STNd.AuxIn2="Aux In 2"
+STNd.DigitalIn="Digital Input Device (S/PDIF In)"
+STNd.SPKANDRDHP="Speakers + Redirected Headphones"
+STNd.RTCHP0="Independent (R.T.C.) Headphones"
+STNd.RTCHP1="Independent (R.T.C.) Headphones 1"
+STNd.RTCHP2="Independent (R.T.C.) Headphones 2"
+STNd.MICJACK="Mic Jack"
+STNd.LINEJACK="Line In Jack"
+STNd.NBSPKRS="Notebook Speakers"
+STNd.INTMICARRAY="Microphone Array"
+STNd.NBMIC="Notebook Microphone"
+STNd.EXTMIC="External Microphone"
+STNd.SPDIFDOCK="SPDIF-Out"
+STNd.SPDIFHP="SPDIF-Out"
+STNd.SPANDDHP="Speakers and Dual Headphones"
+STNd.SPANDHP="Speakers"
+STNd.INDDUALHP="Independent Dual Headphones"
+STNd.INDHP="Independent Headphones"
+STNd.HDMI="HDMI digital output device"
+STNd.RTCCAP="RTC Capture"
+STNd.HPCAP="HP Capture"
+STNd.SPKCAP="Speaker Capture"
+STNd.DigitalEnable="Enable Digital Output Device"
+STNd.PBCAP="Rec. Playback"
+STNd.DigitalOut="Digital Output Device"
+STNd.SpeakerHp="Speakers / HP"
+STNd.HpRTC="Headphones (RTC)"
+STNd.RearSPDIFOut="SPDIF-Out (Rear)"
+STNd.FrontSPDIFOut="SPDIF-Out (Front)"
+STNd.SPDIFHPDOCK="SPDIF-Out"
+STNd.DUALHP="Dual Headphones"
+STNd.DISPLAYPORT="Display Port"
+STNd.HeadsetMic="Headset Mic"

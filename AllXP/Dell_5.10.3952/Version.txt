@@ -1,0 +1,8 @@
+Title: Audio: SIGMATEL STAC 9750 AC97 Driver
+Version    : A15
+OEM name   : SIGMATEL
+OEM Version: 5.10.0.3952
+Computers  : Inspiron: 1100, 1150, 300m, 500m, 5100, 510m, 5150, 5160, 600m, 700m, 710m, 8500, 8600, 9100, XPS; Latitude: 100L, D400, D500, D505, D600, D800, X300; Precision: M60
+OSes       : Windows 2000 Professional,Windows Vista 32-bit Business,Windows Vista 32-bit Home Basic,Windows Vista 32-bit Home Premium,Windows Vista 32-bit Ultimate,Windows XP Home Edition,Windows XP Professional
+Languages  : Brazilian Portuguese, Chinese-S, Chinese-T, English, French, German, Japanese, Korean, Spanish, Thai
+Created    : Wednesday, November 07, 2007

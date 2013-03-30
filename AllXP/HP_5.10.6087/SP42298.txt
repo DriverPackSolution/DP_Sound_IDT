@@ -1,0 +1,49 @@
+TITLE: IDT ID92HD71B7 Audio Driver for Windows XP
+
+VERSION: 5.10.6087.0 Rev. B
+DESCRIPTION:
+This package installs the IDT ID92HD71B7 Audio Driver for Windows XP in the
+supported notebook models.
+
+PURPOSE: Routine Release
+SOFTPAQ NUMBER: SP42298
+SUPERSEDES: None
+EFFECTIVE DATE: January 19, 2009
+CATEGORY: Audio
+SSM SUPPORTED: Yes
+
+
+PRODUCT TYPE(S)
+Notebooks
+ 
+PRODUCT MODEL(S): 
+Compaq Mini 700 NetBook PC
+Compaq Mini 900 NetBook
+HP Mini 1000 Netbook PC
+HP Mini 1500 NetBook
+
+OPERATING SYSTEM(S): 
+Microsoft Windows XP 32-bit Personal
+Microsoft Windows XP 32-bit Professional
+ 
+LANGUAGE(S): 
+Global
+ 
+ENHANCEMENTS: 
+N/A
+ 
+FIXES: 
+N/A
+ 
+PREREQUISITES: 
+N/A
+ 
+HOW TO USE: 
+1. Download the file by clicking the "Download" or "Obtain Software" button and
+saving the file to a folder on your hard drive (make a note of the folder where
+the downloaded file is saved).
+2. Double-click the downloaded the downloaded file and follow the on-screen
+instructions.
+ 
+ 
+Copyright © 2003 Hewlett-Packard Development Company, L.P.

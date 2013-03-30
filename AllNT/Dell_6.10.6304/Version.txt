@@ -1,0 +1,8 @@
+Title      : Audio:IDT 92HD79B1 Driver
+Version    : A02
+OEM Name   : IDT
+OEM Ver    : 6.10.0.6304
+Computers  : inspiron - N4020, M4010, N4030
+Oses       : Windows 7 32-bit Home Basic, Windows 7 32-bit Home Premium, Windows 7 32-bit Professional, Windows 7 32-bit Starter, Windows 7 32-bit Ultimate, Windows 7 64-bit Home Basic, Windows 7 64-bit Home Premium, Windows 7 64-bit Professional, Windows 7 64-bit Ultimate, Windows Vista 32-bit BusinessWindows Vista 32-bit Home BasicWindows Vista 32-bit Home PremiumWindows Vista 32-bit StarterWindows Vista 32-bit UltimateWindows Vista 64-bit BusinessWindows Vista 64-bit Home BasicWindows Vista 64-bit Home PremiumWindows Vista 64-bit Ultimate
+Languages  : Arabic, Basque, Brazilian Portuguese, Chinese, Chinese-S, Chinese-T, Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hebrew, Hungarian, Iberian Portuguese, Italian, Japanese, Korean, Norwegian, Pan-Euro, Polish, Romanian, Russian, Slovakian, Slovenian, Spanish, Swedish, Thai, Turkish
+Created    : Mon Mar 28 21:55:32 CDT 2011

@@ -1,0 +1,11 @@
+Title      : Audio:SIGMATEL STAC 975X AC97 Driver
+Version    : A03
+OEM Name   : SIGMATEL
+OEM Ver    : 5.10.0.4255
+Computers  : Inspiron - 6000, 9300, 9200, 2200, 1200, XPS Gen 2;
+Latitude - D610, D810, 110L, D510, D410, X1;
+Precision - M20, M70;
+XPS - MXG051
+Oses       : Windows 2000 Professional, Windows 3.x Pro-SBE, Windows Vista 32-bit Business, Windows Vista 32-bit Home Basic, Windows Vista 32-bit Home PremiumWindows Vista 32-bit UltimateWindows XP Home EditionWindows XP Professional
+Languages  : Brazilian Portuguese, Chinese-S, Chinese-T, English, French, German, Japanese, Korean, Spanish
+Created    : Tue Jan 23 13:52:44 CST 2007

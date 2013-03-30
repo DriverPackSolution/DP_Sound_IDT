@@ -1,0 +1,417 @@
+; Copyright (c) 1999-2004 SigmaTel Inc.
+
+[Version]
+Signature="$CHICAGO$"
+Class=MEDIA
+ClassGUID={4d36e96c-e325-11ce-bfc1-08002be10318}
+provider=%SGTML%
+DriverVer=11/11/2004, 5.10.4251.0
+CatalogFile=stac97.cat
+
+[SourceDisksNames]
+1=%DiskId%,,,
+
+[SourceDisksFiles]
+stac97.sys=1
+stac97co.dll=1
+
+[Manufacturer]
+%SgtmlMfg%=SigmaTel
+
+[SigmaTel]
+
+;##ICH6
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_76508384
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_266E8086
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_01821028
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_01861028
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_01871028
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_01881028
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_01891028
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_018F1028
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_019B1028
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_019C1028
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_01A01028
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_019E1028
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_019F1028
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_01A21028
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_01A31028
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_0B1015D5
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_834610F7
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_834C10F7
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_C016144D
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_091515D5
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_C017144D
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_001814c0
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_002114c0
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_12F310CF
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266E&SUBSYS_00671025
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266e&SUBSYS_125310CF
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_266e&SUBSYS_10B31043
+
+
+;##ICH4
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_52601462
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_04111179
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_04121179
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_0450107b
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_0475107b
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_060117C0
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_003417C0
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_58048384
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_C00D144D
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_001814c0
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_002114c0
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_C011144D
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_B027144D
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_76668384
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_001B1025
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_0B1015D5
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_040A14FF
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_040A103C
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_011D1028
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_040814FF
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_01961028
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_017F1028
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_04131179
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_834C10F7
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_834610F7
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_12F310CF
+%STAC97.DvDscInt%=STAC97, PCI\VEN_8086&DEV_24C5&SUBSYS_9907152D
+
+;##VIA
+%STAC97.DvDscInt%=STAC97, PCI\VEN_1106&DEV_3059&SUBSYS_01031071
+%STAC97.DvDscInt%=STAC97, PCI\VEN_1106&DEV_3059&SUBSYS_01241071
+%STAC97.DvDscInt%=STAC97, PCI\VEN_1106&DEV_3059&SUBSYS_102F1734
+%STAC97.DvDscInt%=STAC97, PCI\VEN_1106&DEV_3059&SUBSYS_0B1015D5
+%STAC97.DvDscInt%=STAC97, PCI\VEN_1106&DEV_3059&SUBSYS_A0011458
+%STAC97.DvDscInt%=STAC97, PCI\VEN_1106&DEV_3059&SUBSYS_100514A4
+%STAC97.DvDscInt%=STAC97, PCI\VEN_1106&DEV_3059&SUBSYS_E0021631
+
+
+;##SIS
+%STAC97.DvDscInt%=STAC97, PCI\VEN_1039&DEV_7012&SUBSYS_105E1734
+%STAC97.DvDscInt%=STAC97, PCI\VEN_1039&DEV_7012&SUBSYS_10301734
+%STAC97.DvDscInt%=STAC97, PCI\VEN_1039&DEV_7012&SUBSYS_200A17C0
+%STAC97.DvDscInt%=STAC97, PCI\VEN_1039&DEV_7012&SUBSYS_0B1015D5
+%STAC97.DvDscInt%=STAC97, PCI\VEN_1039&DEV_7012&SUBSYS_00211462
+%STAC97.DvDscInt%=STAC97, PCI\VEN_1039&DEV_7012&SUBSYS_12D010CF
+%STAC97.DvDscInt%=STAC97, PCI\VEN_1039&DEV_7012&SUBSYS_12AF10CF
+
+;##ALI
+%STAC97.DvDscInt%=STAC97, PCI\VEN_10B9&DEV_5451&SUBSYS_545110B9
+%STAC97.DvDscInt%=STAC97, PCI\VEN_10B9&DEV_5451&SUBSYS_00560E11
+%STAC97.DvDscInt%=STAC97, PCI\VEN_10B9&DEV_5451&SUBSYS_0B1015D5
+;%STAC97.DvDscInt%=STAC97, PCI\VEN_10B9&DEV_5451&SUBSYS_545110B9
+%STAC97.DvDscInt%=STAC97, PCI\VEN_10B9&DEV_5451&SUBSYS_125310CF
+
+;##Nvidia
+%STAC97.DvDscInt%=STAC97, PCI\VEN_10DE&DEV_00DA&subsys_12EE10CF
+%STAC97.DvDscInt%=STAC97, PCI\VEN_10DE&DEV_00DA&subsys_121710CF
+%STAC97.DvDscInt%=STAC97, PCI\VEN_10DE&DEV_00DA&subsys_125310CF
+
+
+[DestinationDirs]
+STAC97.CopyList=10,system32\drivers
+
+[STAC97.nt]
+Include=LayoutFile=layout.inf,ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles=STAC97.CopyList
+DelReg=STAC97.DelReg
+AddReg=STAC97.AddReg, STAC97Names.AddReg, STAC97_MD.AddReg,
+DevName=%STAC97.DeviceDesc%
+
+[STAC97.nt.Interfaces]
+AddInterface=%KSC_A%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_R%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_C%,%KSN_W%,STAC97.ItFc.Wave
+AddInterface=%KSC_A%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_C%,%KSN_AW%,STAC97.ItFc.AWave
+AddInterface=%KSC_A%,%KSN_T%,STAC97.ItFc.Topology
+AddInterface=%KSC_A%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_R%,%KSN_U%,STAC97.ItFc.UART
+AddInterface=%KSC_C%,%KSN_U%,STAC97.ItFc.UART
+
+[STAC97.nt.Services]
+AddService = STAC97, 0x00000002, STAC97_Service_Inst
+
+;CoInstaller stuff
+[STAC97.nt.CoInstallers]
+AddReg=CoInstaller.AddReg
+CopyFiles=CoInstaller.CopyList
+
+[STAC97_MD.AddReg]
+;This section is for resolving conflicts with registry settings
+
+;** Common **
+;Affects all drivers
+
+[STAC97.CopyList]
+STAC97.sys
+
+;-------------- Coinstaller installation
+[CoInstaller.CopyList]
+stac97co.dll
+
+[CoInstaller.AddReg]
+HKR,,CoInstallers32,0x00010000,"stac97co.dll,Stac97CoInstaller"
+
+[Stac97CoInfo]
+OriginalInfSourcePath = %1%
+
+
+[STAC97.ItFc.Wave]
+AddReg=STAC97.I.Wave.AddReg
+
+[STAC97.I.Wave.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%STAC97.Wave.szPname%
+
+[STAC97.ItFc.AWave]
+AddReg=STAC97.I.AWave.AddReg
+
+[STAC97.I.AWave.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%STAC97.AWave.szPname%
+
+[STAC97.ItFc.Topology]
+AddReg=STAC97.I.Topo.AddReg
+
+[STAC97.I.Topo.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%STAC97.Topology.szPname%
+
+[STAC97.ItFc.UART]
+AddReg=STAC97.ItFc.UART.AddReg
+[STAC97.ItFc.UART.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%STAC97.UART.szPname%
+
+[STAC97.DelReg]
+;Note: this section runs *after* the co-installer.
+HKCU,%SndVolSigKey%
+HKU,%SndVolSigKey%
+
+[STAC97.AddReg]
+HKR,,AssociatedFilters,,"wdmaud,swmidi,redbook"
+HKR,,Driver,,STAC97.sys
+HKR,,NTMPDriver,,"STAC97.sys,sbemul.sys"
+HKR,Drivers,SubClasses,,"wave,midi,mixer"
+HKR,Drivers\wave\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\midi\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\mixer\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\wave\wdmaud.drv,Description,,%STAC97.DeviceDesc%
+HKR,Drivers\midi\wdmaud.drv, Description,,%WDM_MIDI%
+HKR,Drivers\mixer\wdmaud.drv,Description,,%STAC97.DeviceDesc%
+
+HKCU,Software\Microsoft\Multimedia\Audio,DefaultFormat,,"Default Quality"
+HKCU,Software\Microsoft\Multimedia\Audio\WaveFormats,"Default Quality",1, 01,00,01,00,22,56,00,00,44,AC,00,00,02,00,10,00
+
+[STAC97_Service_Inst]
+DisplayName   = %STAC97.SvcDesc%
+ServiceType   = 1                  ; SERVICE_KERNEL_DRIVER
+StartType     = 3                  ; SERVICE_DEMAND_START
+ErrorControl  = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary = %10%\system32\drivers\STAC97.sys
+
+[STAC97Names.AddReg]
+;; Nodes
+HKLM,%MdCtg%\%STGD.PhoneVolume%,Name,,%STNd.PhoneVolume%
+HKLM,%MdCtg%\%STGD.PhoneVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.PhoneMute%,Name,,%STNd.PhoneMute%
+HKLM,%MdCtg%\%STGD.PhoneMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.LineInMute%,Name,,%STNd.LineInMute%
+HKLM,%MdCtg%\%STGD.LineInMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.MainMix%,Name,,%STNd.MainMix%
+HKLM,%MdCtg%\%STGD.MainMix%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.3DBypass%,Name,,%STNd.3DBypass%
+HKLM,%MdCtg%\%STGD.3DBypass%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.3DEnable%,Name,,%STNd.3DEnable%
+HKLM,%MdCtg%\%STGD.3DEnable%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.BeepMix%,Name,,%STNd.BeepMix%
+HKLM,%MdCtg%\%STGD.BeepMix%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.HPVolume%,Name,,%STNd.HPVolume%
+HKLM,%MdCtg%\%STGD.HPVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.HPMute%,Name,,%STNd.HPMute%
+HKLM,%MdCtg%\%STGD.HPMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.LnlvlVolume%,Name,,%STNd.LnlvlVolume%
+HKLM,%MdCtg%\%STGD.LnlvlVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.LnlvlMute%,Name,,%STNd.LnlvlMute%
+HKLM,%MdCtg%\%STGD.LnlvlMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.MonoOutSelect%,Name,,%STNd.MonoOutSelect%
+HKLM,%MdCtg%\%STGD.MonoOutSelect%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.WaveInSelect%,Name,,%STNd.WaveInSelect%
+HKLM,%MdCtg%\%STGD.WaveInSelect%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.MasterInVolume%,Name,,%STNd.MasterInVolume%
+HKLM,%MdCtg%\%STGD.MasterInVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.MasterInMute%,Name,,%STNd.MasterInMute%
+HKLM,%MdCtg%\%STGD.MasterInMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.MicInVolume%,Name,,%STNd.MicInVolume%
+HKLM,%MdCtg%\%STGD.MicInVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.MicInMute%,Name,,%STNd.MicInMute%
+HKLM,%MdCtg%\%STGD.MicInMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.SurroundVolume%,Name,,%STNd.SurroundVolume%
+HKLM,%MdCtg%\%STGD.SurroundVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.SurroundMute%,Name,,%STNd.SurroundMute%
+HKLM,%MdCtg%\%STGD.SurroundMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.CenterVolume%,Name,,%STNd.CenterVolume%
+HKLM,%MdCtg%\%STGD.CenterVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.CenterMute%,Name,,%STNd.CenterMute%
+HKLM,%MdCtg%\%STGD.CenterMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.LFEVolume%,Name,,%STNd.LFEVolume%
+HKLM,%MdCtg%\%STGD.LFEVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.LFEMute%,Name,,%STNd.LFEMute%
+HKLM,%MdCtg%\%STGD.LFEMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.DigitalEnable%,Name,,%STNd.DigitalEnable%
+HKLM,%MdCtg%\%STGD.MultiChannelEnable%,Name,,%STNd.MultiChannelEnable%
+HKLM,%MdCtg%\%STGD.GPIOControl%,Name,,%STNd.GPIOControl%
+HKLM,%MdCtg%\%STGD.HPOutPin%,Name,,%STPin.HPOutPin%
+HKLM,%MdCtg%\%STGD.HPOutPin%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.LnlvlOutPin%,Name,,%STPin.LnlvlOutPin%
+HKLM,%MdCtg%\%STGD.LnlvlOutPin%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.Mic2Pin%,Name,,%STPin.Mic2Pin%
+HKLM,%MdCtg%\%STGD.Mic2Pin%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.LineIn2Pin%,Name,,%STPin.LineIn2Pin%
+HKLM,%MdCtg%\%STGD.LineIn2Pin%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.MonoMuteInMasterAdvanced%,Name,,%STNd.MonoMuteInMasterAdvanced%
+
+HKLM,%MdCtg%\%STGD.SubWooferVolume%,Name,,%STNd.SubWooferVolume%
+HKLM,%MdCtg%\%STGD.SubWooferVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.SubWooferMute%,Name,,%STNd.SubWooferMute%
+HKLM,%MdCtg%\%STGD.SubWooferMute%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.AltVolume%,Name,,%STNd.AltVolume%
+HKLM,%MdCtg%\%STGD.AltVolume%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.AltVolumeMute%,Name,,%STNd.AltVolumeMute%
+HKLM,%MdCtg%\%STGD.AltVolumeMute%,Display,1,00,00,00,00
+
+HKLM,%MdCtg%\%STGD.SubWooferPin%,Name,,%STPin.SubWooferPin%
+HKLM,%MdCtg%\%STGD.SubWooferPin%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.AltVolumePin%,Name,,%STPin.AltVolumePin%
+HKLM,%MdCtg%\%STGD.AltVolumePin%,Display,1,00,00,00,00
+
+HKLM,%MdCtg%\%STGD.Mic10dbBoost%,Name,,%STNd.Mic10dbBoost%
+HKLM,%MdCtg%\%STGD.Mic10dbBoost%,Display,1,00,00,00,00
+HKLM,%MdCtg%\%STGD.Mic20dbBoost%,Name,,%STNd.Mic20dbBoost%
+HKLM,%MdCtg%\%STGD.Mic20dbBoost%,Display,1,00,00,00,00
+
+[Strings]
+SGTML="SigmaTel"
+SgtmlMfg="SigmaTel"
+DiskId = "AC97 WDM SigmaTel Driver Disk"
+
+STAC97.DeviceDesc="SigmaTel C-Major Audio"
+STAC97.DvDscInt="SigmaTel C-Major Audio"
+
+STAC97.Wave.szPname="SigmaTel C-Major Audio"
+STAC97.AWave.szPname="SigmaTel C-Major Audio"
+STAC97.Topology.szPname="SigmaTel C-Major Audio"
+
+SndVolSigKey="Software\Microsoft\Windows\CurrentVersion\Applets\Volume Control\SigmaTel Audio"
+
+MdCtg="SYSTEM\CurrentControlSet\Control\MediaCategories"
+RunOnce = "SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"
+
+WDM_MIDI="WDM-based devices"
+
+CfKyNm="Settings"
+Proxy.CLSID="{17CCA71B-ECD7-11D0-B908-00A0C9223196}"
+KSC_A="{6994AD04-93EF-11D0-A3CC-00A0C9223196}"
+KSC_R="{65E8773E-8F56-11D0-A3B9-00A0C9223196}"
+KSC_C="{65E8773D-8F56-11D0-A3B9-00A0C9223196}"
+KSN_W="Wave"
+KSN_AW="AWave"
+KSN_T="Topology"
+KSN_U="UART"
+STAC97.UART.szPname="MIDI External Port"
+
+STAC97.SvcDesc = "SigmaTel C-Major Audio"
+
+;; Nodes (non-localizeable)
+STGD.PhoneVolume          ="{981DFEA0-27DB-11d3-99FC-00500483AC28}"
+STGD.PhoneMute            ="{981DFEA1-27DB-11d3-99FC-00500483AC28}"
+STGD.LineInMute           ="{981DFEA2-27DB-11d3-99FC-00500483AC28}"
+STGD.MainMix              ="{981DFEA3-27DB-11d3-99FC-00500483AC28}"
+STGD.3DBypass             ="{981DFEA4-27DB-11d3-99FC-00500483AC28}"
+STGD.3DEnable             ="{981DFEA5-27DB-11d3-99FC-00500483AC28}"
+STGD.BeepMix              ="{981DFEA6-27DB-11d3-99FC-00500483AC28}"
+STGD.HPVolume             ="{981DFEA7-27DB-11d3-99FC-00500483AC28}"
+STGD.HPMute               ="{981DFEA8-27DB-11d3-99FC-00500483AC28}"
+STGD.LnlvlVolume          ="{301892ac-2f58-41c7-88b4-4c1d72501c83}"
+STGD.LnlvlMute            ="{c5cb62ac-f62f-4569-b66b-6a1d3afe3388}"
+STGD.MonoOutSelect        ="{981DFEA9-27DB-11d3-99FC-00500483AC28}"
+STGD.WaveInSelect         ="{981DFEAA-27DB-11d3-99FC-00500483AC28}"
+STGD.WaveIn2Select        ="{A514AD4E-CFB5-4ecc-9691-36494FBE0481}"
+STGD.MasterInVolume       ="{981DFEAB-27DB-11d3-99FC-00500483AC28}"
+STGD.MasterInMute         ="{981DFEAC-27DB-11d3-99FC-00500483AC28}"
+STGD.MicInVolume          ="{981DFEAD-27DB-11d3-99FC-00500483AC28}"
+STGD.MicInMute            ="{981DFEAE-27DB-11d3-99FC-00500483AC28}"
+STGD.SurroundVolume       ="{81FBB14B-1BEE-4bf5-92EE-FFC4F75F326D}"
+STGD.SurroundMute         ="{22654FBC-AC8F-4224-B19F-D858D2E10BDD}"
+STGD.CenterVolume         ="{2D97372F-9CF6-4fd6-9E56-C68BACDF360D}"
+STGD.CenterMute           ="{BEEF51ED-1041-43f8-9B96-5863D0A9342D}"
+STGD.LFEVolume            ="{B60C4274-3BFD-430b-8364-D947E7D304B1}"
+STGD.LFEMute              ="{4A4D9210-C780-4768-BFD2-525FDBF4FCB4}"
+STGD.DigitalEnable        ="{56D8C1D0-58FB-4927-9CD2-8E3BD3E5A922}"
+STGD.MultiChannelEnable   ="{A9D8349B-45CC-4A0B-97A2-D6AC7738F27D}"
+STGD.GPIOControl          ="{88E542C4-1540-4a40-95D1-8CCC9A4B6245}"
+STGD.HPOutPin             ="{981DFEB1-27DB-11d3-99FC-00500483AC28}"
+STGD.LnlvlOutPin          ="{5A9EBEC6-FCA2-4fcd-AB11-04D6C3C6266A}"
+STGD.Mic2Volume           ="{D68EA4BA-4E5B-45c4-9E80-AE7A959B969D}"
+STGD.LineIn2Volume        ="{DD5102D5-9931-484c-8B47-FB9B75FE63A2}"
+STGD.Mic2Pin              ="{A72A6A9C-896A-45ce-AD88-6BB096B11B36}"
+STGD.LineIn2Pin           ="{CC57D9E2-9750-4b74-B509-41B9B30DC0B5}"
+STGD.MonoMuteInMasterAdvanced="{A601A3BC-066E-4800-8922-6772422C0F18}"
+STGD.Mic10dbBoost         ="{2DC47951-D9F8-43f5-B96B-BDBA48D784C0}"
+STGD.Mic20dbBoost         ="{0F2E90CF-39BE-4243-909C-AD4289328661}"
+
+STGD.SubWooferPin         ="{F4725482-E495-4c27-8023-CB4A758D57F6}"
+STGD.SubWooferVolume      ="{749D2E66-2B15-4071-BC44-DCE209F86444}"
+STGD.SubWooferMute        ="{C327B6A9-A0D2-4497-B2F9-C1BDAD124391}"
+STGD.AltVolumePin         ="{B731B744-3769-4777-9B41-BC372A6C99DD}"
+STGD.AltVolume            ="{9376f597-8a71-417e-bf6e-88b35b914bca}"
+STGD.AltVolumeMute        ="{352f0d4c-ff33-4717-ad08-9c52dffcfa0c}"
+
+;; Nodes (localizeable)
+STNd.PhoneVolume          ="Phone Volume"
+STNd.PhoneMute            ="Phone Mute"
+STNd.LineInMute           ="LineIn Mute"
+STNd.MainMix              ="Main Mix"
+STNd.3DBypass             ="3D Bypass"
+STNd.3DEnable             ="3D Enable"
+STNd.BeepMix              ="Beep Mix"
+STNd.HPVolume             ="Headphone Volume"
+STNd.HPMute               ="Headphone Mute"
+STNd.LnlvlVolume          ="Line Level Volume"
+STNd.LnlvlMute            ="Line Level Mute"
+STNd.MonoOutSelect        ="Mono Out Select"
+STNd.WaveInSelect         ="WaveIn Select"
+STNd.WaveIn2Select        ="Alt WaveIn Select"
+STNd.MasterInVolume       ="WaveIn Volume"
+STNd.MasterInMute         ="WaveIn Mute"
+STNd.MicInVolume          ="Mic In Volume"
+STNd.MicInMute            ="Mic In Mute"
+STNd.SurroundVolume       ="Surround Volume"
+STNd.SurroundMute         ="Surround Mute"
+STNd.CenterVolume         ="Center Volume"
+STNd.CenterMute           ="Center Mute"
+STNd.LFEVolume            ="LFE Volume"
+STNd.LFEMute              ="LFE Mute"
+STNd.DigitalEnable        ="Enable SPDIF"
+STNd.MultiChannelEnable   ="Enable Multi-Channel"
+STNd.GPIOControl          ="Enable SPDIF"
+STNd.Mic2Volume           ="Mic2 Volume"
+STNd.LineIn2Volume        ="LineIn2 Volume"
+STPin.HPOutPin            ="Headphone"
+STPin.LnlvlOutPin         ="Line Out"
+STPin.Mic2Pin             ="Alt MIC"
+STPin.LineIn2Pin          ="Alt LineIn"
+STNd.MonoMuteInMasterAdvanced="Mute Internal Speaker"
+STNd.SubWooferVolume      ="Subwoofer Volume"
+STNd.SubWooferMute        ="Subwoofer Mute"
+STNd.AltVolume            ="Alt Volume"
+STNd.AltVolumeMute        ="Alt Mute"
+STPin.SubWooferPin        ="Subwoofer Volume"
+STPin.AltVolumePin        ="Alt Volume"
+STNd.Mic10dbBoost         ="+10 dB"
+STNd.Mic20dbBoost         ="+20 dB"

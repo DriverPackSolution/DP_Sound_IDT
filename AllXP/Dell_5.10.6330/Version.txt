@@ -1,0 +1,8 @@
+Title: Audio: IDT 92HD87B1 Driver
+Version    : A00
+OEM name   : IDT
+OEM Version: 6.10.0.6330
+Computers  : inspiron: M4040, M5040, N4050, N5040; Vostro Notebook: 1450
+OSes       : Windows 7 32-bit Home Basic,Windows 7 32-bit Home Premium,Windows 7 32-bit Professional,Windows 7 32-bit Starter,Windows 7 32-bit Ultimate,Windows 7 64-bit Home Basic,Windows 7 64-bit Home Premium,Windows 7 64-bit Professional,Windows 7 64-bit Ultimate,Windows Vista 32-bit Business,Windows Vista 32-bit Home Basic,Windows Vista 32-bit Home Premium,Windows Vista 32-bit Starter,Windows Vista 32-bit Ultimate,Windows Vista 64-bit Business,Windows Vista 64-bit Home Basic,Windows Vista 64-bit Home Premium,Windows Vista 64-bit Ultimate,Windows XP Home Edition,Windows XP Professional
+Languages  : Turkish, Thai, Slovakian, Spanish, Slovenian, Swedish, Russian, Romanian, Polish, Norwegian, Korean, Japanese, Italian, Hungarian, Hebrew, Greek, German, French, Finnish, English, Dutch, Czech, Chinese-T, Chinese-S, Croatian, Chinese Hong Kong, Brazilian Portuguese, Arabic
+Created    : Wednesday, July 06, 2011

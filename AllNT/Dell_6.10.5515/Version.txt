@@ -1,0 +1,12 @@
+Title      : Audio:SIGMATEL STAC 92XX C-Major HD Audio Driver
+Version    : A05
+OEM Name   : SIGMATEL
+OEM Ver    : 6.10.0.5515
+Computers  : DV061; 
+Dimension - 5100, 5100C, 9100, C521, DC051, DM051, DM061, DV051, Dimension - DXC051, DXC061, DXP051, DXP061, E521;
+OptiPlex - 210L, 740;
+Precision - 380, 390, 490, 690;
+XPS - 420, DXG061, XPS 720, XPS710
+Oses       : Windows Vista 32-bit Business, Windows Vista 32-bit Home Basic, Windows Vista 32-bit Home Premium, Windows Vista 32-bit Ultimate, Windows Vista 64-bit BusinessWindows Vista 64-bit Home BasicWindows Vista 64-bit Home PremiumWindows Vista 64-bit Ultimate
+Languages  : Brazilian Portuguese, Chinese-S, Chinese-T, English, French, German, Japanese, Korean, Spanish
+Created    : Tue Nov 27 16:41:39 CST 2007

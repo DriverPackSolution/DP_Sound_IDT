@@ -1,0 +1,8 @@
+Title      : Audio:IDT 92HD73C1 Audio Driver
+Version    : A01
+OEM Name   : IDT
+OEM Ver    : 5.10.0.6162
+Computers  : Studio Laptop - Studio 1555
+Oses       : Windows XP Home Edition, Windows XP Professional
+Languages  : Arabic, Chinese-S, Chinese-T, English, French, German, Italian, Japanese, Korean, Russian, Spanish, Swedish
+Created    : Tue Mar 24 03:35:52 CDT 2009

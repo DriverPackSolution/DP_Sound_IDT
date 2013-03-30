@@ -1,0 +1,100 @@
+=================================================================================
+2009-12-02 RELEASE: v040_AW_6259V7_CP608_TPE-WHQL
+=================================================================================
+
+Driver
+------
+6.10.0.6259
+
+Configuration
+-------------
+ - None
+
+Applications
+------------
+ - DF347406: (Gfx) Audio 6.10.0.6241),mute func. becames malfuntion if output Ext.HDMI MTR
+
+Installer
+---------
+ - WHQL certified for IDT CODEC
+
+=================================================================================
+2009-10-13 RELEASE: v037_AW_6241V7_CP582_TPE_WHQL
+=================================================================================
+
+Driver
+------
+6.10.0.6241
+
+Configuration
+-------------
+ - None
+
+Applications
+------------
+  - None
+
+Installer
+---------
+ - WHQL certified for IDT CODEC
+
+=================================================================================
+2009-10-13 RELEASE: v036_AW_M09C_6241V7_RC9_TPE
+=================================================================================
+
+Driver
+------
+6.10.0.6241
+
+Configuration
+-------------
+ - DF339910 Audio Jacks color in IDT Audio Control Panel is wrong, it should be Black color.
+
+Applications
+------------
+ - DF342061 The Audio record quality is bad with default Rec. Playback level 100%.
+
+Installer
+---------
+ - None
+
+=================================================================================
+2009-9-14 RELEASE: v034_AW_M09C_6233V7_RC8_TPE_WHQL
+=================================================================================
+
+Driver
+------
+6.10.0.6233
+
+Configuration
+-------------
+ - None
+
+Applications
+------------
+ - None
+
+Installer
+---------
+ - WHQL certified for IDT CODEC
+
+=================================================================================
+2009-8-31 RELEASE: v031_AW_M09C_6233V7_RC7.9_TPE
+=================================================================================
+
+Driver
+------
+   6.10.0.6233
+
+Configuration
+-------------
+ - None
+
+Applications
+------------
+ - DF330950 The Audio default recording device is ext. Mic, it should be Int. Mic. 
+ - DF331213 Playback device cannot switch to HDMI automatically after we plug HDMI TV.
+ 
+ Installer
+---------
+ - None 

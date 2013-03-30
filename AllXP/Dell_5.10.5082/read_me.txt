@@ -1,0 +1,139 @@
+Information and Instructions about this download file
+
+=======================
+File Description: Audio Driver 
+Version: SigmaTel 5.10.5082.0
+Operating System: Microsoft(r) Windows(r) XP
+Part Number: D00664-001-001 
+Date: 09/07/2006
+=======================
+
+
+Table of Contents
+=======================
+Overview
+Installation
+Removal 		
+Troubleshooting
+Reason for Update
+Applicable Part/Model Numbers
+=======================
+
+
+Overview 
+
+This is the Windows XP audio driver for the computers listed in the Applicable Part Numbers section of this document. 
+
+
+Installation 
+
+
+1.  The necessary files extract to the C:\Cabs folder and create a sub-folder using the name of the driver part number.  
+
+2.  From the Start menu, click Run.  In the Run dialog box, type: C:\Cabs\D00664-001-001\Setup.exe.  Click OK.
+
+3.  Follow all onscreen instructions to complete the installation.
+
+
+Removal 
+
+1.  From the Start menu, click Control Panel. 
+
+2.  In Control Panel, click Add or Remove Programs.
+
+3.  In the Add or Remove Programs window, click to select SigmaTel Audio, and then click Change/Remove.
+
+4.  Follow all onscreen instructions to complete the removal process.
+
+
+Troubleshooting
+
+If you have difficulty during or after the driver installation, download the file again, and then perform the installation steps for a second time.
+
+
+Reason for Update 
+
+This resolves Microsoft Office voice recognition issues.  
+
+Note:  This file (D00664-001-001) replaces drivers D00625-001-001, D00628-002-001, and M2855082.exe.
+
+
+Applicable Part/Model Numbers    
+
+CX210S - 1008807
+CX210X - 1008808
+CX2720 - 1009063
+CX2724 - 1009036
+CX2724h - 1009089
+CX2726 - 1013921R
+
+E-100M - 1008799
+E-100M G - 1008800
+E-100M SB - 1008973
+
+M255-E - 1008801
+M255-E SB - 1008989
+M255-G - 1008803
+M285-E - 1008804
+M285-E SB - 1008990
+M285-G - 1008805
+M465-E - 1008637
+M465-G - 1008667
+
+MP8708 - 1013924R
+MP8708H - 1013975R
+
+MX1023 - 1009097
+MX1023h - 1009098
+MX1025 - 1009046
+MX3102j - 1013978R
+MX3138m - 1013962R
+MX3139m - 1013961R
+MX3701 - 1013971R
+MX3702	2905898R
+MX6216 - 1013916R
+MX6217j - 1013979R
+MX6431 - 1014121R
+MX6433 - 1014062R
+MX6439 - 1013947R
+MX6446 - 1013927R
+MX6447 - 1013932R
+MX6448 - 1013913R
+MX6453 - 1013912R
+MX6454 - 1013943R
+MX6930 - 1013928R
+MX6930H - 1013973R
+MX6931 - 1013918R
+MX6931H - 1013974R
+MX6935m - 1013944R
+MX6936m - 1013945R 
+MX6937m - 1013958R
+MX6938m - 1013960R
+MX6939m - 1013963R
+MX6952j - 1013976R
+MX6953j - 1013983R
+MX6955 - 1014028R
+MX6956 - 1014033R
+MX6957 - 1014065R
+MX6958 - 1014072R
+MX6959 - 1014061R
+MX6960 - 1014068R
+MX6961 - 1014080R
+MX6961H - 1014112R
+MX6962 - 1014106R
+MX8703j - 1013977R
+MX8710	2905895R
+MX8710 - 1013955R
+MX8720m - 1013946R
+
+NX100X - 1008798
+NX260X - 1008794
+NX270S - 1014120R
+NX570QS - 1014079R
+NX570X - 1009163
+NX570X - 1014077R
+NX570XL - 1009146
+NX570XL - 1014078R
+NX860S - 1014082R
+
+Blade-K8F GW Motherboard - 4006133R

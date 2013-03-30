@@ -1,0 +1,8 @@
+Title      : Audio:SIGMATEL STAC 92XX C-Major HD Audio Driver
+Version    : A01
+OEM Name   : SIGMATEL
+OEM Ver    : 6.10.0.6017
+Computers  : XPS Desktop - XPS 430
+Oses       : Windows Vista 32-bit Business, Windows Vista 32-bit Home Basic, Windows Vista 32-bit Home Premium, Windows Vista 32-bit Ultimate, Windows Vista 64-bit BusinessWindows Vista 64-bit Home BasicWindows Vista 64-bit Home PremiumWindows Vista 64-bit Ultimate
+Languages  : Brazilian Portuguese, Chinese-S, Chinese-T, English, Finnish, French, German, Japanese, Korean, Norwegian, Spanish
+Created    : Tue Oct 21 21:47:14 CDT 2008
